@@ -1,0 +1,2 @@
+module PowerHelper
+end
