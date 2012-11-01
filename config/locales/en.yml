@@ -2,4 +2,9 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  hello: "Hello world"
+  index:
+    title: "Does NYC have power?"
+    responses: 
+      low: "Pretty much! Right now only %{num}% of Con Edison's customers are without power."
+      medium: "Almost. Right now about %{num}% of Con Edison's customers are without power."
+      high: "It's a bit rough. Right now %{num}% of Con Edison's customers are without power."

@@ -1,4 +1,7 @@
 Doesnychavepower::Application.routes.draw do
+  get "/" => "power#index"
+  get "/area/:area_slug" => "power#area"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

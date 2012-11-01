@@ -1,2 +1,6 @@
-%h1 Power#index
-%p Find me in app/views/power/index.html.haml
+%h1 Does NYC have power?
+%h2= @response
+
+%h2 Number of affected customers per Burough:
+- @areas.each do |area|
+	%h2= "#{area.area_name}: #{(area.outage_percentage * 100).to_s.split('.')[0]}%"
