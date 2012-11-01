@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  area_name: MyString
+  parent_area_id: 
+  latitude: MyString
+  longitude: MyString
+  created_at: 2012-11-01 18:46:05
+  updated_at: 2012-11-01 18:46:05
+
+two:
+  area_name: MyString
+  parent_area_id: 
+  latitude: MyString
+  longitude: MyString
+  created_at: 2012-11-01 18:46:05
+  updated_at: 2012-11-01 18:46:05
