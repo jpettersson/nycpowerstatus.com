@@ -23,7 +23,11 @@ class PowerController < ApplicationController
     @total_outage = @area.outage_percentage
     @total_outage_percent = (@total_outage * 100).to_s.split(".")[0]
 
-    @map_points_json = create_map_points @area.children
+    if @area.children.length > 0
+     @map_points_json = create_map_points @area.children
+    else
+      @map_points_json = create_map_points [@area]
+    end
   end
 
   def create_map_points areas

@@ -3,6 +3,7 @@
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 
 $ ->
+
   if map_areas.length > 0
     
     mapOptions =
@@ -34,34 +35,33 @@ $ ->
       ]
 
     map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions)
-    
-    # circle_path = document.createElementNS("http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd", "circle");
-    # circle_path.setAttribute("cx", 25);
-    # circle_path.setAttribute("cy", 25);
-    # circle_path.setAttribute("r",  20);
-    # circle_path.setAttribute("fill", "green");
-
-    console.log google.maps.SymbolPath
 
     for point in map_areas 
-      point.latLong = new google.maps.LatLng point.latitude, point.longitude 
+      do (point) ->
+        point.latLong = new google.maps.LatLng point.latitude, point.longitude 
 
-      # low #41934f
-      # med #934144
-      # high #CD0810
-      color = "#41934f"
+        percetange = point.last_sample.custs_out / point.last_sample.total_custs
 
-      marker = new google.maps.Marker
-        position: point.latLong,
-        map: map,
-        title:"Hello World!"
-        icon:
-          path: google.maps.SymbolPath.CIRCLE,
-          scale: 10
-          strokeWeight: 0
-          fillOpacity: 1
-          fillColor: color
-  
+        if percetange < 0.02
+          color = "#41934f"
+        else if percetange < 0.08
+          color = '#934144'
+        else
+          color = '#CD0810'
+
+        marker = new google.maps.Marker
+          position: point.latLong,
+          map: map,
+          title:point.area_name
+          icon:
+            path: google.maps.SymbolPath.CIRCLE,
+            scale: 10
+            strokeWeight: 0
+            fillOpacity: .7
+            fillColor: color
+        
+        google.maps.event.addListener marker, 'click', =>
+          window.location = "/#{point.slug}"
 
     #  Make an array of the LatLng's of the markers you want to show
     LatLngList = map_areas.map (a) -> a.latLong
@@ -83,3 +83,6 @@ $ ->
       map.fitBounds bounds
     else
       map.panTo LatLngList[0]
+
+  else
+    $('#map_canvas').hide()
