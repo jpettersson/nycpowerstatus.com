@@ -1,0 +1,2 @@
+- areas.each do |area|
+  %h2= link_to "#{area.area_name}: #{(area.outage_percentage * 100).to_s.split('.')[0]}%", "/#{area.slug}"

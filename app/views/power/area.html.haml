@@ -1,7 +1,9 @@
-%h1= @area.area_name
-%h2= t("area.subtitle", :num => @total_outage_percent, :name => @area.area_name)
+%header
+  %h1= @area.area_name
+  %h2= t("area.subtitle", :num => @total_outage_percent, :name => @area.area_name)
+
+= render 'power/trend'
 
 - if @area.children.length > 0
   %h2 Number of affected customers per neighborhood:
-  - @area.children.each do |child|
-    %h2= link_to "#{child.area_name}: #{(child.outage_percentage * 100).to_s.split('.')[0]}%", "/#{child.slug}"
+  = render 'power/sub_areas', :areas => @area.children
