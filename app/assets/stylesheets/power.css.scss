@@ -22,7 +22,29 @@ html {
         font-weight: 700;
       }
       h2 {
+        font-size: 2em;
+      }
+    }
+
+    .trend {
+      h2 {
         font-size: 1.5em;
+      }
+      .graph {
+        background-color: #eee;
+        height: 200px;
+      }
+    }
+
+    .sub-areas {
+      h2 {
+        font-size: 1.5em;
+      }
+    }
+
+    footer {
+      p {
+        font-size: 1em;
       }
     }
   }
