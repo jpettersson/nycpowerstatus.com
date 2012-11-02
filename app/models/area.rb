@@ -21,7 +21,7 @@ class Area < ActiveRecord::Base
         last = area.samples.last
         unless last.nil?
           unless last.total_custs == raw.total_custs and last.custs_out == raw.custs_out and last.etr == raw.etr
-            puts "sample: #{raw.area_name.to_s} #{raw.custs_out.to_s} / {raw.total_custs.to_s}"
+            puts "sample: #{raw.area_name.to_s} #{raw.custs_out.to_s} / #{raw.total_custs.to_s}"
             do_sample.call(area, raw)
           end
         end
