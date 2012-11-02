@@ -83,6 +83,7 @@ $ ->
       map.fitBounds bounds
     else
       map.panTo LatLngList[0]
+      map.setZoom(14)
 
   else
     $('#map_canvas').hide()
