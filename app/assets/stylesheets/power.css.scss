@@ -24,6 +24,17 @@ html {
       h2 {
         font-size: 2em;
       }
+
+      .floater {
+        position: absolute;
+        top: 0;
+      
+        background-color: #fff;
+        padding: 0.5em;
+        a {
+          //color: #fff;
+        }
+      }
     }
 
     .trend {
@@ -39,6 +50,22 @@ html {
     .sub-areas {
       h2 {
         font-size: 1.5em;
+      }
+
+      li {
+        margin-bottom: 1em;
+        h3 {
+          font-size: 1.2em;
+        }
+        .low {
+          color: saturate(adjust_hue(lighten(#26282f, 25), 131), 28)
+        }
+        .medium {
+          color: saturate(adjust_hue(lighten(#26282f, 25), 131), 49)
+        }
+        .high {
+          color: saturate(adjust_hue(lighten(#26282f, 25), 131), 82)
+        }
       }
     }
 

@@ -1,4 +1,12 @@
 %ul
-  - areas.each do |area|
+  - areas.sort{ |a,b| a.area_name.downcase <=> b.area_name.downcase }.each do |area|
     %li
-      %h3= link_to "#{area.area_name}: #{(area.outage_percentage * 100).to_s.split('.')[0]}%", "/#{area.slug}"
+      %h3 
+        - if area.outage_percentage < 0.02
+          - color_class = ""
+        - elsif area.outage_percentage < 0.04
+          - color_class = "low"
+        - else
+          - color_class = "high" 
+        %a{:href => "/#{area.slug}", :class => color_class} 
+          = "#{area.area_name}: #{(area.outage_percentage * 100).to_s.split('.')[0]}%"

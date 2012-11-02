@@ -4,9 +4,11 @@
 en:
   index:
     title: "Does NYC have power?"
+    coned_twitter: https://twitter.com/ConEdison
+    coned_working: working on it
     responses: 
       low: "Pretty much! Right now only %{num}% of Con Edison's %{total_customers} customers are without power."
-      medium: "Almost. Right now about %{num}% of Con Edison's %{total_customers} customers are without power."
-      high: "It's rough. Right now %{num}% of Con Edison's %{total_customers} customers are without power."
+      medium: "Right now about %{num}% of Con Edison's %{total_customers} customers are without power. But they are %{link}."
+      high: "Times are tough. Right now %{num}% of Con Edison's %{total_customers} customers are without power. But they are %{link}."
   area:
-    subtitle: "At the moment %{num}% of Con Edison's customers in %{name} are without power."
+    subtitle: "At the moment %{num}% of Con Edison's customers in %{name} are without power. But they are %{link}."
