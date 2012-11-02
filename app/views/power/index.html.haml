@@ -4,9 +4,6 @@
 
 = render 'power/trend'
 
-.buroughs
+.sub-areas
   %h2 Number of affected customers per burough:
   = render 'power/sub_areas', :areas => @areas
-
-%footer
-  %p= "Last updated at #{@updated_at}"

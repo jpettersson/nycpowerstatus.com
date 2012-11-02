@@ -1,15 +1,29 @@
 // Place all the styles related to the Power controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import "compass/reset";
 
 html {
-  font-family: 'Rokkitt', serif;
-
+  
   font-size: 12pt;
   background-image: url("/assets/rough_diagonal.png");
   color: #26282f;
 
   a, a:visited {
     color: #26282f;
+  }
+
+  body {
+    font-family: 'Rokkitt', serif;
+
+    header {
+      h1 {
+        font-size: 4em;
+        font-weight: 700;
+      }
+      h2 {
+        font-size: 1.5em;
+      }
+    }
   }
 }

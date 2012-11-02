@@ -11,14 +11,27 @@ class Area < ActiveRecord::Base
     c = Coned.new
     c.fetch
 
+    # Only create a new sample if coned has updated the values.
+    maybe_sample = ->(area, raw){
+      last = area.samples.last
+      unless last.total_custs == raw.total_custs and last.custs_out == raw.custs_out and last.etr == raw.etr
+        puts "Creating a sample!"
+        AreaSample.create!({:area_id => area.id, :total_custs => raw.total_custs, :custs_out => raw.custs_out, :etr => raw.etr, :etrmillis => raw.etrmillis})
+      else
+        puts "No change."
+      end
+    }
+
+
     c.data.areas.each {|b| 
       puts "Burough: #{b.area_name}: #{b.custs_out}/#{b.total_custs} out/total"
       area = Area.find_by_area_name(b.area_name)
-      AreaSample.create!({:area_id => area.id, :total_custs => b.total_custs, :custs_out => b.custs_out, :etr => b.etr, :etrmillis => b.etrmillis})
+      maybe_sample.call(area, b)
+
       b.areas.each {|n|
         puts "  Neighborhood: #{n.area_name} #{n.custs_out}/#{n.total_custs} out/total"
         sub_area = Area.find_by_area_name(n.area_name)
-        AreaSample.create!({:area_id => sub_area.id, :total_custs => n.total_custs, :custs_out => n.custs_out, :etr => n.etr, :etrmillis => n.etrmillis})
+        maybe_sample.call(sub_area, n)
       }
     } 
   end
@@ -33,6 +46,10 @@ class Area < ActiveRecord::Base
     out = areas.map{|a| a.area_samples.last.custs_out}
 
     out.inject(:+).to_f / total.inject(:+).to_f
+  end
+
+  def samples
+    area_samples
   end
 
   def outage_percentage

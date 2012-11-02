@@ -4,6 +4,7 @@
 
 = render 'power/trend'
 
-- if @area.children.length > 0
-  %h2 Number of affected customers per neighborhood:
-  = render 'power/sub_areas', :areas => @area.children
+.sub-areas
+  - if @area.children.length > 0
+    %h2 Offline customers per neighborhood:
+    = render 'power/sub_areas', :areas => @area.children

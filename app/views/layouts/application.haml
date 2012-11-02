@@ -19,7 +19,7 @@
     /[if lt IE 7] <p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
     = yield
     %footer
-    
+      %p= "Con Edison data last updated at #{@updated_at}"
     :javascript
       window.jQuery || document.write('<\/script>')
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
