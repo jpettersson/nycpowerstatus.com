@@ -19,7 +19,10 @@
     /[if lt IE 7] <p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
     = yield
     %footer
-      %p= "Con Edison data last updated at #{@updated_at}"
+      .coned
+        %p= "Con Edison data updated at #{@updated_at}"
+      .credits
+        %p= raw "Created by #{link_to('Jonathan Pettersson', 'http://jpettersson.com')} using the #{link_to('coned gem', 'https://github.com/ckundo/coned')} by #{link_to('Cameron Cundiff', 'http://www.ckundo.com/')}"
     :javascript
       window.jQuery || document.write('<\/script>')
       var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
