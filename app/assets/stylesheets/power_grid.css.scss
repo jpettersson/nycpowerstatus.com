@@ -1,0 +1,35 @@
+@import "susy";
+
+$total-columns  : 12;
+$column-width  : 6em;
+$gutter-width  : 1em;
+$grid-padding  : $gutter-width;
+$container-style: fluid;
+
+$medium         : 6;
+$large          : 9;
+
+$max-width      : 942px;
+
+body {
+  @include container($total-columns);
+  header {
+    @include span-columns(1, 1);
+    h1 {
+      text-align: center;
+    }
+    h2 {
+      @include span-columns(4, 6);
+      @include prefix(1,6);
+      @include suffix(1,6);
+      text-align: center;
+    }
+  }
+}
+
+@include at-breakpoint($large) {
+  body {
+    $container-style: static;
+    @include set-container-width;
+  }
+}

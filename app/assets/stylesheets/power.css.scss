@@ -2,3 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+html {
+  font-family: 'Rokkitt', serif;
+
+  font-size: 12pt;
+  background-image: url("/assets/rough_diagonal.png");
+  color: #26282f;
+
+  a, a:visited {
+    color: #26282f;
+  }
+}
