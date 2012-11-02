@@ -6,9 +6,9 @@ class PowerController < ApplicationController
     if @total_outage < 0.02
       res = 'low'
     elsif @total_outage < 0.08
-       res = 'medium'
+      res = 'medium'
     else
-       res = 'high'
+      res = 'high'
     end
 
     @total_outage_percent = (@total_outage * 100).to_s.split(".")[0]

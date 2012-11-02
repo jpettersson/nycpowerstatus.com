@@ -2,7 +2,11 @@
   .floater
     %h3= link_to 'Does NYC have power?', '/'
   %h1= "Does #{@area.area_name} have power?"
-  %h2= raw t("area.subtitle", :num => @total_outage_percent, :name => @area.area_name, :link => link_to(t('index.coned_working'), t('index.coned_twitter')))
+  - if @total_outage >= 0.08
+    - link = "But they are " + link_to(t('index.coned_working'), t('index.coned_twitter')) + "."
+  - else
+    - link = ""
+  %h2= raw t("area.subtitle", :num => @total_outage_percent, :name => @area.area_name, :link => link)
 
 /= render 'power/trend'
 
