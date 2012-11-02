@@ -31,6 +31,7 @@ class Area < ActiveRecord::Base
     }
 
     puts 'start sampling'
+    puts Time.new.inspect
     c.data.areas.each {|b| 
       area = Area.find_by_area_name(b.area_name)
       maybe_sample.call(area, b)
