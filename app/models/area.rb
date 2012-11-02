@@ -14,11 +14,13 @@ class Area < ActiveRecord::Base
     # Only create a new sample if coned has updated the values.
     maybe_sample = ->(area, raw){
       last = area.samples.last
-      unless last.total_custs == raw.total_custs and last.custs_out == raw.custs_out and last.etr == raw.etr
-        puts "Creating a sample!"
-        AreaSample.create!({:area_id => area.id, :total_custs => raw.total_custs, :custs_out => raw.custs_out, :etr => raw.etr, :etrmillis => raw.etrmillis})
-      else
-        puts "No change."
+      unless last.nil?
+        unless last.total_custs == raw.total_custs and last.custs_out == raw.custs_out and last.etr == raw.etr
+          puts "Creating a sample!"
+          AreaSample.create!({:area_id => area.id, :total_custs => raw.total_custs, :custs_out => raw.custs_out, :etr => raw.etr, :etrmillis => raw.etrmillis})
+        else
+          puts "No change."
+        end
       end
     }
 
