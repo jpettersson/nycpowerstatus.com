@@ -9,7 +9,13 @@
     %meta{:charset => "utf-8"}
     %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}
     %title= "Does NYC have power?"
-    %meta{:content => "Find out if your favorite NYC neighborhood is experiencing power issues. Get notified when problems are resolved!", :name => "description"}
+    %meta{:content => "Find out if your favorite NYC neighborhood is experiencing power issues.", :name => "description"}
+    %meta{:content => "Find out if your favorite NYC neighborhood is experiencing power issues.", :name => "og:description"}
+    %meta{:content => 'http://nycpowerstatus.com', :property => "og:url"}
+    %meta{:content => 'NYC Power Status', :property => "og:title"}
+    %meta{:content => 'website', :property => "og:type"}
+    %meta{:content => 'http://nycpowerstatus.com', :property => "og:url"}
+    /%meta{:content => '', :property => "og:image"}
     %meta{:content => "width=device-width", :name => "viewport"}
     = stylesheet_link_tag "http://fonts.googleapis.com/css?family=Rokkitt:400,700"
     = stylesheet_link_tag "application", :media => "all"
@@ -22,10 +28,20 @@
     /[if lt IE 7] <p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
     = yield
     %footer
-      .coned
-        %p= "Con Edison data updated at #{@updated_at}"
-      .credits
-        %p= raw "Created by #{link_to('Jonathan Pettersson', 'http://jpettersson.com')} using the #{link_to('coned gem', 'https://github.com/ckundo/coned')}."
+      .share
+        .twitter
+          %a{:href => "https://twitter.com/share?url=#{t('tweet.url')}&text=#{t('tweet.text')}", :class => 'twitter-share-button', 'data-lang' => 'en'} Tweet
+        .fb
+          %iframe{:allowTransparency => "true", :frameborder => "0", :scrolling => "no", :src => "//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fnycpowerstatus.com&send=false&layout=button_count&width=450&show_faces=false&action=like&colorscheme=light&font&height=21", :style => "border:none; overflow:hidden; width:450px; height:21px;"}
+        .github
+          %iframe{:allowtransparency => "true", :frameborder => "0", :height => "20px", :scrolling => "0", :src => "http://ghbtns.com/github-btn.html?user=jpettersson&repo=nycpowerstatus.com&type=fork", :width => "62px"}
+      .info
+        .coned
+          %p= "Con Edison data updated at #{@updated_at}"
+        .credits
+          %p= raw "Created by #{link_to('Jonathan Pettersson', 'http://jpettersson.com')} using the #{link_to('coned gem', 'https://github.com/ckundo/coned')}."
+    :javascript
+      !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
     :javascript
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-36045839-1']);

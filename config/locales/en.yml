@@ -2,6 +2,9 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
+  tweet:
+    url: "http://nycpowerstatus.com"
+    text: "Keep track of NYC power grid issues at"
   index:
     title: "Does NYC have power?"
     coned_twitter: https://twitter.com/ConEdison

@@ -31,11 +31,11 @@ body {
   }
 
   .map {
-    margin-top: 4em;
+    margin-top: 3em;
     @include span-columns(10, 12);
     @include prefix(1,12);
     @include suffix(1,12);
-    height: 400px;
+    height: 250px;
   }
 
   .trend {
@@ -82,15 +82,46 @@ body {
     margin-top: 2em;
     margin-bottom: 2em;
     @include span-columns(1, 1);
+    
+    .share {
+      width: 90*3px;
+      height: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 45px;
 
-    .coned {
-      @include span-columns(1, 1);
-      text-align: center;
+      div {
+        margin: 0;
+        padding: 0;
+      }
+
+      .twitter {
+        width: 90px;
+        float:left;
+      }
+
+      .fb {
+        width: 90px;
+        float:left;
+      }
+
+      .github {
+        width: 90px;
+        float:left;
+      }
     }
 
-    .credits {
-      @include span-columns(1, 1);
-      text-align: center;
+    .info {
+
+      .coned {
+        @include span-columns(1, 1);
+        text-align: center;
+      }
+
+      .credits {
+        @include span-columns(1, 1);
+        text-align: center;
+      }
     }
   }
 
@@ -109,6 +140,11 @@ body {
         font-size: 2em;
       }
     }
+    
+    .map {
+      margin-top: 4em;
+      height: 400px;
+    }
 
     .sub-areas {
       margin-top: 4em;
@@ -118,22 +154,6 @@ body {
       }
     }
 
-    footer {
-      margin-top: 4em;
-      margin-bottom: 3em;
-
-      @include span-columns(1, 1);
-
-      .coned {
-        @include span-columns(3, 8);
-        text-align: left;
-      }
-
-      .credits {
-        @include span-columns(5 omega, 8);
-        text-align: right;
-      }
-    }
   }
 }
 
@@ -141,5 +161,37 @@ body {
   body {
     $container-style: static;
     @include set-container-width;
+      footer {
+        margin-top: 4em;
+      }
+//    footer {
+//      margin-top: 4em;
+//      margin-bottom: 3em;
+
+//      @include span-columns(1, 1);
+
+//      .share {
+//        margin-left: 0;
+//        margin-right: 0;
+//        //@include span-columns(1 omega, 2);
+//        float:right;
+
+//        margin-right: -35px;
+//      }
+
+//      .info {
+//        @include span-columns(1, 2);
+
+//        .coned {
+//          @include span-columns(1, 1);
+//          text-align: left;
+//        }
+
+//        .credits {
+//          @include span-columns(1, 1);
+//          text-align: left;
+//        }
+//      }
+//    }    
   }
 }
