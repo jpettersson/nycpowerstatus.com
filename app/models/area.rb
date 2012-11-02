@@ -6,24 +6,31 @@ class Area < ActiveRecord::Base
   extend FriendlyId
   friendly_id :area_name, use: :slugged
 
-  def self.sample!
+  def self.sample! force=false
     require 'coned'
     c = Coned.new
     c.fetch
 
-    # Only create a new sample if coned has updated the values.
-    maybe_sample = ->(area, raw){
-      last = area.samples.last
-      unless last.nil?
-        unless last.total_custs == raw.total_custs and last.custs_out == raw.custs_out and last.etr == raw.etr
-          puts "Creating a sample!"
-          AreaSample.create!({:area_id => area.id, :total_custs => raw.total_custs, :custs_out => raw.custs_out, :etr => raw.etr, :etrmillis => raw.etrmillis})
-        else
-          puts "No change."
-        end
-      end
+    do_sample = ->(area, raw){
+      AreaSample.create!({:area_id => area.id, :total_custs => raw.total_custs, :custs_out => raw.custs_out, :etr => raw.etr, :etrmillis => raw.etrmillis})
     }
 
+    # Only create a new sample if coned has updated the values.
+    maybe_sample = ->(area, raw){
+      unless force
+        last = area.samples.last
+        unless last.nil?
+          unless last.total_custs == raw.total_custs and last.custs_out == raw.custs_out and last.etr == raw.etr
+            puts "Creating a new sample!"
+            do_sample.call(area, raw)
+          else
+            puts "No change."
+          end
+        end
+      else
+        do_sample.call(area, raw)
+      end
+    }
 
     c.data.areas.each {|b| 
       puts "Burough: #{b.area_name}: #{b.custs_out}/#{b.total_custs} out/total"

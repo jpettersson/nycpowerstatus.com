@@ -21,4 +21,4 @@ c.data.areas.each {|b|
 	}
 } 
 
-Area.sample!
+Area.sample! true
