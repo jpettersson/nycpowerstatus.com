@@ -29,6 +29,15 @@ body {
       font-size: 1.5em;
     }
   }
+
+  .map {
+    margin-top: 4em;
+    @include span-columns(10, 12);
+    @include prefix(1,12);
+    @include suffix(1,12);
+    height: 400px;
+  }
+
   .trend {
     margin-top: 4em;
     @include span-columns(1, 1);

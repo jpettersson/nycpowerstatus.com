@@ -55,6 +55,10 @@ class Area < ActiveRecord::Base
     out.inject(:+).to_f / total.inject(:+).to_f
   end
 
+  def last_sample
+    area_samples.last
+  end
+
   def samples
     area_samples
   end

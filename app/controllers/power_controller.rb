@@ -11,6 +11,8 @@ class PowerController < ApplicationController
       res = 'high'
     end
 
+    @map_points_json = create_map_points @areas
+ 
     @total_outage_percent = (@total_outage * 100).to_s.split(".")[0]
     @total_customers = view_context.number_to_human(Area.root_total_customers)
     @response = t("index.responses.#{res}", {:num => @total_outage_percent, :total_customers => @total_customers, :link => view_context.link_to(t('index.coned_working'), t('index.coned_twitter'))})
@@ -20,5 +22,12 @@ class PowerController < ApplicationController
     @area = Area.find(params[:slug])
     @total_outage = @area.outage_percentage
     @total_outage_percent = (@total_outage * 100).to_s.split(".")[0]
+
+    @map_points_json = create_map_points @area.children
   end
+
+  def create_map_points areas
+    areas.reject{|a| a.latitude == nil or a.longitude == nil }.to_json(:include => :last_sample)
+  end
+
 end

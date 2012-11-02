@@ -1,3 +1,6 @@
+- content_for :map_points do
+  =raw @map_points_json
+  
 %header
   .floater
     %h3= link_to 'Does NYC have power?', '/'
@@ -9,6 +12,7 @@
   %h2= raw t("area.subtitle", :num => @total_outage_percent, :name => @area.area_name, :link => link)
 
 /= render 'power/trend'
+.map#map_canvas
 
 .sub-areas
   - if @area.children.length > 0

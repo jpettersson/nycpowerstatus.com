@@ -1,8 +1,12 @@
+- content_for :map_points do
+  =raw @map_points_json
+
 %header
   %h1 Does NYC have power?
   %h2= raw @response
 
 /= render 'power/trend'
+.map#map_canvas
 
 .sub-areas
   %h2 Offline customers per burough:

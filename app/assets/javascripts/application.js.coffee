@@ -1,7 +1,8 @@
 #= require jquery
 #= require jquery_ujs
-#= require vendor/d3.v2
-#= require vendor/rickshaw
+# /= require vendor/d3.v2
+# /= require vendor/rickshaw
+#= require power
 
 # $ ->
 #     graph = new Rickshaw.Graph(
