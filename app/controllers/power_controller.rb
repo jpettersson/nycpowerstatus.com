@@ -12,7 +12,8 @@ class PowerController < ApplicationController
     end
 
     @total_outage_percent = @total_outage.to_s.split(".")[0]
-    @response = t("index.responses.#{res}", :num => @total_outage_percent)
+    @total_customers = view_context.number_to_human(Area.root_total_customers)
+    @response = t("index.responses.#{res}", {:num => @total_outage_percent, :total_customers => @total_customers})
   end
 
   def area

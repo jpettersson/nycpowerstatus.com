@@ -17,10 +17,14 @@ class Area < ActiveRecord::Base
       AreaSample.create!({:area_id => area.id, :total_custs => b.total_custs, :custs_out => b.custs_out, :etr => b.etr, :etrmillis => b.etrmillis})
       b.areas.each {|n|
         puts "  Neighborhood: #{n.area_name} #{n.custs_out}/#{n.total_custs} out/total"
-        sub_area = Area.find_by_area_name(b.area_name)
+        sub_area = Area.find_by_area_name(n.area_name)
         AreaSample.create!({:area_id => sub_area.id, :total_custs => n.total_custs, :custs_out => n.custs_out, :etr => n.etr, :etrmillis => n.etrmillis})
       }
     } 
+  end
+
+  def self.root_total_customers
+    Area.at_depth(0).map{|a| a.area_samples.last.total_custs}.inject(:+)
   end
 
   def self.root_outage_percentage

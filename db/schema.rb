@@ -25,7 +25,6 @@ ActiveRecord::Schema.define(:version => 20121102000119) do
 
   create_table "areas", :force => true do |t|
     t.string   "area_name"
-    t.integer  "parent_area_id"
     t.string   "latitude"
     t.string   "longitude"
     t.datetime "created_at",                    :null => false

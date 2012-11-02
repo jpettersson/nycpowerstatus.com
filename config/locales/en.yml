@@ -5,8 +5,8 @@ en:
   index:
     title: "Does NYC have power?"
     responses: 
-      low: "Pretty much! Right now only %{num}% of Con Edison's customers are without power."
-      medium: "Almost. Right now about %{num}% of Con Edison's customers are without power."
-      high: "It's a bit rough. Right now %{num}% of Con Edison's customers are without power."
+      low: "Pretty much! Right now only %{num}% of Con Edison's %{total_customers} customers are without power."
+      medium: "Almost. Right now about %{num}% of Con Edison's %{total_customers} customers are without power."
+      high: "It's rough. Right now %{num}% of Con Edison's %{total_customers} customers are without power."
   area:
     subtitle: "At the moment %{num}% of Con Edison's customers in %{name} are without power."
