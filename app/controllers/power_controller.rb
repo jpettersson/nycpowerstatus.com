@@ -16,5 +16,8 @@ class PowerController < ApplicationController
   end
 
   def area
+    @area = Area.find(params[:slug])
+    @total_outage = (@area.outage_percentage * 100)
+    @total_outage_percent = @total_outage.to_s.split(".")[0]
   end
 end

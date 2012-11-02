@@ -9,6 +9,7 @@ gem 'mysql2'
 gem "ancestry"
 gem 'coned', :git => 'git://github.com/ckundo/coned.git'
 gem 'whenever', :require => false
+gem "friendly_id", "~> 4.0.1"
 
 # Gems used only for assets and not required
 # in production environments by default.

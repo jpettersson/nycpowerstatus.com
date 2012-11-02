@@ -1,6 +1,8 @@
 %h1 Does NYC have power?
 %h2= @response
 
-%h2 Number of affected customers per Burough:
+%h2 Number of affected customers per burough:
 - @areas.each do |area|
-	%h2= "#{area.area_name}: #{(area.outage_percentage * 100).to_s.split('.')[0]}%"
+	%h2= link_to "#{area.area_name}: #{(area.outage_percentage * 100).to_s.split('.')[0]}%", "/#{area.slug}"
+
+%p= "Last updated at #{@updated_at}"
