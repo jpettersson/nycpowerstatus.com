@@ -3,9 +3,9 @@
     %li
       %h3 
         - if area.outage_percentage < 0.02
-          - color_class = ""
-        - elsif area.outage_percentage < 0.06
           - color_class = "low"
+        - elsif area.outage_percentage < 0.08
+          - color_class = "medium"
         - else
           - color_class = "high" 
         %a{:href => "/#{area.slug}", :class => color_class} 
