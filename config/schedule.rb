@@ -1,5 +1,5 @@
 set :output, "#{path}/log/cron_log.log"
 
-every 5.minutes do
+every 1.hour do
   rake "coned:sample"
 end
