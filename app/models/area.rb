@@ -21,10 +21,8 @@ class Area < ActiveRecord::Base
         last = area.samples.last
         unless last.nil?
           unless last.total_custs == raw.total_custs and last.custs_out == raw.custs_out and last.etr == raw.etr
-            puts "Creating a new sample!"
+            puts "sample: #{raw.area_name.to_s} #{raw.custs_out.to_s} / {raw.total_custs.to_s}"
             do_sample.call(area, raw)
-          else
-            puts "No change."
           end
         end
       else
@@ -32,17 +30,17 @@ class Area < ActiveRecord::Base
       end
     }
 
+    puts 'start sampling'
     c.data.areas.each {|b| 
-      puts "Burough: #{b.area_name}: #{b.custs_out}/#{b.total_custs} out/total"
       area = Area.find_by_area_name(b.area_name)
       maybe_sample.call(area, b)
 
       b.areas.each {|n|
-        puts "  Neighborhood: #{n.area_name} #{n.custs_out}/#{n.total_custs} out/total"
         sub_area = Area.find_by_area_name(n.area_name)
         maybe_sample.call(sub_area, n)
       }
     } 
+    puts 'end sampling'
   end
 
   def self.root_total_customers
