@@ -27,9 +27,11 @@ html {
       }
      
       .floater {
+        width: 145px;
         position: absolute;
         top: 0;
-      
+        left: 50%;
+        margin-left: -75px;
         background-color: #fff;
         padding: 0.5em;
         a {
