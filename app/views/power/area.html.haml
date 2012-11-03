@@ -15,12 +15,17 @@
   %h2= raw t("area.subtitle", :num => @total_outage_percent, :name => @area.area_name, :link => link)
 
 .trend
-  %h2= "Outage history for #{@area.area_name}"
+  %h2= "Outage history for #{@area.area_name}:"
   = render 'power/trend'
 
-.map#map_canvas
-
-.sub-areas
+.current
   - if @area.children.length > 0
-    %h2 Offline customers per neighborhood:
-    = render 'power/sub_areas', :areas => @area.children
+    %h2 Customers offline per neighborhood:
+  - else
+    %h2= "#{@area.area_name}:"
+
+  .map#map_canvas
+
+  .sub-areas
+    - if @area.children.length > 0
+      = render 'power/sub_areas', :areas => @area.children
