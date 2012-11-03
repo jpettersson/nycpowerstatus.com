@@ -2,7 +2,46 @@
 # All this logic will automatically be available in application.js.
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 
+#= require vendor/d3.v2
+#= require vendor/rickshaw
+
 $ ->
+
+  # Graph
+
+  graph = new Rickshaw.Graph(
+    element: $("#chart")[0]
+    width: $("#chart").width()
+    height: 200
+    renderer: 'line'
+    series: [
+      {
+        color: 'steelblue',
+        data: [ { x: 1321809347, y: 12343}, { x: 1331809347, y: 12100 }, { x: 1351909347, y: 10002 } ]
+      }
+      {
+        color: 'red',
+        data: [ { x: 1251809347, y: 11343}, { x: 1211809347, y: 1343 }, { x: 1351909347, y: 1143 } ]
+      }
+    ]
+  )
+  
+  graph.render()
+
+  yAxis = new Rickshaw.Graph.Axis.Y
+   graph: graph
+  yAxis.render()
+
+  time = new Rickshaw.Fixtures.Time
+  days = time.unit 'days'
+  xAxis = new Rickshaw.Graph.Axis.Time
+    timeUnit: days
+    graph: graph
+
+  xAxis.render();
+
+
+  # Map
 
   if map_areas.length > 0
     
