@@ -55,16 +55,16 @@ $ ->
 
     for ts, index in time_series
       #ts.color = brighten(baseColor, index/(time_series.length-1))
-      ts.color = '#402829'
-      #ts.stroke = 'rgba(0,0,0,0.15)'
+      ts.color = 'rgba(66,50,51,0.3)'
+      ts.stroke = 'rgba(0,0,0,0.15)'
 
     graph = new Rickshaw.Graph(
       element: $("#chart")[0]
       width: $("#chart").width()
       height: $("#chart").height()
-      renderer: 'line'
-      #renderer: 'area'
-      #stroke: true
+      #renderer: 'line'
+      renderer: 'area'
+      stroke: true
       padding:
         top: 0.3
       series: time_series

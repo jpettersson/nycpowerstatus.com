@@ -26,7 +26,7 @@ class PowerController < ApplicationController
 
     if @area.children.length > 0
       @map_points_json = create_map_points @area.children
-      @time_series_json = "null"
+      @time_series_json = create_time_series [@area]
     else
       @map_points_json = create_map_points [@area]
       @time_series_json = create_time_series [@area]
@@ -38,6 +38,13 @@ class PowerController < ApplicationController
   end
 
   def create_time_series areas
+    # [{
+    #   :name => name,
+    #   :data => area.samples.limit(30000).map do |sample|
+    #     {:x => sample.created_at.to_i, :y => sample.custs_out}
+    #   end
+    # }].to_json
+
     arr = areas.map do|area|
       {
         :name => area.area_name, 
