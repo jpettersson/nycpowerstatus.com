@@ -67,6 +67,20 @@ html {
         font-size: 1em;
         line-height: 19px;
       }
+      .info {
+        .disclaimer {
+
+          p {
+            width: 300px;
+            line-height: 16px;
+            text-align: center;
+            font-size: 12px;
+            margin-left: auto;
+            margin-right: auto;
+            color: #777;
+          }
+        }
+      }
     }
   }
 }
