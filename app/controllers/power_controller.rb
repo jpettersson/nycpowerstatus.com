@@ -11,8 +11,9 @@ class PowerController < ApplicationController
       res = 'high'
     end
 
+    @time_series_json = create_time_series @areas
     @map_points_json = create_map_points @areas
- 
+
     @total_outage_percent = (@total_outage * 100).to_s.split(".")[0]
     @total_customers = view_context.number_to_human(Area.root_total_customers)
     @response = t("index.responses.#{res}", {:num => @total_outage_percent, :total_customers => @total_customers, :link => view_context.link_to(t('index.coned_working'), t('index.coned_twitter'))})
@@ -32,6 +33,18 @@ class PowerController < ApplicationController
 
   def create_map_points areas
     areas.reject{|a| a.latitude == nil or a.longitude == nil }.to_json(:include => :last_sample)
+  end
+
+  def create_time_series areas
+    arr = areas.map do|area|
+      {
+        :name => area.area_name, 
+        :data => area.samples.limit(10000).map do |sample|
+          {:x => sample.created_at.to_i, :y => sample.custs_out}
+        end
+      }
+    end
+    arr.to_json
   end
 
 end

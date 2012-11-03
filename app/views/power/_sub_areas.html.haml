@@ -9,4 +9,4 @@
         - else
           - color_class = "high" 
         %a{:href => "/#{area.slug}", :class => color_class} 
-          = "#{area.area_name}: #{(area.outage_percentage * 100).to_s.split('.')[0]}%"
+          = raw "#{area.area_name}<br />#{(area.outage_percentage * 100).to_s.split('.')[0]}%"

@@ -1,3 +1,6 @@
+- content_for :time_series do
+  =raw @time_series_json
+
 - content_for :map_points do
   =raw @map_points_json
 
@@ -5,10 +8,14 @@
   %h1 Does NYC have power?
   %h2= raw @response
 
-= render 'power/trend'
+.trend
+  %h2 Outage history for NYC:
+  = render 'power/trend'
 
-.map#map_canvas
+.current
+  %h2 Currently offline customers per burough:
 
-.sub-areas
-  %h2 Offline customers per burough:
-  = render 'power/sub_areas', :areas => @areas
+  .map#map_canvas
+
+  .sub-areas
+    = render 'power/sub_areas', :areas => @areas

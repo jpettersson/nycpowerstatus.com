@@ -11,12 +11,17 @@ html {
 
   a, a:visited {
     color: #26282f;
+    text-decoration: none;
   }
 
   body {
     font-family: 'Rokkitt', serif;
 
     header {
+      a {
+        text-decoration: underline;
+      }
+
       h1 {
         font-weight: 700;
       }
@@ -34,12 +39,9 @@ html {
     }
 
     .trend {
-      h2 {
-        font-size: 1.5em;
-      }
       .graph {
-        background-color: #eee;
-        height: 200px;
+        //background-color: #c1bfb3;
+        border: 1px solid #d4d4d4;
       }
     }
 

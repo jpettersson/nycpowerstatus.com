@@ -14,7 +14,7 @@ $max-width      : 942px;
 body {
   @include container($total-columns);
   header {
-    margin-top: 4em;
+    margin-top: 3em;
     @include span-columns(1, 1);
     h1 {
       font-size: 2em;
@@ -30,46 +30,54 @@ body {
     }
   }
 
-  .map {
-    margin-top: 3em;
-    @include span-columns(10, 12);
-    @include prefix(1,12);
-    @include suffix(1,12);
-    height: 250px;
-  }
-
   .trend {
-    margin-top: 4em;
+    margin-top: 3em;
     @include span-columns(1, 1);
+
+    h2 {
+      font-size: 1.2em;
+    }
 
     .graph {
-      margin-top: 1.5em;
+      margin-top: 1em;
+      height: 250px;
     }
   }
 
-  .sub-areas {
+  .current {
     margin-top: 3em;
     @include span-columns(1, 1);
-    
+
     h2 {
-        font-size: 1.5em;
-        text-align: center;
+      font-size: 1.2em;
     }
 
-    h3 {
-      text-align: center;
+    .map {
+      margin-top: 1em;
+      @include span-columns(10, 12);
+      @include prefix(1,12);
+      @include suffix(1,12);
+      height: 250px;
     }
 
-    ul {
-      margin-top: 1.5em;
-    }
-
-    li {
-      @include span-columns(1, 3);
-      @include nth-omega(3n);
+    .sub-areas {
+      @include span-columns(1, 1);
 
       h3 {
-        font-size: 1.2em;
+        text-align: center;
+      }
+
+      ul {
+        margin-top: 1.5em;
+      }
+
+      li {
+        @include span-columns(1, 3);
+        @include nth-omega(3n);
+
+        h3 {
+          font-size: 1.2em;
+        }
       }
     }
   }
@@ -136,23 +144,39 @@ body {
         font-size: 2em;
       }
     }
-    
-    .map {
+
+    .trend {
       margin-top: 4em;
-      height: 400px;
+      
+      h2 {
+        font-size: 1.5em;
+      }
     }
 
-    .sub-areas {
+    .current {
       margin-top: 4em;
+      
+      h2 {
+        font-size: 1.5em;
+      }
 
-//      li {
-//        @include span-columns(1, 3);
-//        //@include nth-omega(3n);
+      .map {
+        height: 400px;
+      }
 
-//        h3 {
-//          font-size: 1.2em;
-//        }
-//      }
+      .sub-areas {
+        margin-top: 1em;
+
+  //      li {
+  //        @include span-columns(1, 3);
+  //        //@include nth-omega(3n);
+
+  //        h3 {
+  //          font-size: 1.2em;
+  //        }
+  //      }
+      }
+
     }
 
   }
