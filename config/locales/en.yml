@@ -11,7 +11,7 @@ en:
     coned_working: working on it
     responses: 
       low: "Yes! Right now only %{num}% of Con Edison's %{total_customers} customers are without power."
-      medium: "Almost. Right now about %{num}% of Con Edison's %{total_customers} customers are without power. But they are %{link}."
+      medium: "Right now about %{num}% of Con Edison's %{total_customers} customers are without power. But they are %{link}."
       high: "Right now %{num}% of Con Edison's %{total_customers} customers are without power. But they are %{link}."
   area:
     subtitle: "At the moment %{num}% of Con Edison's customers in %{name} are without power. %{link}"
