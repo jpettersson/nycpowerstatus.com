@@ -38,13 +38,6 @@ class PowerController < ApplicationController
   end
 
   def create_time_series areas
-    # [{
-    #   :name => name,
-    #   :data => area.samples.limit(30000).map do |sample|
-    #     {:x => sample.created_at.to_i, :y => sample.custs_out}
-    #   end
-    # }].to_json
-
     arr = areas.map do|area|
       {
         :name => area.area_name, 

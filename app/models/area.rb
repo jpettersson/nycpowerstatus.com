@@ -68,11 +68,4 @@ class Area < ActiveRecord::Base
     area_samples.last.custs_out.to_f / area_samples.last.total_custs.to_f
   end
 
-  def max_historic_outage
-
-  end
-
-  def min_historic_outage
-
-  end
 end
