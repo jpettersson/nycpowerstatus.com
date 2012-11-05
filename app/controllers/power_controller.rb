@@ -22,7 +22,8 @@ class PowerController < ApplicationController
   def area
     @area = Area.find(params[:slug])
     @total_outage = @area.outage_percentage
-    @total_outage_percent = (@total_outage * 100).to_s.split(".")[0]
+    num = (@total_outage * 100).to_s.split(".")
+    @total_outage_percent = "#{num[0]}.#{num[1][0..1]}"
 
     if @area.children.length > 0
       @map_points_json = create_map_points @area.children

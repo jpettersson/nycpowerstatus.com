@@ -10,4 +10,10 @@
           - color_class = "high" 
         %a{:href => "/#{area.slug}", :class => color_class} 
           - num = (area.outage_percentage * 100).to_s.split('.')
-          = raw "#{area.area_name}<br />#{num[0]}.#{num[1][0..1]}%"
+          - out = "#{area.area_name}<br />"
+          - if num.length == 2
+            - out += "#{num[0]}.#{num[1][0..1]}%"
+          - else
+            - out += "No Data"
+
+          = raw out
