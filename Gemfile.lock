@@ -65,6 +65,8 @@ GEM
       multi_json (~> 1.0)
     friendly_id (4.0.9)
     fssm (0.2.9)
+    geokit (1.6.5)
+      multi_json
     haml (3.1.7)
     haml-rails (0.3.5)
       actionpack (>= 3.1, < 4.1)
@@ -167,6 +169,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   compass-rails
   friendly_id (~> 4.0.1)
+  geokit
   haml (>= 3.1.6)
   haml-rails (>= 0.3.4)
   jquery-rails

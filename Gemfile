@@ -10,6 +10,7 @@ gem "ancestry"
 gem 'sandy', :path => '~/opensource/sandy'
 gem 'whenever', :require => false
 gem "friendly_id", "~> 4.0.1"
+gem "geokit"
 
 # Gems used only for assets and not required
 # in production environments by default.
