@@ -1,11 +1,8 @@
-GIT
-  remote: git://github.com/ckundo/coned.git
-  revision: 6f170ef1275c686426f8a0958eb1cf1c4c4c4f52
+PATH
+  remote: ~/opensource/sandy
   specs:
-    coned (0.1.1)
-      hashie
-      httparty
-      json
+    sandy (0.0.5)
+      httparty (~> 0.9.0)
 
 GEM
   remote: https://rubygems.org/
@@ -74,7 +71,6 @@ GEM
       activesupport (>= 3.1, < 4.1)
       haml (~> 3.1)
       railties (>= 3.1, < 4.1)
-    hashie (1.2.0)
     highline (1.6.15)
     hike (1.2.1)
     httparty (0.9.0)
@@ -170,13 +166,13 @@ DEPENDENCIES
   capistrano_colors
   coffee-rails (~> 3.2.1)
   compass-rails
-  coned!
   friendly_id (~> 4.0.1)
   haml (>= 3.1.6)
   haml-rails (>= 0.3.4)
   jquery-rails
   mysql2
   rails (= 3.2.8)
+  sandy!
   sass-rails (~> 3.2.3)
   susy
   therubyracer

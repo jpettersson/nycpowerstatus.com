@@ -7,7 +7,7 @@ gem 'rails', '3.2.8'
 
 gem 'mysql2'
 gem "ancestry"
-gem 'coned', :git => 'git://github.com/ckundo/coned.git'
+gem 'sandy', :path => '~/opensource/sandy'
 gem 'whenever', :require => false
 gem "friendly_id", "~> 4.0.1"
 
