@@ -36,7 +36,7 @@ class Provider < ActiveRecord::Base
             :area_name => sanitize_name(sandy_area.name),
             :latitude => sandy_area.latitude,
             :longitude => sandy_area.longitude,
-            :provider => self
+            :provider_id => self.id
           }
           if parent
             area = parent.children.create! data 
@@ -54,7 +54,7 @@ class Provider < ActiveRecord::Base
             :total_custs => sandy_area.total_customers, 
             :custs_out => sandy_area.customers_affected, 
             :etr => sandy_area.estimated_recovery_time,
-            :provider => self
+            :provider_id => self.id
           })
         else
           puts "#{"  " * lvl } #{area.area_name}"
