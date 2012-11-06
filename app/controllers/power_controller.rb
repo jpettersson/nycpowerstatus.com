@@ -1,7 +1,17 @@
 class PowerController < ApplicationController
   def index
     @provider = Provider.find_by_code(params[:provider])
-    @areas = @provider.areas.at_depth(0).reject{|a| a.is_hidden }
+
+    # LIPA's data comes in three levels, but the first level is pretty useless
+    # with only 3 regions, whereof one is empty. Skipping ahead to the second
+    # level instead:
+    
+    if @provider.code == "LIPA"
+      @areas = @provider.areas.at_depth(1).reject{|a| a.is_hidden }
+    else
+      @areas = @provider.areas.at_depth(0).reject{|a| a.is_hidden }
+    end
+
     @total_outage = @provider.outage_percentage
     num = (@total_outage * 100).to_s.split(".")
     @pretty_outage_percent = "#{num[0]}.#{num[1][0..1]}%"
