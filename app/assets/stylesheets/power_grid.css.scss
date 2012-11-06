@@ -22,9 +22,9 @@ body {
     }
     h2 {
       margin-top: 1.5em;
-      @include span-columns(10, 12);
-      @include prefix(1,12);
-      @include suffix(1,12);
+      @include span-columns(1 omega, 1);
+      //@include prefix(1,12);
+      //@include suffix(1,12);
       text-align: center;
       font-size: 1.5em;
     }
@@ -88,11 +88,11 @@ body {
     @include span-columns(1 omega, 1);
     
     .share {
-      width: 90*3px;
+      width: 242px;
       height: 50px;
       margin-left: auto;
       margin-right: auto;
-      padding-left: 45px;
+//      //padding-left: 45px;
 
       div {
         margin: 0;
@@ -110,7 +110,7 @@ body {
       }
 
       .github {
-        width: 90px;
+        width: 62px;
         float:left;
       }
     }
