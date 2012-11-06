@@ -15,7 +15,7 @@ body {
   @include container($total-columns);
   header {
     margin-top: 3em;
-    @include span-columns(1, 1);
+    @include span-columns(1 omega, 1);
     h1 {
       font-size: 2em;
       text-align: center;
@@ -32,7 +32,7 @@ body {
 
   .trend {
     margin-top: 3em;
-    @include span-columns(1, 1);
+    @include span-columns(1 omega, 1);
 
     h2 {
       font-size: 1.2em;
@@ -46,7 +46,7 @@ body {
 
   .current {
     margin-top: 3em;
-    @include span-columns(1, 1);
+    @include span-columns(1 omega, 1);
 
     h2 {
       font-size: 1.2em;
@@ -61,7 +61,7 @@ body {
     }
 
     .sub-areas {
-      @include span-columns(1, 1);
+      @include span-columns(1 omega, 1);
 
       h3 {
         text-align: center;
@@ -85,7 +85,7 @@ body {
   footer {
     margin-top: 2em;
     margin-bottom: 2em;
-    @include span-columns(1, 1);
+    @include span-columns(1 omega, 1);
     
     .share {
       width: 90*3px;
@@ -118,18 +118,18 @@ body {
     .info {
 
       .coned {
-        @include span-columns(1, 1);
+        @include span-columns(1 omega, 1);
         text-align: center;
       }
 
       .credits {
-        @include span-columns(1, 1);
+        @include span-columns(1 omega, 1);
         text-align: center;
       }
 
       .disclaimer {
         margin-top: 1em;
-        @include span-columns(1, 1);
+        @include span-columns(1 omega, 1);
       }
     }
   }
