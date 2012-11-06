@@ -4,12 +4,15 @@
 - content_for :map_points do
   =raw @map_points_json
 
-- provider = t("index.#{@provider}")
-- puts provider.inspect
+- provider = t("providers.#{@provider.code}")
 
 %header
+  - if @provider.code == 'LIPA'
+    .floater
+      %h3= link_to 'Does NYC have power?', '/'
+
   %h1= "Does " + provider[:root_area_name] + " have power?"
-  %h2= raw t("index.subtitle", {:total_outage_percent => @total_outage_percent, :provider => provider[:name], :total_customers => @total_customers, :link => provider[:twitter]})
+  %h2= raw t("index.subtitle", {:pretty_outage_percent => @pretty_outage_percent, :provider => provider[:name], :total_customers => @total_customers, :link => provider[:twitter]})
 
 .trend
   %h2= "Outage history for " + provider[:root_area_name] + ":"

@@ -4,15 +4,14 @@
 - content_for :map_points do
   =raw @map_points_json
 
+- provider = t("providers.#{@area.provider.code}")
+
 %header
   .floater
     %h3= link_to 'Does NYC have power?', '/'
+    
   %h1= "Does #{@area.area_name} have power?"
-  - if @total_outage >= 0.08
-    - link = "But they are " + link_to(t('index.coned_working'), t('index.coned_twitter')) + "."
-  - else
-    - link = ""
-  %h2= raw t("area.subtitle", :num => @total_outage_percent, :name => @area.area_name, :link => link)
+  %h2= raw t("area.subtitle", {:pretty_outage_percent => @pretty_outage_percent, :provider => @area.provider.name, :total_customers => @area.samples.last.total_custs, :area => @area.area_name, :link => provider[:twitter]})
 
 .trend
   %h2= "Outage history for #{@area.area_name}:"
@@ -20,7 +19,7 @@
 
 .current
   - if @area.children.length > 0
-    %h2 Customers offline per neighborhood:
+    /%h2= "Customers offline per " + provider[:sub_area_descriptors][1] + ":"
   - else
     %h2= "#{@area.area_name}:"
 

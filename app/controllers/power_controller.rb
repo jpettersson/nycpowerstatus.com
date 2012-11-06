@@ -1,29 +1,22 @@
 class PowerController < ApplicationController
   def index
-    @provider = params[:provider]
-    @areas = Provider.find_by_code(@provider).areas.at_depth(0)
-    @total_outage = Area.root_outage_percentage
-
-    if @total_outage < Provider::OUTAGE_THRESHOLD.fetch(:low)
-      res = 'low'
-    elsif @total_outage < Provider::OUTAGE_THRESHOLD.fetch(:medium)
-      res = 'medium'
-    else
-      res = 'high'
-    end
+    @provider = Provider.find_by_code(params[:provider])
+    @areas = @provider.areas.at_depth(0)
+    @total_outage = @provider.outage_percentage
+    num = (@total_outage * 100).to_s.split(".")
+    @pretty_outage_percent = "#{num[0]}.#{num[1][0..1]}"
 
     @time_series_json = create_time_series @areas
     @map_points_json = create_map_points @areas
 
-    @total_outage_percent = (@total_outage * 100).to_s.split(".")[0]
-    @total_customers = view_context.number_to_human(Area.root_total_customers)
+    @total_customers = view_context.number_to_human(@provider.total_customers)
   end
 
   def area
     @area = Area.find(params[:slug])
     @total_outage = @area.outage_percentage
     num = (@total_outage * 100).to_s.split(".")
-    @total_outage_percent = "#{num[0]}.#{num[1][0..1]}"
+    @pretty_outage_percent = "#{num[0]}.#{num[1][0..1]}"
 
     if @area.children.length > 0
       @map_points_json = create_map_points @area.children
