@@ -1,5 +1,9 @@
 Doesnychavepower::Application.routes.draw do
-  get "/" => "power#index"
+  get "/" => "power#index", :provider => 'ConEd'
+  get "/long-island" => "power#index", :provider => 'LIPA'
+
+  # Reminding myself that this was a bad idea.. not I have to do redirection because
+  # I need to move to sub URL's because of the different providers..
   get "/:slug" => "power#area"
 
   # The priority is based upon order of creation:

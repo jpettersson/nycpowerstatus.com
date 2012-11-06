@@ -3,6 +3,12 @@ class Provider < ActiveRecord::Base
   has_many :area_samples
   attr_accessible :code, :name, :provider_type, :url
 
+  OUTAGE_THRESHOLD = {
+    :low => 0.2,
+    :medium => 0.4,
+    :high => 0.6
+  }
+
   def sample! force=false
     # Fetch data.
     sandy_provider = Object.const_get('Sandy').const_get('Provider').const_get(code)

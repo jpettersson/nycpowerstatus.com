@@ -6,12 +6,21 @@ en:
     url: "http://nycpowerstatus.com"
     text: "Keep track of NYC power grid issues at"
   index:
-    title: "Does NYC have power?"
-    coned_twitter: https://twitter.com/ConEdison
-    coned_working: working on it
-    responses: 
-      low: "Yes! Right now only %{num}% of Con Edison's %{total_customers} customers are without power."
-      medium: "Right now about %{num}% of Con Edison's %{total_customers} customers are without power. But they are %{link}."
-      high: "Right now %{num}% of Con Edison's %{total_customers} customers are without power. But they are %{link}."
+    ConEd:
+      name: "Con Edison"
+      title: "Does NYC have power?"
+      root_area_name: "NYC"
+      sub_area_descriptors: ["borough", "neighborhood"]
+      twitter: https://twitter.com/ConEdison
+
+    LIPA:
+      name: "LIPA"
+      title: "Does Long Island have power?"
+      root_area_name: "Long Island"
+      sub_area_descriptors: ["area1", "area2"]
+      twitter: https://twitter.com/LIPAnews
+
+    subtitle: "Right now about %{total_outage_percent}% of %{provider}'s %{total_customers} customers are without power. But they are <a href=\"%{link}\">working on it.</a>."
+
   area:
-    subtitle: "At the moment %{num}% of Con Edison's customers in %{name} are without power. %{link}"
+    subtitle: "At the moment %{num}% of %{provider_name}'s customers in %{area} are without power. But they are %{link}."

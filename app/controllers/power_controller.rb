@@ -1,11 +1,12 @@
 class PowerController < ApplicationController
   def index
-    @areas = Area.at_depth(0)
+    @provider = params[:provider]
+    @areas = Provider.find_by_code(@provider).areas.at_depth(0)
     @total_outage = Area.root_outage_percentage
 
-    if @total_outage < 0.02
+    if @total_outage < Provider::OUTAGE_THRESHOLD.fetch(:low)
       res = 'low'
-    elsif @total_outage < 0.08
+    elsif @total_outage < Provider::OUTAGE_THRESHOLD.fetch(:medium)
       res = 'medium'
     else
       res = 'high'
@@ -16,7 +17,6 @@ class PowerController < ApplicationController
 
     @total_outage_percent = (@total_outage * 100).to_s.split(".")[0]
     @total_customers = view_context.number_to_human(Area.root_total_customers)
-    @response = t("index.responses.#{res}", {:num => @total_outage_percent, :total_customers => @total_customers, :link => view_context.link_to(t('index.coned_working'), t('index.coned_twitter'))})
   end
 
   def area
