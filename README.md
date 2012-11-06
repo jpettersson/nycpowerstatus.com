@@ -10,9 +10,7 @@ I want this project to become a valuable resource during emergencies, such as in
 The data collected by this project will soon be available in some suitable format.
 
 ## Planned features
-* Clean up (refactor all the prototypish stuff: I18n, js, etc)
 * IE8+ Support
-* Switch over to the more stable [Sandy](https://github.com/ckundo/sandy) gem.
 * Tweet/Email notifications.
 
 ## Feature wish list
