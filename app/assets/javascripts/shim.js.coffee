@@ -1,3 +1,7 @@
+unless window.console
+  window.console =
+    log: (args...)->
+
 unless Array::filter
   Array::filter = (fun) -> #, thisp
     len = @length >>> 0
