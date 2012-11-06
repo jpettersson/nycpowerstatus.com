@@ -2,1188 +2,1980 @@
 - :area_slug: bronx
   :longitude: '-73.866667'
   :latitude: '40.85'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: central-bronx
   :longitude: '-73.8629236'
   :latitude: '40.8378381'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: fordham
   :longitude: '-73.8910629'
   :latitude: '40.8606677'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: northeast-bronx
   :longitude: '-73.866667'
   :latitude: '40.85'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: riverdale
   :longitude: '-73.9109977'
   :latitude: '40.8940853'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: southeast-bronx
   :longitude: '-73.866667'
   :latitude: '40.85'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: west-bronx
   :longitude: '-73.900709'
   :latitude: '40.8519547'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: brooklyn
   :longitude: '-73.95'
   :latitude: '40.65'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: bay-ridge
   :longitude: '-74.0329499'
   :latitude: '40.6261638'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: borough-hall
   :longitude: '-73.989998'
   :latitude: '40.693219'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: brighton-beach
   :longitude: '-73.9609634'
   :latitude: '40.5775751'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: crown-heights
   :longitude: '-73.9447994'
   :latitude: '40.6681032'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: flatbush
   :longitude: '-73.9624327'
   :latitude: '40.6409217'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: ocean-parkway
   :longitude: '-73.9699589'
   :latitude: '40.6168144'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: park-slope
   :longitude: '-73.9800645'
   :latitude: '40.6681669'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: prospect-park
   :longitude: '-73.969555'
   :latitude: '40.6617921'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: ridgewood
   :longitude: '-73.8977693'
   :latitude: '40.7108476'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: sheepshead-bay
   :longitude: '-73.9536163'
   :latitude: '40.5975847'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: williamsburg
   :longitude: '-73.9536163'
   :latitude: '40.7064461'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: manhattan
   :longitude: '-73.9661407'
   :latitude: '40.7841484'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: battery-park-city
   :longitude: '-74.0171778'
   :latitude: '40.7033262'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: beekman
   :longitude: '-74.0056574'
   :latitude: '40.7108437'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: bowling-green
   :longitude: '-74.0127802'
   :latitude: '40.7052515'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: canal
   :longitude: '-73.991404'
   :latitude: '40.733592'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: central-park
   :longitude: '-73.9754748'
   :latitude: '40.7769018'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: chelsea
   :longitude: '-73.9976946'
   :latitude: '40.7497717'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: city-hall
   :longitude: '-74.0061418'
   :latitude: '40.7129755'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: columbus-circle
   :longitude: '-73.981909'
   :latitude: '40.7680766'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: cooper-square
   :longitude: '-73.990808'
   :latitude: '40.7287973'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: cortlandt
-  :longitude: '-73.8714752'
-  :latitude: '41.2804112'
+  :longitude: '-74.011246'
+  :latitude: '40.710332'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: empire
   :longitude: '-73.9855292'
   :latitude: '40.7483169'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: fashion
   :longitude: '-73.9905309'
   :latitude: '40.7513938'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: freedom
   :longitude: '-73.9877754'
   :latitude: '40.7778625'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: fulton
-  :longitude: '-73.885275'
-  :latitude: '40.861458'
+  :longitude: '-74.009509'
+  :latitude: '40.710368'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: grand-central
   :longitude: '-73.977056'
   :latitude: '40.752998'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: greeley-square
   :longitude: '-73.9884031'
   :latitude: '40.7487038'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: greenwich
   :longitude: '-73.991404'
   :latitude: '40.733592'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: harlem
   :longitude: '-73.9447994'
   :latitude: '40.8113824'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: herald-square
   :longitude: '-73.9884031'
   :latitude: '40.7487038'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: hudson
   :longitude: '-73.9477384'
   :latitude: '41.2125676'
+  :disable_location: 
+  :is_hidden: true
 - :area_slug: hunter
   :longitude: '-73.9644531'
   :latitude: '40.7683607'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: kips-bay
   :longitude: '-73.9800645'
   :latitude: '40.7423292'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: lenox-hill
   :longitude: '-73.9624327'
   :latitude: '40.7645239'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: lincoln-square
   :longitude: '-73.9844722'
   :latitude: '40.773828'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: madison-square
   :longitude: '-73.988758'
   :latitude: '40.743275'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: park-place
-  :longitude: '-73.9707315'
-  :latitude: '40.6769819'
+  :longitude: '-74.008324'
+  :latitude: '40.713003'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: pennsylvania
   :longitude: '-73.98175'
   :latitude: '40.755295'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: plaza
-  :longitude: '-74.105019'
-  :latitude: '40.5888064'
+  :longitude: '-73.979543'
+  :latitude: '40.759088'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: randalls-island
   :longitude: '-73.9271644'
   :latitude: '40.7891291'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: rockefeller-center
   :longitude: '-73.9795435'
   :latitude: '40.7590881'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: roosevelt
-  :longitude: '-74.0300104'
-  :latitude: '40.6077412'
+  :longitude: '-73.967626'
+  :latitude: '40.767151'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: sheridan-square
   :longitude: '-74.0021478'
   :latitude: '40.7329924'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: sutton
-  :longitude: '-73.8556439'
-  :latitude: '40.7308066'
+  :longitude: '-73.960167'
+  :latitude: '40.75802'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: times-square
   :longitude: '-73.984464'
   :latitude: '40.758577'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: triboro
   :longitude: '-73.9265846'
   :latitude: '40.7795849'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: turtle-bay
   :longitude: '-73.9668408'
   :latitude: '40.7540369'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: washington-heights
   :longitude: '-73.9389213'
   :latitude: '40.8401451'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: yorkville
   :longitude: '-73.9492079'
   :latitude: '40.7762231'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: queens
   :longitude: '-73.7948516'
   :latitude: '40.7282239'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: borden
   :longitude: '-73.9289394'
   :latitude: '40.7367709'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: flushing
   :longitude: '-73.8330844'
   :latitude: '40.7658085'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: jackson-heights
   :longitude: '-73.8830701'
   :latitude: '40.7556818'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: jamaica
   :longitude: '-73.7889689'
   :latitude: '40.702677'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: long-island-city
   :longitude: '-73.9485424'
   :latitude: '40.744679'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: maspeth
   :longitude: '-73.9065883'
   :latitude: '40.7294018'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: rego-park
   :longitude: '-73.8624893'
   :latitude: '40.7255722'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: richmond-hill
   :longitude: '-73.8272029'
   :latitude: '40.6958108'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: sunnyside
   :longitude: '-73.9196324'
   :latitude: '40.7432759'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: staten-island
   :longitude: '-74.1502007'
   :latitude: '40.5795317'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: fox-hills
   :longitude: '-74.0845858'
   :latitude: '40.6151042'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: fresh-kills
   :longitude: '-74.18667'
   :latitude: '40.56417'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: wainwright
-  :longitude: '-73.8320518'
-  :latitude: '40.5821227'
+  :longitude: '-74.170149'
+  :latitude: '40.552445'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: willowbrook
   :longitude: '-74.1384762'
   :latitude: '40.6031598'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: woodrow
   :longitude: '-74.1915177'
   :latitude: '40.5394173'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: westchester
   :longitude: '-73.7948516'
   :latitude: '41.1220194'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: ardsley-village
   :longitude: '-73.8437452'
   :latitude: '41.0106531'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: bedford-town
   :longitude: '-73.6437397'
   :latitude: '41.204262'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: briarcliff-manor-village
   :longitude: '-73.840231'
   :latitude: '41.1402322'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: briarcliff-ossining
   :longitude: '-73.8400785'
   :latitude: '41.1765402'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: bronxville-village
   :longitude: '-73.8320784'
   :latitude: '40.9381544'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: buchanan-village
   :longitude: '-73.9381943'
   :latitude: '41.2620383'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: cortlandt-town
   :longitude: '-73.8714752'
   :latitude: '41.2804112'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: croton-on-hudson-village
   :longitude: '-73.8912481'
   :latitude: '41.2084278'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: dobbs-ferry-village
   :longitude: '-73.872635'
   :latitude: '41.0145418'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: eastchester-town
   :longitude: '-73.807821'
   :latitude: '40.9581609'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: elmsford-village
   :longitude: '-73.8201337'
   :latitude: '41.0550969'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: greenburgh-town
   :longitude: '-73.7902829'
   :latitude: '41.0452968'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: harrison-village
   :longitude: '-73.71263'
   :latitude: '40.9689871'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: hastings-on-hudson-village
   :longitude: '-73.8787461'
   :latitude: '40.994542'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: irvington-village
   :longitude: '-73.867'
   :latitude: '41.0391'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: larchmont-village
   :longitude: '-73.7517983'
   :latitude: '40.9278769'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: mamaroneck-town
   :longitude: '-73.7326309'
   :latitude: '40.9487097'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: mamaroneck-village
   :longitude: '-73.7326309'
   :latitude: '40.9487097'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: mount-kisco-town-of-bedford
   :longitude: '-73.7270761'
   :latitude: '41.2042616'
+  :disable_location: 
+  :is_hidden: true
 - :area_slug: mount-kisco-town-of-new-castle
   :longitude: '-73.7270761'
   :latitude: '41.2042616'
+  :disable_location: 
+  :is_hidden: true
 - :area_slug: mount-kisco-village
   :longitude: '-73.7270761'
   :latitude: '41.2042616'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: mount-pleasant-town
-  :longitude: '-73.949704'
-  :latitude: '40.8043059'
+  :longitude: '-73.77383'
+  :latitude: '41.110493'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: mount-vernon-city
   :longitude: '-73.8370786'
   :latitude: '40.9125992'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: new-castle-town
   :longitude: '-73.774475'
   :latitude: '41.155377'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: new-rochelle-city
   :longitude: '-73.7823549'
   :latitude: '40.9114882'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: north-castle-town
-  :longitude: '-73.8272176'
-  :latitude: '40.7914013'
+  :longitude: '-73.825967'
+  :latitude: '40.792028'
+  :disable_location: true
+  :is_hidden: 
 - :area_slug: north-pelham
-  :longitude: '-74.0059731'
-  :latitude: '40.7143528'
+  :longitude: '-74.005973'
+  :latitude: '40.714353'
+  :disable_location: true
+  :is_hidden: 
 - :area_slug: ossining-town
   :longitude: '-73.8615246'
   :latitude: '41.1628731'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: ossining-village
   :longitude: '-73.8615246'
   :latitude: '41.1628731'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: peekskill-city
   :longitude: '-73.9204158'
   :latitude: '41.2900939'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: pelham-manor-village
   :longitude: '-73.8070778'
   :latitude: '40.8953773'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: pelham-village
   :longitude: '-73.8083149'
   :latitude: '40.911'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: pleasantville-village
   :longitude: '-73.7924152'
   :latitude: '41.1333371'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: port-chester-village
   :longitude: '-73.6656834'
   :latitude: '41.0017643'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: rye-brook-village
   :longitude: '-73.6834621'
   :latitude: '41.0192641'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: rye-city
   :longitude: '-73.6837399'
   :latitude: '40.9806535'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: rye-town
   :longitude: '-73.6837399'
   :latitude: '40.9806535'
+  :disable_location: 
+  :is_hidden: true
 - :area_slug: scarsdale-village
   :longitude: '-73.7845768'
   :latitude: '41.0050977'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: sleepy-hollow
   :longitude: '-73.8584684'
   :latitude: '41.085652'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: somers-town
-  :longitude: '-73.90828'
-  :latitude: '40.679089'
+  :longitude: '-73.694823'
+  :latitude: '41.327877'
+  :disable_location: 
+  :is_hidden: true
 - :area_slug: tarrytown-village
   :longitude: '-73.8587461'
   :latitude: '41.0762077'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: tuckahoe-village
   :longitude: '-73.827356'
   :latitude: '40.9503764'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: white-plains-city
   :longitude: '-73.7629097'
   :latitude: '41.0339862'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: yonkers-city
   :longitude: '-73.8987469'
   :latitude: '40.9312099'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: yorktown-town
   :longitude: '-73.80819'
   :latitude: '41.2956496'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: nassau
   :longitude: '-73.5594128'
   :latitude: '40.6546145'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: hempstead
   :longitude: '-73.6187397'
   :latitude: '40.7062128'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: atlantic-beach
   :longitude: '-73.6624507'
   :latitude: '40.5879914'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: baldwin
   :longitude: '-73.6119129'
   :latitude: '40.6686336'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: baldwin-harbor
   :longitude: '-73.602256'
   :latitude: '40.62995'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: bellerose
   :longitude: '-73.7151313'
   :latitude: '40.724269'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: bellmore
   :longitude: '-73.5270709'
   :latitude: '40.6687125'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: cedarhurst
   :longitude: '-73.7242983'
   :latitude: '40.6228819'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: east-meadow
   :longitude: '-73.5590157'
   :latitude: '40.7139898'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: east-rockaway
   :longitude: '-73.6695747'
   :latitude: '40.6420477'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: elmont
   :longitude: '-73.712909'
   :latitude: '40.700936'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: franklin-square
   :longitude: '-73.6759635'
   :latitude: '40.7073244'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: garden-city
   :longitude: '-73.6342954'
   :latitude: '40.7267682'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: garden-city-south
   :longitude: '-73.6609631'
   :latitude: '40.7123242'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: hempstead--2
   :longitude: '-73.6187397'
   :latitude: '40.7062128'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: hewlett
   :longitude: '-73.6956864'
   :latitude: '40.6431591'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: hewlett-bay-park
   :longitude: '-73.6954087'
   :latitude: '40.6331592'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: hewlett-harbor
   :longitude: '-73.6815194'
   :latitude: '40.6362146'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: hewlett-neck
   :longitude: '-73.6981866'
   :latitude: '40.623437'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: inwood
   :longitude: '-73.7467989'
   :latitude: '40.6220487'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: island-park
   :longitude: '-73.6554078'
   :latitude: '40.6042705'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: lakeview
   :longitude: '-73.651434'
   :latitude: '40.6751999'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: lawrence
   :longitude: '-73.7295763'
   :latitude: '40.6156599'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: levittown
   :longitude: '-73.5142921'
   :latitude: '40.7259336'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: lido-beach
   :longitude: '-73.6624507'
   :latitude: '40.5879914'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: long-beach
   :longitude: '-73.657908'
   :latitude: '40.5884373'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: lynbrook
   :longitude: '-73.6717969'
   :latitude: '40.6548253'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: malverne
   :longitude: '-73.6740191'
   :latitude: '40.6789916'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: merrick
   :longitude: '-73.551516'
   :latitude: '40.6628795'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: north-bellmore
   :longitude: '-73.5334597'
   :latitude: '40.69149'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: north-merrick
   :longitude: '-73.5631827'
   :latitude: '40.6912125'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: north-valley-stream
   :longitude: '-73.7017976'
   :latitude: '40.6851028'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: north-wantagh
   :longitude: 
   :latitude: 
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: oceanside
   :longitude: '-73.6401296'
   :latitude: '40.6387141'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: rockville-centre
   :longitude: '-73.6412406'
   :latitude: '40.6587138'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: roosevelt--2
   :longitude: '-73.5890168'
   :latitude: '40.678713'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: salisbury
   :longitude: '-73.5601266'
   :latitude: '40.7456559'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: seaford
   :longitude: '-73.4881809'
   :latitude: '40.6659344'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: south-floral-park
   :longitude: '-73.7001309'
   :latitude: '40.714269'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: south-hempstead
   :longitude: '-73.6154064'
   :latitude: '40.6809354'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: south-valley-stream
   :longitude: '-73.7176315'
   :latitude: '40.6559368'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: stewart-manor
   :longitude: '-73.6884637'
   :latitude: '40.7192688'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: uniondale
   :longitude: '-73.5929056'
   :latitude: '40.7003793'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: valley-stream
   :longitude: '-73.7084645'
   :latitude: '40.6642699'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: wantagh
   :longitude: '-73.5101258'
   :latitude: '40.6837121'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: west-hempstead
   :longitude: '-73.6501295'
   :latitude: '40.7048242'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: woodmere
   :longitude: '-73.7126314'
   :latitude: '40.6320482'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: woodsburgh
   :longitude: '-73.7084646'
   :latitude: '40.6239928'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: north-hempstead
   :longitude: '-73.6771662'
   :latitude: '40.8099413'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: albertson
   :longitude: '-73.6431844'
   :latitude: '40.7734341'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: baxter-estates
   :longitude: '-73.6954078'
   :latitude: '40.8348225'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: carle-place
   :longitude: '-73.6104058'
   :latitude: '40.7526008'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: east-hills
   :longitude: '-73.6270726'
   :latitude: '40.7937115'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: east-williston
   :longitude: '-73.6348509'
   :latitude: '40.7584343'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: floral-park
   :longitude: '-73.7048532'
   :latitude: '40.7237133'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: flower-hill
   :longitude: '-73.6812409'
   :latitude: '40.8073228'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: garden-city-park
   :longitude: '-73.6626297'
   :latitude: '40.7409348'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: great-neck
   :longitude: '-73.7284647'
   :latitude: '40.8006567'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: great-neck-estates
   :longitude: '-73.7367983'
   :latitude: '40.7870459'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: great-neck-plaza
   :longitude: '-73.7265202'
   :latitude: '40.7867681'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: herricks
   :longitude: '-73.6667963'
   :latitude: '40.7553791'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: kensington
   :longitude: '-73.7220756'
   :latitude: '40.7934344'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: kings-point
   :longitude: '-73.7351316'
   :latitude: '40.8198231'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: lake-success
   :longitude: '-73.7176312'
   :latitude: '40.7706572'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: manhasset
   :longitude: '-73.6995749'
   :latitude: '40.7978787'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: manhasset-hills
   :longitude: '-73.6798522'
   :latitude: '40.7592681'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: manorhaven
   :longitude: '-73.714853'
   :latitude: '40.8431559'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: mineola
   :longitude: '-73.6406845'
   :latitude: '40.7492678'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: munsey-park
   :longitude: '-73.679852'
   :latitude: '40.7987119'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: new-cassel
   :longitude: '-73.5695712'
   :latitude: '40.7589892'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: new-hyde-park
   :longitude: '-73.6879082'
   :latitude: '40.7351018'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: north-hills
   :longitude: '-73.6765187'
   :latitude: '40.7809343'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: north-new-hyde-park
   :longitude: '-73.6931861'
   :latitude: '40.7431574'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: old-westbury
   :longitude: '-73.5995717'
   :latitude: '40.7887113'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: plandome
   :longitude: '-73.7034639'
   :latitude: '40.8067675'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: plandome-heights
   :longitude: '-73.7042972'
   :latitude: '40.8026009'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: plandome-manor
   :longitude: '-73.6973524'
   :latitude: '40.8162116'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: port-washington
   :longitude: '-73.6981858'
   :latitude: '40.8256561'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: port-washington-north
   :longitude: '-73.7017969'
   :latitude: '40.8448224'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: roslyn
   :longitude: '-73.6509622'
   :latitude: '40.7998227'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: roslyn-estates
   :longitude: '-73.6604069'
   :latitude: '40.7942674'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: roslyn-harbor
   :longitude: '-73.6370727'
   :latitude: '40.8164891'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: roslyn-heights
   :longitude: '-73.6473511'
   :latitude: '40.7887117'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: russell-gardens
   :longitude: '-73.7245758'
   :latitude: '40.7812125'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: saddle-rock
   :longitude: '-73.7484654'
   :latitude: '40.794268'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: sands-point
   :longitude: '-73.718742'
   :latitude: '40.8517669'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: searingtown
   :longitude: '-73.6556848'
   :latitude: '40.7748231'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: thomaston
   :longitude: '-73.7137421'
   :latitude: '40.7862123'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: university-gardens
   :longitude: '-73.7226313'
   :latitude: '40.7773236'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: westbury
   :longitude: '-73.5876273'
   :latitude: '40.7556561'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: williston-park
   :longitude: '-73.6448513'
   :latitude: '40.75649'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: oyster-bay
   :longitude: '-73.5320685'
   :latitude: '40.8656543'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: bayville
   :longitude: '-73.5620689'
   :latitude: '40.9106541'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: bethpage
   :longitude: '-73.4820687'
   :latitude: '40.7442664'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: brookville
   :longitude: '-73.5673482'
   :latitude: '40.8131553'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: centre-island
   :longitude: '-73.5198453'
   :latitude: '40.9017651'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: cove-neck
   :longitude: '-73.5059562'
   :latitude: '40.8823207'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: east-massapequa
   :longitude: '-73.4358333'
   :latitude: '40.6738889'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: east-norwich
   :longitude: '-73.5351245'
   :latitude: '40.8467657'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: farmingdale
   :longitude: '-73.4454009'
   :latitude: '40.7325997'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: glen-cove
   :longitude: '-73.6337389'
   :latitude: '40.8623217'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: glen-head
   :longitude: '-73.6237388'
   :latitude: '40.8353776'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: glenwood-landing
   :longitude: '-73.6387393'
   :latitude: '40.8306556'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: hicksville
   :longitude: '-73.5251253'
   :latitude: '40.7684331'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: jericho
   :longitude: '-73.5398476'
   :latitude: '40.7920441'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: lattingtown
   :longitude: '-73.6009595'
   :latitude: '40.8953767'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: laurel-hollow
   :longitude: '-73.4695665'
   :latitude: '40.8567653'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: locust-valley
   :longitude: '-73.5970707'
   :latitude: '40.8759324'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: massapequa
   :longitude: '-73.4742914'
   :latitude: '40.6806563'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: massapequa-park
   :longitude: '-73.4553119'
   :latitude: '40.6804893'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: matinecock
   :longitude: '-73.584038'
   :latitude: '40.864367'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: mill-neck
   :longitude: '-73.5551246'
   :latitude: '40.8870431'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: muttontown
   :longitude: '-73.5476252'
   :latitude: '40.8239883'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: north-massapequa
   :longitude: '-73.4620685'
   :latitude: '40.7009337'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: old-bethpage
   :longitude: '-73.4531786'
   :latitude: '40.7625993'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: old-brookville
   :longitude: '-73.6048493'
   :latitude: '40.8320441'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: oyster-bay--2
   :longitude: '-73.5320685'
   :latitude: '40.8656543'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: oyster-bay-cove
   :longitude: '-73.5109566'
   :latitude: '40.8709319'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: plainedge
   :longitude: '-73.4837357'
   :latitude: '40.7173224'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: plainview
   :longitude: '-73.4673454'
   :latitude: '40.7764882'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: sea-cliff
   :longitude: '-73.6448505'
   :latitude: '40.8489887'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: south-farmingdale
   :longitude: '-73.4401232'
   :latitude: '40.7206555'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: syosset
   :longitude: '-73.502068'
   :latitude: '40.8262101'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: upper-brookville
   :longitude: '-73.5651256'
   :latitude: '40.8387103'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: woodbury
   :longitude: '-73.4676225'
   :latitude: '40.8256545'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: rockaway-peninsula
   :longitude: '-73.736961'
   :latitude: '40.628456'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: suffolk
   :longitude: '-73.1349605'
   :latitude: '40.7891424'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: babylon
   :longitude: '-73.3256753'
   :latitude: '40.6956552'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: amityville
   :longitude: '-73.4170673'
   :latitude: '40.6789893'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: babylon--2
   :longitude: '-73.3256753'
   :latitude: '40.6956552'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: copiague
   :longitude: '-73.3998445'
   :latitude: '40.6814892'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: deer-park
   :longitude: '-73.3292857'
   :latitude: '40.7617653'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: east-farmingdale
   :longitude: '-73.416789'
   :latitude: '40.7292663'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: jones-gilgo-oak-captree-beach
   :longitude: '-73.1349605'
   :latitude: '40.7891424'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: lindenhurst
   :longitude: '-73.3734547'
   :latitude: '40.6867667'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: north-amityville
   :longitude: '-73.425123'
   :latitude: '40.6976001'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: north-babylon
   :longitude: '-73.3217861'
   :latitude: '40.7164881'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: north-lindenhurst
   :longitude: '-73.3815101'
   :latitude: '40.7142663'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: west-babylon
   :longitude: '-73.354287'
   :latitude: '40.718155'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: wyandanch
   :longitude: '-73.360398'
   :latitude: '40.7539878'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: brookhaven
   :longitude: '-72.9153827'
   :latitude: '40.7792653'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: belle-terre
   :longitude: '-73.067884'
   :latitude: '40.9598208'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: bellport
   :longitude: '-72.9392727'
   :latitude: '40.7570429'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: blue-point
   :longitude: '-73.0345539'
   :latitude: '40.7439872'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: brookhaven--2
   :longitude: '-72.9153827'
   :latitude: '40.7792653'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: center-moriches
   :longitude: '-72.7898233'
   :latitude: '40.8003767'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: centereach
   :longitude: '-73.0995539'
   :latitude: '40.8584316'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: coram
   :longitude: '-73.0014946'
   :latitude: '40.8687096'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: east-moriches
   :longitude: '-72.7609336'
   :latitude: '40.8050989'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: east-patchogue
   :longitude: '-72.9962189'
   :latitude: '40.7670427'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: east-shoreham
   :longitude: '-72.8795466'
   :latitude: '40.9448207'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: farmingville
   :longitude: '-73.029552'
   :latitude: '40.8312096'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: fire-island
   :longitude: '-73.1349605'
   :latitude: '40.7891424'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: holtsville
   :longitude: '-73.0451085'
   :latitude: '40.8153762'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: lake-grove
   :longitude: '-73.1151102'
   :latitude: '40.8528761'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: lake-ronkonkoma
   :longitude: '-73.1216833'
   :latitude: '40.827754'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: manorville
   :longitude: '-72.807879'
   :latitude: '40.8737096'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: mastic
   :longitude: '-72.8409359'
   :latitude: '40.8020431'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: mastic-beach
   :longitude: '-72.8520476'
   :latitude: '40.7667655'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: medford
   :longitude: '-73.0001068'
   :latitude: '40.8175985'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: middle-island
   :longitude: '-72.9432825'
   :latitude: '40.8849087'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: miller-place
   :longitude: '-72.9962148'
   :latitude: '40.9598212'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: mount-sinai
   :longitude: '-73.0295495'
   :latitude: '40.9470432'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: north-bellport
   :longitude: '-72.9428836'
   :latitude: '40.7742652'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: north-patchogue
   :longitude: 
   :latitude: 
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: old-field
   :longitude: '-73.129553'
   :latitude: '40.9598205'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: patchogue
   :longitude: '-73.0151084'
   :latitude: '40.7656538'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: poquott
   :longitude: '-73.0839959'
   :latitude: '40.9509318'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: port-jefferson
   :longitude: '-73.0692732'
   :latitude: '40.9464875'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: port-jefferson-station
   :longitude: '-73.0473284'
   :latitude: '40.9253764'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: ridge
   :longitude: '-72.8959364'
   :latitude: '40.8939875'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: rocky-point
   :longitude: '-72.9253805'
   :latitude: '40.9525987'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: selden
   :longitude: '-73.0356625'
   :latitude: '40.8664873'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: setauket-east-setauket
   :longitude: '-73.1025502'
   :latitude: '40.9293759'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: shirley
   :longitude: '-72.8676033'
   :latitude: '40.8014876'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: shoreham
   :longitude: '-72.9076025'
   :latitude: '40.9573208'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: sound-beach
   :longitude: '-72.9678811'
   :latitude: '40.9562099'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: stony-brook
   :longitude: '-73.1409429'
   :latitude: '40.9256538'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: terryville
   :longitude: '-73.0651072'
   :latitude: '40.9089874'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: yaphank
   :longitude: '-72.9170487'
   :latitude: '40.8367653'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: east-hampton
   :longitude: '-72.1848009'
   :latitude: '40.9634335'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: amagansett
   :longitude: '-72.1436884'
   :latitude: '40.9737117'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: east-hampton--2
   :longitude: '-72.1848009'
   :latitude: '40.9634335'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: montauk
   :longitude: '-71.9545146'
   :latitude: '41.0359353'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: northwest-harbor
   :longitude: '-72.2211911'
   :latitude: '41.0098216'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: springs
   :longitude: '-72.1592444'
   :latitude: '41.0162112'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: wainscott
   :longitude: '-72.2428587'
   :latitude: '40.9367664'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: huntington
   :longitude: '-73.425676'
   :latitude: '40.8681539'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: asharoken
   :longitude: '-73.3598395'
   :latitude: '40.9278757'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: centerport
   :longitude: 
   :latitude: 
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: cold-spring-harbor
   :longitude: '-73.456788'
   :latitude: '40.8714873'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: commack
   :longitude: '-73.2928943'
   :latitude: '40.8428759'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: dix-hills
   :longitude: '-73.3362298'
   :latitude: '40.8048207'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: east-northport
   :longitude: '-73.3245613'
   :latitude: '40.8767647'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: eatons-neck
   :longitude: '-73.4015074'
   :latitude: '40.9306535'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: elwood
   :longitude: '-73.3351179'
   :latitude: '40.8453761'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: greenlawn
   :longitude: '-73.3651185'
   :latitude: '40.8689871'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: halesite
   :longitude: '-73.4153975'
   :latitude: '40.8884315'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: huntington--2
   :longitude: '-73.425676'
   :latitude: '40.8681539'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: huntington-bay
   :longitude: '-73.1349605'
   :latitude: '40.7891424'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: huntington-station
   :longitude: '-73.4115091'
   :latitude: '40.8534318'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: lloyd-harbor
   :longitude: '-73.4598432'
   :latitude: '40.9034315'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: melville
   :longitude: '-73.4151214'
   :latitude: '40.7934322'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: northport
   :longitude: '-73.3431727'
   :latitude: '40.9009313'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: south-huntington
   :longitude: '-73.3987314'
   :latitude: '40.8237097'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: west-hills
   :longitude: '-73.4323438'
   :latitude: '40.8162098'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: islip
   :longitude: '-73.2103934'
   :latitude: '40.7298207'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: bay-shore
   :longitude: '-73.2453946'
   :latitude: '40.7250986'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: bayport
   :longitude: '-73.0506656'
   :latitude: '40.7384317'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: baywood
   :longitude: '-73.2905556'
   :latitude: '40.7513889'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: bohemia
   :longitude: '-73.1151117'
   :latitude: '40.7692649'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: brentwood
   :longitude: '-73.2462273'
   :latitude: '40.7812093'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: brightwaters
   :longitude: '-73.2673399'
   :latitude: '40.7209321'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: central-islip
   :longitude: '-73.2017811'
   :latitude: '40.7906538'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: east-islip
   :longitude: '-73.1856703'
   :latitude: '40.7320429'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: holbrook
   :longitude: '-73.0784429'
   :latitude: '40.8123205'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: islandia
   :longitude: '-73.1690019'
   :latitude: '40.8042649'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: islip--2
   :longitude: '-73.2103934'
   :latitude: '40.7298207'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: islip-terrace
   :longitude: 
   :latitude: 
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: north-bay-shore
   :longitude: '-73.260978'
   :latitude: '40.7590239'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: north-great-river
   :longitude: '-73.1677453'
   :latitude: '40.7499164'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: oakdale
   :longitude: '-73.1387242'
   :latitude: '40.7439872'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: ronkonkoma
   :longitude: 
   :latitude: 
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: sayville
   :longitude: '-73.0820556'
   :latitude: '40.7359317'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: west-bay-shore
   :longitude: '-73.2812293'
   :latitude: '40.7087102'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: west-islip
   :longitude: '-73.3062302'
   :latitude: '40.7062104'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: west-sayville
   :longitude: '-73.0976118'
   :latitude: '40.7278763'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: riverhead
   :longitude: '-72.6620402'
   :latitude: '40.9170435'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: aquebogue
   :longitude: '-72.6270382'
   :latitude: '40.9445438'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: calverton
   :longitude: '-72.7434331'
   :latitude: '40.9064873'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: jamesport
   :longitude: '-72.58148'
   :latitude: '40.9495443'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: northville
   :longitude: '-72.6189819'
   :latitude: '40.9700994'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: riverhead--2
   :longitude: '-72.6620402'
   :latitude: '40.9170435'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: wading-river
   :longitude: '-72.8426016'
   :latitude: '40.9503762'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: shelter-island
   :longitude: '-72.3386939'
   :latitude: '41.0681549'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: dering-harbor
   :longitude: '-72.3467497'
   :latitude: '41.092877'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: shelter-island--2
   :longitude: '-72.3386939'
   :latitude: '41.0681549'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: shelter-island-heights
   :longitude: '-72.3559166'
   :latitude: '41.0839883'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: smithtown
   :longitude: '-73.2006687'
   :latitude: '40.8559314'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: fort-salonga
   :longitude: '-73.3009489'
   :latitude: '40.9125979'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: hauppauge
   :longitude: '-73.2026138'
   :latitude: '40.8256536'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: head-of-the-harbor
   :longitude: '-73.1578885'
   :latitude: '40.9034315'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: kings-park
   :longitude: '-73.2573369'
   :latitude: '40.886209'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: nesconset
   :longitude: '-73.1540004'
   :latitude: '40.8520426'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: nissequogue
   :longitude: '-73.1978899'
   :latitude: '40.9039869'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: smithtown--2
   :longitude: '-73.2006687'
   :latitude: '40.8559314'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: st-james
   :longitude: '-73.1526623'
   :latitude: '40.8754335'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: village-of-the-branch
   :longitude: '-73.1873349'
   :latitude: '40.8562092'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: southampton
   :longitude: '-72.3895296'
   :latitude: '40.884267'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: bridgehampton
   :longitude: '-72.3009158'
   :latitude: '40.9378777'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: east-quogue
   :longitude: '-72.5814814'
   :latitude: '40.8406554'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: flanders
   :longitude: '-72.6175936'
   :latitude: '40.9034328'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: hampton-bays
   :longitude: '-72.5175893'
   :latitude: '40.8689892'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: north-haven
   :longitude: '-72.31286'
   :latitude: '41.0128773'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: north-sea
   :longitude: '-72.4142518'
   :latitude: '40.9328781'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: noyack
   :longitude: '-72.341194'
   :latitude: '40.9956553'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: pine-valley
   :longitude: '-72.6662072'
   :latitude: '40.8959324'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: quogue
   :longitude: '-72.6095384'
   :latitude: '40.8231553'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: remsenburg-speonk
   :longitude: '-72.70917'
   :latitude: '40.8075'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: riverside
   :longitude: '-72.6625'
   :latitude: '40.9077778'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: sag-harbor
   :longitude: '-72.2925819'
   :latitude: '40.9978773'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: sagaponack
   :longitude: '-72.2781375'
   :latitude: '40.9253776'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: shinnecock-hills
   :longitude: '-72.4636982'
   :latitude: '40.8909338'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: southampton--2
   :longitude: '-72.3895296'
   :latitude: '40.884267'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: watermill
   :longitude: '-72.3478839'
   :latitude: '40.9178346'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: westhampton
   :longitude: '-72.6662075'
   :latitude: '40.8245437'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: westhampton-beach
   :longitude: '-72.6458277'
   :latitude: '40.8093799'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: southold
   :longitude: '-72.4261962'
   :latitude: '41.0648222'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: cutchogue
   :longitude: '-72.4850859'
   :latitude: '41.0106563'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: greenport
   :longitude: '-72.3592501'
   :latitude: '41.1034326'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: greenport-west
   :longitude: '-72.374925'
   :latitude: '41.099483'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: laurel
   :longitude: '-72.5620344'
   :latitude: '40.9695445'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: mattituck
   :longitude: '-72.5342547'
   :latitude: '40.9912115'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: orient-point
   :longitude: '-72.251191'
   :latitude: '41.1523202'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: peconic
   :longitude: '-72.4631413'
   :latitude: '41.0478782'
+  :disable_location: 
+  :is_hidden: 
 - :area_slug: southold--2
   :longitude: '-72.4261962'
   :latitude: '41.0648222'
+  :disable_location: 
+  :is_hidden: 

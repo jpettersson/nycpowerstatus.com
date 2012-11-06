@@ -33,7 +33,9 @@ namespace :geocode do
       {
         :area_slug => a.slug,
         :longitude => a.longitude,
-        :latitude => a.latitude
+        :latitude => a.latitude,
+        :disable_location => a.disable_location,
+        :is_hidden => a.is_hidden
       } 
     }
     File.open(File.join(Rails.root, 'db', 'fixtures', 'area_coordinates.yml'), 'w') {|f| f.write(coords.to_yaml) }
@@ -47,6 +49,8 @@ namespace :geocode do
         puts "Updating coords for: #{area.area_name}"
         area.longitude = coord.fetch(:longitude)
         area.latitude = coord.fetch(:latitude)
+        area.disable_location = coord.fetch(:disable_location)
+        area.is_hidden = coord.fetch(:is_hidden)
         area.save
       else
         puts "Area #{coord.area_slug} was not found."
