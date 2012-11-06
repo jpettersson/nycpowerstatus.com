@@ -39,20 +39,6 @@ $ ->
 
     copyFill.call @, time_series
 
-    # brighten = (hex, percent) ->
-      
-    #   # strip the leading # if it's there
-    #   hex = hex.replace(/^\s*#|\s*$/g, "")
-      
-    #   # convert 3 char codes --> 6, e.g. `E0F` --> `EE00FF`
-    #   hex = hex.replace(/(.)/g, "$1$1")  if hex.length is 3
-    #   r = parseInt(hex.substr(0, 2), 16)
-    #   g = parseInt(hex.substr(2, 2), 16)
-    #   b = parseInt(hex.substr(4, 2), 16)
-    #   "#" + ((0 | (1 << 8) + r + (256 - r) * percent).toString(16)).substr(1) + ((0 | (1 << 8) + g + (256 - g) * percent).toString(16)).substr(1) + ((0 | (1 << 8) + b + (256 - b) * percent).toString(16)).substr(1)
-
-    # baseColor = "#0000FF"
-
     for ts, index in time_series
       #ts.color = brighten(baseColor, index/(time_series.length-1))
       ts.color = 'rgba(66,50,51,0.3)'
