@@ -86,10 +86,13 @@ $ ->
 
     # xAxis.render();
 
-    hoverDetail = new Rickshaw.Graph.HoverDetail
-      graph: graph
-      xFormatter: (x)-> moment.unix(x).format('LLL')
-      yFormatter: (y)-> "#{y} offline"
+    try
+      hoverDetail = new Rickshaw.Graph.HoverDetail
+        graph: graph
+        xFormatter: (x)-> moment.unix(x).format('LLL')
+        yFormatter: (y)-> "#{y} offline"
+    catch error
+      console.log "error: #{error}"
 
   # Map
 
