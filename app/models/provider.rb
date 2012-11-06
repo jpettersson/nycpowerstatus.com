@@ -1,6 +1,5 @@
 class Provider < ActiveRecord::Base
   has_many :areas
-  has_many :area_samples
   attr_accessible :code, :name, :provider_type, :url
 
   OUTAGE_THRESHOLD = {
@@ -8,6 +7,18 @@ class Provider < ActiveRecord::Base
     :medium => 0.4,
     :high => 0.6
   }
+
+  def total_customers
+    areas.at_depth(0).map{|a| a.area_samples.last.total_custs}.inject(:+)
+  end
+
+  def outage_percentage
+    a = areas.at_depth(0)
+    total = a.map{|a| a.area_samples.last.total_custs}
+    out = a.map{|a| a.area_samples.last.custs_out}
+
+    out.inject(:+).to_f / total.inject(:+).to_f
+  end
 
   def sample! force=false
     # Fetch data.
@@ -26,9 +37,9 @@ class Provider < ActiveRecord::Base
 
   private 
 
-  def sample_areas areas, lvl=0, parent=nil
-    if areas 
-      areas.each do |sandy_area|
+  def sample_areas sandy_areas, lvl=0, parent=nil
+    if sandy_areas 
+      sandy_areas.each do |sandy_area|
 
         # First, we need to create Areas we don't already have
         if parent 
@@ -42,12 +53,12 @@ class Provider < ActiveRecord::Base
             :area_name => sanitize_name(sandy_area.name),
             :latitude => sandy_area.latitude,
             :longitude => sandy_area.longitude,
-            :provider_id => self.id
+            :provider_id => id
           }
           if parent
             area = parent.children.create! data 
           else
-            area = Area.create! data
+            area = Area.create!(data)
           end
         end
 
@@ -60,7 +71,6 @@ class Provider < ActiveRecord::Base
             :total_custs => sandy_area.total_customers, 
             :custs_out => sandy_area.customers_affected, 
             :etr => sandy_area.estimated_recovery_time,
-            :provider_id => self.id
           })
         else
           puts "#{"  " * lvl } #{area.area_name}"

@@ -45,18 +45,6 @@ class Area < ActiveRecord::Base
     puts 'end sampling'
   end
 
-  def self.root_total_customers
-    Area.at_depth(0).map{|a| a.area_samples.last.total_custs}.inject(:+)
-  end
-
-  def self.root_outage_percentage
-    areas = Area.at_depth(0)
-    total = areas.map{|a| a.area_samples.last.total_custs}
-    out = areas.map{|a| a.area_samples.last.custs_out}
-
-    out.inject(:+).to_f / total.inject(:+).to_f
-  end
-
   def last_sample
     area_samples.last
   end
