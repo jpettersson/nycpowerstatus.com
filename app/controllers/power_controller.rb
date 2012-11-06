@@ -4,8 +4,8 @@ class PowerController < ApplicationController
     @areas = @provider.areas.at_depth(0).reject{|a| a.is_hidden }
     @total_outage = @provider.outage_percentage
     num = (@total_outage * 100).to_s.split(".")
-    @pretty_outage_percent = "#{num[0]}.#{num[1][0..1]}"
-
+    @pretty_outage_percent = "#{num[0]}.#{num[1][0..1]}%"
+    
     @time_series_json = create_time_series @areas
     @map_points_json = create_map_points @areas
 
@@ -16,7 +16,11 @@ class PowerController < ApplicationController
     @area = Area.find(params[:slug])
     @total_outage = @area.outage_percentage
     num = (@total_outage * 100).to_s.split(".")
-    @pretty_outage_percent = "#{num[0]}.#{num[1][0..1]}"
+    if num.length == 2
+      @pretty_outage_percent = "#{num[0]}.#{num[1][0..1]}%"
+    else
+      @pretty_outage_percent = "an unknown number"
+    end
 
     if @area.children.length > 0
       @map_points_json = create_map_points @area.children.reject{|a| a.is_hidden }
