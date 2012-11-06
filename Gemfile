@@ -7,9 +7,10 @@ gem 'rails', '3.2.8'
 
 gem 'mysql2'
 gem "ancestry"
-gem 'coned', :git => 'git://github.com/ckundo/coned.git'
+gem 'sandy', :git => 'https://github.com/ckundo/sandy.git'
 gem 'whenever', :require => false
 gem "friendly_id", "~> 4.0.1"
+gem "geokit"
 
 # Gems used only for assets and not required
 # in production environments by default.

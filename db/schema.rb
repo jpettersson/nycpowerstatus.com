@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121102000119) do
+ActiveRecord::Schema.define(:version => 20121105041015) do
 
   create_table "area_samples", :force => true do |t|
     t.integer  "area_id"
@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(:version => 20121102000119) do
     t.integer  "etrmillis"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+    t.integer  "provider_id"
   end
 
   create_table "areas", :force => true do |t|
@@ -32,8 +33,18 @@ ActiveRecord::Schema.define(:version => 20121102000119) do
     t.string   "ancestry"
     t.integer  "ancestry_depth", :default => 0
     t.string   "slug"
+    t.integer  "provider_id"
   end
 
   add_index "areas", ["ancestry"], :name => "index_areas_on_ancestry"
+
+  create_table "providers", :force => true do |t|
+    t.string   "code"
+    t.string   "name"
+    t.string   "provider_type"
+    t.string   "url"
+    t.datetime "created_at",    :null => false
+    t.datetime "updated_at",    :null => false
+  end
 
 end
