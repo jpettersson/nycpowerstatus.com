@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121105040957) do
+ActiveRecord::Schema.define(:version => 20121106054948) do
 
   create_table "area_samples", :force => true do |t|
     t.integer  "area_id"
@@ -27,12 +27,14 @@ ActiveRecord::Schema.define(:version => 20121105040957) do
     t.string   "area_name"
     t.string   "latitude"
     t.string   "longitude"
-    t.datetime "created_at",                    :null => false
-    t.datetime "updated_at",                    :null => false
+    t.datetime "created_at",                      :null => false
+    t.datetime "updated_at",                      :null => false
     t.string   "ancestry"
-    t.integer  "ancestry_depth", :default => 0
+    t.integer  "ancestry_depth",   :default => 0
     t.string   "slug"
     t.integer  "provider_id"
+    t.boolean  "disable_location"
+    t.boolean  "is_hidden"
   end
 
   add_index "areas", ["ancestry"], :name => "index_areas_on_ancestry"
