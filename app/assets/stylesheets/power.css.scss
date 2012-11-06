@@ -24,6 +24,7 @@ html {
 
       h1 {
         font-weight: 700;
+        text-shadow: 1px 1px 0 #fff;
       }
      
       .floater {
@@ -38,6 +39,10 @@ html {
           //color: #fff;
         }
       }
+    }
+
+    h2 {
+      text-shadow: 1px 1px 0 #fff;
     }
 
     .trend {
