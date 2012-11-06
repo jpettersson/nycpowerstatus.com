@@ -90,6 +90,7 @@ $ ->
       zoom: 11
       mapTypeId: google.maps.MapTypeId.ROADMAP
       disableDefaultUI: true
+      zoomControl: true
       scrollwheel: false
       styles: [
         {
