@@ -45,6 +45,9 @@ namespace :geocode do
       area = Area.find_by_slug coord.fetch(:area_slug)
       if area
         puts "Updating coords for: #{area.area_name}"
+        area.longitude = coord.fetch(:longitude)
+        area.latitude = coord.fetch(:latitude)
+        area.save
       else
         puts "Area #{coord.area_slug} was not found."
       end
