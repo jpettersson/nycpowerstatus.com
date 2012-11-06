@@ -14,6 +14,7 @@ class PowerController < ApplicationController
 
   def area
     @area = Area.find(params[:slug])
+    @areas = @area.children.reject{|a| a.is_hidden }
     @total_outage = @area.outage_percentage
     num = (@total_outage * 100).to_s.split(".")
     if num.length == 2
@@ -32,7 +33,7 @@ class PowerController < ApplicationController
   end
 
   def create_map_points areas
-    areas.reject{|a| a.latitude == nil or a.longitude == nil }.to_json(:include => :last_sample)
+    areas.reject{|a| a.latitude == nil or a.longitude == nil or a.disable_location }.to_json(:include => :last_sample)
   end
 
   def create_time_series areas
