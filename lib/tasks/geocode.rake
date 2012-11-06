@@ -1,6 +1,6 @@
 namespace :geocode do
 
-  task :areas => :environment do
+  task :fetch => :environment do
     [
       ['ConEd', ", New York, NY, USA", nil], 
       ['LIPA', ", Long Island, NY", nil]
@@ -21,6 +21,32 @@ namespace :geocode do
           puts "Could not find: #{area.area_name}"
         end
         sleep 0.5
+      end
+    end
+  end
+
+  task :save => :environment do
+
+    # Using the slug as identification means we have to rely on the specific 
+    # ordering (and nesting) withing the provider's area list. 
+    coords = Area.all.map{ |a|
+      {
+        :area_slug => a.slug,
+        :longitude => a.longitude,
+        :latitude => a.latitude
+      } 
+    }
+    File.open(File.join(Rails.root, 'db', 'fixtures', 'area_coordinates.yml'), 'w') {|f| f.write(coords.to_yaml) }
+  end
+
+  task :load => :environment do
+    coords = YAML::load(File.open(File.join(Rails.root, 'db', 'fixtures', 'area_coordinates.yml')))
+    coords.each do |coord|
+      area = Area.find_by_slug coord.fetch(:area_slug)
+      if area
+        puts "Updating coords for: #{area.area_name}"
+      else
+        puts "Area #{coord.area_slug} was not found."
       end
     end
   end
