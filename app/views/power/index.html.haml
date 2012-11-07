@@ -7,9 +7,7 @@
 - provider = t("providers.#{@provider.code}")
 
 %header
-  - if @provider.code == 'LIPA'
-    .floater
-      %h3= link_to 'Does NYC have power?', '/'
+  = render 'power/nav'
 
   %h1= "Does " + provider[:root_area_name] + " have power?"
   %h2= raw t("index.subtitle", {:pretty_outage_percent => @pretty_outage_percent, :provider => provider[:name], :total_customers => @total_customers, :link => provider[:twitter]})
@@ -19,7 +17,7 @@
   = render 'power/trend'
 
 .current
-  %h2= "Customers offline per " + provider[:sub_area_descriptors][0]  + ":"
+  %h2= "Customers offline per area:"
 
   .map#map_canvas
 

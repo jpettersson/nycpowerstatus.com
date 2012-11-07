@@ -7,9 +7,8 @@
 - provider = t("providers.#{@area.provider.code}")
 
 %header
-  .floater
-    %h3= link_to 'Does NYC have power?', '/'
-    
+  = render 'power/nav'
+
   %h1= "Does #{@area.area_name} have power?"
   %h2= raw t("area.subtitle", {:pretty_outage_percent => @pretty_outage_percent, :provider => @area.provider.name, :total_customers => @area.samples.last.total_custs, :area => @area.area_name, :link => provider[:twitter]})
 

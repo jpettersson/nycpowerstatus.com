@@ -15,8 +15,6 @@ class PowerController < ApplicationController
       extra_areas.push Provider.find_by_code('LIPA').root_area
     end
 
-    puts extra_areas.inspect
-
     @total_outage = @provider.outage_percentage
     num = (@total_outage * 100).to_s.split(".")
     @pretty_outage_percent = "#{num[0]}.#{num[1][0..1]}%"
@@ -29,6 +27,8 @@ class PowerController < ApplicationController
 
   def area
     @area = Area.find(params[:slug])
+    @provider = @area.provider
+    
     @areas = @area.children.reject{|a| a.is_hidden }
     @total_outage = @area.outage_percentage
     num = (@total_outage * 100).to_s.split(".")
