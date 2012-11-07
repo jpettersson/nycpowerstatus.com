@@ -55,7 +55,7 @@ namespace :geocode do
         area.is_hidden = coord.fetch(:is_hidden)
         area.save
       else
-        puts "Area #{coord.area_slug} was not found."
+        puts "Area #{coord.fetch(:area_slug).to_s} was not found."
       end
     end
   end
