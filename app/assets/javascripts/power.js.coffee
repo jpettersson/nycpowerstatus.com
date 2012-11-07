@@ -65,11 +65,16 @@ $ ->
     yAxis.render()
 
     # time = new Rickshaw.Fixtures.Time
-    # days = time.unit 'days'
-    # xAxis = new Rickshaw.Graph.Axis.Time
-    #   timeUnit: days
-    #   graph: graph
+    # time.units.push
+    #   name: 'day_of_month'
+    #   seconds: 86400
+    #   formatter: (d)-> "November #{d.getUTCDate()}"
 
+    # tUnit = time.unit 'day_of_month'
+    # window.xAxis = new Rickshaw.Graph.Axis.Time
+    #   graph: graph
+    #   timeUnit: tUnit
+      
     # xAxis.render();
 
     try
