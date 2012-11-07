@@ -27,16 +27,33 @@ html {
         text-shadow: 1px 1px 0 #fff;
       }
      
-      .floater {
-        width: 145px;
+      .nav {
+        width: 186px;
         position: absolute;
         top: 0;
         left: 50%;
-        margin-left: -75px;
-        background-color: #fff;
-        padding: 0.5em;
+        margin-left: -93px;
         a {
           //color: #fff;
+        }
+
+        div {
+          float: left;
+          
+          width: 74px;
+          padding: 12px 6px 12px 6px;
+        }
+
+        .long-island {
+          margin-left: 10px;
+        }
+
+        .active {
+          background-color: #fff;
+        }
+
+        h3 {
+          text-align: center;
         }
       }
     }

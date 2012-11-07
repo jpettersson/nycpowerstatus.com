@@ -8,12 +8,32 @@ class Provider < ActiveRecord::Base
     :high => 0.6
   }
 
+  def root_area
+    area = Area.new({
+      :area_name => name,
+      :slug => slug,
+      :longitude => longitude,
+      :latitude => latitude
+    })
+
+    area.area_samples << AreaSample.new({
+      :total_custs => total_customers,
+      :custs_out => customers_affected
+    })
+
+    area
+  end
+
   def total_customers
-    areas.at_depth(0).map{|a| a.area_samples.last.total_custs}.inject(:+)
+    areas.at_depth(root_depth).map{|a| a.area_samples.last.total_custs}.inject(:+)
+  end
+
+  def customers_affected
+    areas.at_depth(root_depth).map{|a| a.area_samples.last.custs_out}.inject(:+)
   end
 
   def outage_percentage
-    a = areas.at_depth(0)
+    a = areas.at_depth(root_depth)
     total = a.map{|a| a.area_samples.last.total_custs}
     out = a.map{|a| a.area_samples.last.custs_out}
 
@@ -35,7 +55,12 @@ class Provider < ActiveRecord::Base
 
   end
 
+
   private 
+
+  def root_depth
+      0
+  end
 
   def sample_areas sandy_areas, lvl=0, parent=nil
     if sandy_areas 

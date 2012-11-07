@@ -1,0 +1,12 @@
+- if @provider.code == 'ConEd'
+  - lipa_class = ''
+  - coned_class = 'active'
+- else
+  - lipa_class = 'active'
+  - coned_class = ''
+
+.nav
+  .nyc{:class => coned_class}
+    %h3= link_to 'NYC', '/'
+  .long-island{:class => lipa_class}
+    %h3= link_to 'Long Island', '/long-island'

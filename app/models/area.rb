@@ -2,7 +2,7 @@ class Area < ActiveRecord::Base
   has_ancestry :cache_depth => true
   has_many :area_samples
   belongs_to :provider
-  attr_accessible :parent, :area_name, :created_at, :latitude, :longitude, :updated_at, :provider_id
+  attr_accessible :parent, :area_name, :created_at, :latitude, :longitude, :updated_at, :provider_id, :slug
   
   extend FriendlyId
   friendly_id :area_name, use: :slugged

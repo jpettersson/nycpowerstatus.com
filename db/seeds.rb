@@ -1,7 +1,7 @@
 # Create the supported providers.
 [ 
-  {:code => 'ConEd', :name => "Con Edison", :provider_type => 'electricity', :url => 'http://www.conedison.com/'},
-  {:code => 'LIPA', :name => "Long Island Power Authority", :provider_type => 'electricity', :url => 'http://www.lipower.org/'}
+  {:code => 'ConEd', :name => "Con Edison", :provider_type => 'electricity', :url => 'http://www.conedison.com/', :longitude => '40.784909', :latitude => '-73.381805', :slug => ''},
+  {:code => 'LIPA', :name => "Long Island Power Authority", :provider_type => 'electricity', :url => 'http://www.lipower.org/', :slug => 'long-island'}
 ].each do |p|
     unless provider = Provider.find_by_name(p[:name])
        provider = Provider.create!(p)
