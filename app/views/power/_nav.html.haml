@@ -1,11 +1,19 @@
 - if @provider.code == 'ConEd'
-  - lipa_class = ''
   - coned_class = 'active'
-- else
-  - lipa_class = 'active'
+  - lipa_class = ''
+  - pseg_class = ''
+- elsif @provider.code == 'LIPA'
   - coned_class = ''
+  - lipa_class = 'active'
+  - pseg_class = ''
+- elsif @provider.code == 'PSEG'
+  - coned_class = ''
+  - lipa_class = ''
+  - pseg_class = 'active'
 
 .nav
+  .new-jersey{:class => pseg_class}
+    %h3= link_to 'New Jersey', '/new-jersey'
   .nyc{:class => coned_class}
     %h3= link_to 'NYC', '/'
   .long-island{:class => lipa_class}
