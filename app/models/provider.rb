@@ -1,7 +1,7 @@
 class Provider < ActiveRecord::Base
   has_many :areas
   has_many :area_samples, :through => :areas
-  attr_accessible :code, :name, :provider_type, :url
+  attr_accessible :code, :name, :provider_type, :url, :longitude, :latitude, :slug
 
   OUTAGE_THRESHOLD = {
     :low => 0.2,
