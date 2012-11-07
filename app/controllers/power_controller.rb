@@ -16,7 +16,7 @@ class PowerController < ApplicationController
     elsif @provider.code == "ConEd"
       @areas = @provider.areas.at_depth(0).reject{|a| a.is_hidden }
       extra_areas.push Provider.find_by_code('LIPA').root_area
-      extra_areas.push Provider.find_by_code('PSEG').root_area
+      #extra_areas.push Provider.find_by_code('PSEG').root_area
     end
 
     unless @provider.total_customers == 0
