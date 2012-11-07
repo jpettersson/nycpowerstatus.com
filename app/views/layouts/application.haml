@@ -37,7 +37,7 @@
           %iframe{:allowtransparency => "true", :frameborder => "0", :height => "20px", :scrolling => "0", :src => "http://ghbtns.com/github-btn.html?user=jpettersson&repo=nycpowerstatus.com&type=fork", :width => "62px"}
       .info
         .coned
-          %p= "Con Edison data updated at #{@updated_at}"
+          %p= t("providers.#{@provider.code}.name") + " data updated at #{@updated_at}"
         .credits
           %p= raw "Created by #{link_to('Jonathan Pettersson', 'http://jpettersson.com')} using the #{link_to('Sandy gem', 'https://github.com/ckundo/sandy')} by #{link_to('ckundo', 'http://www.ckundo.com/')}."
         .disclaimer

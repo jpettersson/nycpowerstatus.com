@@ -1,7 +1,8 @@
 class PowerController < ApplicationController
   def index
     @provider = Provider.find_by_code(params[:provider])
-
+    @updated_at = @provider.data_updated_at
+  
     # LIPA's data comes in three levels, but the first level is pretty useless
     # with only 3 regions, whereof one is empty. Skipping ahead to the second
     # level instead:
@@ -28,7 +29,8 @@ class PowerController < ApplicationController
   def area
     @area = Area.find(params[:slug])
     @provider = @area.provider
-    
+    @updated_at = @provider.data_updated_at
+   
     @areas = @area.children.reject{|a| a.is_hidden }
     @total_outage = @area.outage_percentage
     num = (@total_outage * 100).to_s.split(".")

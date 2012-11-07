@@ -1,5 +1,6 @@
 class Provider < ActiveRecord::Base
   has_many :areas
+  has_many :area_samples, :through => :areas
   attr_accessible :code, :name, :provider_type, :url
 
   OUTAGE_THRESHOLD = {
@@ -22,6 +23,10 @@ class Provider < ActiveRecord::Base
     })
 
     area
+  end
+
+  def data_updated_at
+    area_samples.last.updated_at.in_time_zone("Eastern Time (US & Canada)").strftime("%m/%d/%Y %H:%M EDT")
   end
 
   def total_customers
