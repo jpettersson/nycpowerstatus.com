@@ -11,19 +11,25 @@ class PowerController < ApplicationController
 
     if @provider.code == "LIPA"
       @areas = @provider.areas.at_depth(1).reject{|a| a.is_hidden }
-    else
+    elsif @provider.code == "PSEG"
+      @areas = @provider.areas.at_depth(0).reject{|a| a.is_hidden }
+    elsif @provider.code == "ConEd"
       @areas = @provider.areas.at_depth(0).reject{|a| a.is_hidden }
       extra_areas.push Provider.find_by_code('LIPA').root_area
+      #extra_areas.push Provider.find_by_code('PSEG').root_area
     end
 
-    @total_outage = @provider.outage_percentage
-    num = (@total_outage * 100).to_s.split(".")
-    @pretty_outage_percent = "#{num[0]}.#{num[1][0..1]}%"
+    unless @provider.total_customers == 0
+      @total_outage = @provider.outage_percentage
+      @pretty_outage_percent = pretty_percentage @total_outage
+      @total_customers = view_context.number_to_human(@provider.total_customers)
+    else
+      @total_outage = ""
+      @pretty_outage_percent = view_context.number_to_human(@provider.customers_affected)
+    end
     
     @time_series_json = create_time_series @areas
     @map_points_json = create_map_points(@areas + extra_areas)
-
-    @total_customers = view_context.number_to_human(@provider.total_customers)
   end
 
   def area
@@ -32,12 +38,15 @@ class PowerController < ApplicationController
     @updated_at = @provider.data_updated_at
    
     @areas = @area.children.reject{|a| a.is_hidden }
-    @total_outage = @area.outage_percentage
-    num = (@total_outage * 100).to_s.split(".")
-    if num.length == 2
-      @pretty_outage_percent = "#{num[0]}.#{num[1][0..1]}%"
+
+    if @area.has_total_customers?
+      @total_outage = @area.outage_percentage
+      @pretty_outage_percent = pretty_percentage @total_outage
+      @total_customers = view_context.number_to_human(@provider.total_customers)
     else
-      @pretty_outage_percent = "an unknown number"
+      @total_outage = @area.last_sample.custs_out
+      @pretty_outage_percent = @total_outage
+      @total_customers = ""
     end
 
     if @area.children.length > 0
@@ -49,8 +58,13 @@ class PowerController < ApplicationController
     end
   end
 
+  def pretty_percentage num
+    num = (@total_outage * 100).to_s.split(".")
+    @pretty_outage_percent = "#{num[0]}.#{num[1][0..1]}%"
+  end
+
   def create_map_points areas
-    areas.reject{|a| a.latitude == nil or a.longitude == nil or a.disable_location == true}.to_json(:include => :last_sample)
+    areas.reject{|a| a.latitude == nil or a.longitude == nil or a.disable_location == true}.to_json(:include => :last_sample, :methods => :health)
   end
 
   def create_time_series areas

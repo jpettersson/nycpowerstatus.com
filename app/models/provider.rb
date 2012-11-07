@@ -30,17 +30,17 @@ class Provider < ActiveRecord::Base
   end
 
   def total_customers
-    areas.at_depth(root_depth).map{|a| a.area_samples.last.total_custs}.inject(:+)
+    areas.at_depth(root_depth).map{|a| a.area_samples.last.total_custs || 0}.inject(:+)
   end
 
   def customers_affected
-    areas.at_depth(root_depth).map{|a| a.area_samples.last.custs_out}.inject(:+)
+    areas.at_depth(root_depth).map{|a| a.area_samples.last.custs_out || 0}.inject(:+)
   end
 
   def outage_percentage
     a = areas.at_depth(root_depth)
-    total = a.map{|a| a.area_samples.last.total_custs}
-    out = a.map{|a| a.area_samples.last.custs_out}
+    total = a.map{|a| a.area_samples.last.total_custs || 0}
+    out = a.map{|a| a.area_samples.last.custs_out || 0}
 
     out.inject(:+).to_f / total.inject(:+).to_f
   end

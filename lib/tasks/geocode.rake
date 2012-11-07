@@ -2,14 +2,16 @@ namespace :geocode do
 
   task :fetch => :environment do
     [
-      ['ConEd', ", New York, NY, USA", nil], 
-      ['LIPA', ", Long Island, NY", nil]
+      #['ConEd', ", New York, NY, USA", nil], 
+      #['LIPA', ", Long Island, NY", nil],
+      ['PSEG', ", New Jersey, USA", nil]
     ].each do |provider|
       unless provider[2].nil?
         areas = Provider.find_by_code(provider[0]).areas.at_depth(provider[2])
       else
         areas = Provider.find_by_code(provider[0]).areas
       end
+
       areas.each do |area|
         coord = Geokit::Geocoders::GoogleGeocoder.geocode "#{area.area_name}#{provider[1]}"
         if coord.success

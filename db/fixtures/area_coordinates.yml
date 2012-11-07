@@ -1228,7 +1228,7 @@
   :longitude: '-73.736961'
   :latitude: '40.628456'
   :disable_location: 
-  :is_hidden: 
+  :is_hidden: true
 - :area_slug: suffolk
   :longitude: '-73.1349605'
   :latitude: '40.7891424'
@@ -1977,5 +1977,75 @@
 - :area_slug: southold--2
   :longitude: '-72.4261962'
   :latitude: '41.0648222'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: bergen
+  :longitude: '-74.07701'
+  :latitude: '40.9262762'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: burlington
+  :longitude: '-74.8409196'
+  :latitude: '40.0647377'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: camden
+  :longitude: '-75.1196199'
+  :latitude: '39.9259463'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: essex
+  :longitude: '-74.2648829'
+  :latitude: '40.7947466'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: gloucester
+  :longitude: '-75.0447222'
+  :latitude: '39.8025'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: hudson--2
+  :longitude: '-74.0535126'
+  :latitude: '40.7453199'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: hunterdon
+  :longitude: '-74.9208772'
+  :latitude: '40.5669515'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: mercer
+  :longitude: '-74.7337069'
+  :latitude: '40.3028533'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: middlesex
+  :longitude: '-74.4926541'
+  :latitude: '40.572603'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: monmouth
+  :longitude: '-74.123996'
+  :latitude: '40.2589455'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: morris
+  :longitude: '-74.5463282'
+  :latitude: '40.8336038'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: passaic
+  :longitude: '-74.1284764'
+  :latitude: '40.8567662'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: somerset
+  :longitude: '-74.6400432'
+  :latitude: '40.5292099'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: union
+  :longitude: '-74.2631635'
+  :latitude: '40.6975898'
   :disable_location: 
   :is_hidden: 

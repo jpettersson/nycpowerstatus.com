@@ -125,7 +125,7 @@ $ ->
       do (point) ->
         point.latLong = new google.maps.LatLng point.latitude, point.longitude 
 
-        percetange = point.last_sample.custs_out / point.last_sample.total_custs
+        percetange = point.health #last_sample.custs_out / point.last_sample.total_custs
 
         if percetange < 0.02
           color = "#41934f"

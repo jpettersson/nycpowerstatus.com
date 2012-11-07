@@ -17,12 +17,16 @@ en:
       name: "Con Edison"
       title: "Does NYC have power?"
       root_area_name: "NYC"
-      sub_area_descriptors: ["borough", "neighborhood"]
       twitter: https://twitter.com/ConEdison
 
     LIPA:
       name: "LIPA"
       title: "Does Long Island have power?"
       root_area_name: "Long Island"
-      sub_area_descriptors: ["area1", "area2"]
       twitter: https://twitter.com/LIPAnews
+
+    PSEG:
+      name: "PSEG"
+      title: "Does New Jersey have power?"
+      root_area_name: "New Jersey"
+      twitter: https://twitter.com/PSEGdelivers

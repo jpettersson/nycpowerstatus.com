@@ -2,18 +2,21 @@
   - areas.sort{ |a,b| a.area_name.downcase <=> b.area_name.downcase }.each do |area|
     %li
       %h3 
-        - if area.outage_percentage < 0.02
+        - if area.health < 0.02
           - color_class = "low"
-        - elsif area.outage_percentage < 0.08
+        - elsif area.health < 0.08
           - color_class = "medium"
         - else
           - color_class = "high" 
         %a{:href => "/#{area.slug}", :class => color_class} 
-          - num = (area.outage_percentage * 100).to_s.split('.')
           - out = "#{area.area_name}<br />"
-          - if num.length == 2
-            - out += "#{num[0]}.#{num[1][0..1]}%"
+          - if area.has_total_customers?
+            - num = (area.outage_percentage * 100).to_s.split('.')
+            - if num.length == 2
+              - out += "#{num[0]}.#{num[1][0..1]}%"
+            - else
+              - out += "No Data"
           - else
-            - out += "No Data"
+            - out += "#{area.last_sample.custs_out} offline"
 
           = raw out
