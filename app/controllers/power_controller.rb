@@ -5,19 +5,24 @@ class PowerController < ApplicationController
     # LIPA's data comes in three levels, but the first level is pretty useless
     # with only 3 regions, whereof one is empty. Skipping ahead to the second
     # level instead:
-    
+
+    extra_areas = []
+
     if @provider.code == "LIPA"
       @areas = @provider.areas.at_depth(1).reject{|a| a.is_hidden }
     else
       @areas = @provider.areas.at_depth(0).reject{|a| a.is_hidden }
+      extra_areas.push Provider.find_by_code('LIPA').root_area
     end
+
+    puts extra_areas.inspect
 
     @total_outage = @provider.outage_percentage
     num = (@total_outage * 100).to_s.split(".")
     @pretty_outage_percent = "#{num[0]}.#{num[1][0..1]}%"
     
     @time_series_json = create_time_series @areas
-    @map_points_json = create_map_points @areas
+    @map_points_json = create_map_points(@areas + extra_areas)
 
     @total_customers = view_context.number_to_human(@provider.total_customers)
   end
@@ -43,7 +48,7 @@ class PowerController < ApplicationController
   end
 
   def create_map_points areas
-    areas.reject{|a| a.latitude == nil or a.longitude == nil or a.disable_location }.to_json(:include => :last_sample)
+    areas.reject{|a| a.latitude == nil or a.longitude == nil or a.disable_location == true}.to_json(:include => :last_sample)
   end
 
   def create_time_series areas
