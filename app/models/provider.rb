@@ -1,4 +1,6 @@
 class Provider < ActiveRecord::Base
+  has_many :region_providers
+  has_many :regions, :through => :region_providers
   has_many :areas
   has_many :area_samples, :through => :areas
   attr_accessible :code, :name, :provider_type, :url, :longitude, :latitude, :slug
