@@ -7,10 +7,10 @@ en:
     text: "Keep track of NYC power grid issues at"
 
   index:
-    subtitle: "Right now about %{pretty_outage_percent} of %{provider}'s %{total_customers} customers are without power. But they are <a href=\"%{link}\">working on it.</a>."
+    subtitle: "Right now about %{pretty_outage_percent} of %{provider}'s %{total_customers} customers are without power. But they are <a href=\"%{link}\">working on it</a>."
 
   area:
-    subtitle: "At the moment %{pretty_outage_percent} of %{provider}'s customers in %{area} are without power. But they are <a href=\"%{link}\">working on it.</a>."
+    subtitle: "At the moment %{pretty_outage_percent} of %{provider}'s customers in %{area} are without power. But they are <a href=\"%{link}\">working on it</a>."
 
   providers:
     ConEd:

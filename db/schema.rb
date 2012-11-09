@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121109034444) do
+ActiveRecord::Schema.define(:version => 20121109071224) do
 
   create_table "area_samples", :force => true do |t|
     t.integer  "area_id"
@@ -49,6 +49,7 @@ ActiveRecord::Schema.define(:version => 20121109034444) do
     t.string   "latitude"
     t.string   "longitude"
     t.string   "slug"
+    t.boolean  "is_hidden"
   end
 
   create_table "providers_regions", :id => false, :force => true do |t|

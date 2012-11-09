@@ -2,32 +2,32 @@
   = render 'power/nav', :region => @region
 
   %h1= "Does " + @region.name + " have power?"
-  - if @region.providers.length == 1
+  - if @providers.length == 1
     - content_for :map_points do
-      =raw map_points_from @region.providers.first.areas.at_depth(0)
+      =raw map_points_from @providers.first.areas.at_depth(0)
     - content_for :time_series do
-      =raw time_series_from @region.providers.first.areas.at_depth(0)
+      =raw time_series_from @providers.first.areas.at_depth(0)
 
-    = render 'power/index/single_provider', :provider => @region.providers.first
+    = render 'power/index/single_provider', :provider => @providers.first
   - else
     - content_for :map_points do
-      =raw map_points_from @region.providers
+      =raw map_points_from @providers
     - content_for :time_series do
       =raw "null;"
 
     .providers
       %h2.extra= "Customers online / provider:"
-      = render :partial => 'power/index/multiple_provider', :collection => @region.providers, :as => :provider
+      = render :partial => 'power/index/multiple_provider', :collection => @providers, :as => :provider
 
 .trend
   %h2= "History for " + @region.name + ":"
   = render 'power/trend'
 
 .current
-  - if @region.providers.length == 1
+  - if @providers.length == 1
     %h2= "Areas:"
   .map#map_canvas
 
-  - if @region.providers.length == 1
+  - if @providers.length == 1
     .sub-areas
-      = render 'power/sub_areas', :areas => @region.providers.first.areas.at_depth(0)
+      = render 'power/sub_areas', :areas => @providers.first.areas.at_depth(0)

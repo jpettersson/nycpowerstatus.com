@@ -30,7 +30,7 @@ class Provider < ActiveRecord::Base
   end
 
   def total_customers
-    areas.at_depth(root_depth).map{|a| a.area_samples.last.total_custs || 0}.inject(:+)
+    0 #areas.at_depth(root_depth).map{|a| a.area_samples.last.total_custs || 0}.inject(:+)
   end
 
   def offline_customers

@@ -1,6 +1,7 @@
 class PowerController < ApplicationController
   def index
     @region = Region.find_by_slug(params[:region])
+    @providers = @region.providers.reject{|p| p.is_hidden }
   end
 
   def provider 

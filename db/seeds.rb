@@ -20,7 +20,7 @@
   },
   {
     :code => 'PSEG', 
-    :name => "Public Service Enterprise Group", 
+    :name => "PSEG", 
     :provider_type => 'electricity', 
     :longitude => '-74.233246', 
     :latitude => '40.702609', 
@@ -29,7 +29,7 @@
   },
   {
     :code => 'JCPL', 
-    :name => "Jersey Central Power & Light", 
+    :name => "JCP&L", 
     :provider_type => 'electricity', 
     :longitude => '40.486216', 
     :latitude => '-74.451819', 
