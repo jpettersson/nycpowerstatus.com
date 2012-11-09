@@ -57,7 +57,7 @@ end
     :name => 'NYC',
     :longitude => '',
     :latitude => '',
-    :slug => '',
+    :slug => 'nyc',
     :providers => [
       Provider.find_by_code('ConEd')
     ]

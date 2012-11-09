@@ -87,7 +87,7 @@ class Provider < ActiveRecord::Base
         if parent 
           area = parent.children.find_by_area_name sandy_area.name
         else
-          area = Area.at_depth(0).find_by_area_name sandy_area.name
+          area = areas.find_by_area_name sandy_area.name
         end
 
         unless area
