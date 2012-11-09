@@ -6,5 +6,5 @@
   - color_class = "high" 
 
 .provider{:class => color_class}
-  %h2= provider.name
-  %h3= raw "#{pretty_percentage(provider.offline_customers, provider.total_customers)}<span class='offline'><br />Offline</span>"
+  %h2= link_to provider.name, provider.slug
+  %h3= raw "#{pretty_percentage(provider.offline_customers, provider.total_customers)} <span class='offline'>online</span>"

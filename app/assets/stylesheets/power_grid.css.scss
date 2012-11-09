@@ -29,7 +29,8 @@ body {
 
     .providers {
       @include span-columns(1 omega, 1);
-      
+      margin-top: 1em;
+
       h2 {
         font-size: 1.2em;
         text-align: left;
@@ -179,6 +180,45 @@ body {
         @include suffix(1,12);
         margin-top: 1.5em;
         font-size: 1.8em;
+      }
+
+      .providers {
+        @include span-columns(1 omega, 1);
+        margin-top: 4em;
+        
+        .extra {
+          display: none;
+        }
+
+        .provider {
+          //background-color: #ff4499;
+          @include span-columns(1, 3);
+          @include nth-omega(3n);
+          margin-top: 1em;
+
+          height: 100px;
+
+          h2 {
+
+            font-size: 1.5em;
+            margin-top: 0;
+            text-align: center;
+            @include span-columns(1, 1);
+
+            //Clear the previous padding
+            @include prefix(0,12);
+            @include suffix(0,12);
+          }
+
+          h3 {
+            font-size: 1.5em;
+            @include span-columns(1, 1);
+            text-align: center;
+            .offline {
+              display: inline;
+            }
+          }
+        }
       }
     }
 

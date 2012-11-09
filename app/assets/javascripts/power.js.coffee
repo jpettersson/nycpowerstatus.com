@@ -137,7 +137,7 @@ $ ->
         marker = new google.maps.Marker
           position: point.latLong,
           map: map,
-          title:point.area_name
+          title:point.name
           icon:
             path: google.maps.SymbolPath.CIRCLE,
             scale: 10

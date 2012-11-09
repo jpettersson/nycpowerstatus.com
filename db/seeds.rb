@@ -31,8 +31,8 @@
     :code => 'JCPL', 
     :name => "Jersey Central Power & Light", 
     :provider_type => 'electricity', 
-    :longitude => '', 
-    :latitude => '', 
+    :longitude => '40.486216', 
+    :latitude => '-74.451819', 
     :url => 'https://www.firstenergycorp.com/content/customer/jersey_central_power_light.html', 
     :slug => 'jcpl'
   },
@@ -40,8 +40,8 @@
     :code => 'OrangeRockland', 
     :name => "Orange & Rockland", 
     :provider_type => 'electricity', 
-    :longitude => '', 
-    :latitude => '', 
+    :longitude => '41.224324', 
+    :latitude => '-74.10553', 
     :url => 'http://www.oru.com/', 
     :slug => 'orange-and-rockland'
   }

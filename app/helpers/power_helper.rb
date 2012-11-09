@@ -10,8 +10,10 @@ module PowerHelper
     offline
   end
 
-  def map_points_from areas
-    areas.reject{|a| a.latitude == nil or a.longitude == nil or a.disable_location == true}.to_json(:include => :last_sample, :methods => :health)
+  def map_points_from collection
+    # or a.disable_location == true
+    # :include => :last_sample, 
+    collection.reject{|a| a.latitude == nil or a.longitude == nil}.to_json(:methods => :health)
   end
 
   def time_series_from areas
