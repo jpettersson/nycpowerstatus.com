@@ -1,1 +1,1 @@
-%h2= raw t("index.subtitle", {:pretty_outage_percent => '00%' , :provider => provider.name, :total_customers => provider.total_customers, :link => provider.url})
+%h2= raw t("index.subtitle", {:pretty_outage_percent => pretty_percentage(provider.offline_customers, provider.total_customers), :provider => provider.name, :total_customers => number_to_human(provider.total_customers), :link => provider.url})

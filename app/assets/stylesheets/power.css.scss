@@ -14,19 +14,19 @@ html {
     text-decoration: none;
   }
 
-  .low {
-    color: #41934f;
-  }
-  .medium {
-    color: saturate(adjust_hue(lighten(#26282f, 25), 131), 49)
-  }
-  .high {
-    color: saturate(adjust_hue(lighten(#26282f, 25), 131), 82)
-  }
-
   body {
     font-family: 'Rokkitt', serif;
 
+    .low {
+      color: #41934f;
+    }
+    .medium {
+      color: saturate(adjust_hue(lighten(#26282f, 25), 131), 49)
+    }
+    .high {
+      color: saturate(adjust_hue(lighten(#26282f, 25), 131), 82)
+    }
+    
     header {
       a {
         text-decoration: underline;

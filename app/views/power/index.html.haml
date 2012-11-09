@@ -1,19 +1,19 @@
-- content_for :time_series do
-  = "null;"
-/  =raw time_series_from @areas
-
 %header
   = render 'power/nav'
 
   %h1= "Does " + @region.name + " have power?"
   - if @region.providers.length == 1
     - content_for :map_points do
-      =raw map_points_from @region.providers.first.areas.at_level(0)
+      =raw map_points_from @region.providers.first.areas.at_depth(0)
+    - content_for :time_series do
+      =raw time_series_from @region.providers.first.areas.at_depth(0)
 
     = render 'power/index/single_provider', :provider => @region.providers.first
   - else
     - content_for :map_points do
       =raw map_points_from @region.providers
+    - content_for :time_series do
+      =raw "null;"
 
     .providers
       %h2.extra= "Customers online / provider:"
@@ -24,10 +24,9 @@
   = render 'power/trend'
 
 .current
-  %h2= "Areas:"
   .map#map_canvas
 
-- if @region.providers.length == 1
-  %h2= "Customers offline per area:"
-  .sub-areas
-    = render 'power/sub_areas', :areas => @region.providers.first.areas.at_level(0)
+  - if @region.providers.length == 1
+    %h2= "Customers offline per area:"
+    .sub-areas
+      = render 'power/sub_areas', :areas => @region.providers.first.areas.at_depth(0)
