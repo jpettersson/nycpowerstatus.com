@@ -23,10 +23,38 @@ body {
     h2 {
       margin-top: 1.5em;
       @include span-columns(1 omega, 1);
-      //@include prefix(1,12);
-      //@include suffix(1,12);
       text-align: center;
       font-size: 1.5em;
+    }
+
+    .providers {
+      @include span-columns(1 omega, 1);
+      
+      h2 {
+        font-size: 1.2em;
+        text-align: left;
+      }
+
+      .provider {
+        @include span-columns(1 omega, 1);
+        margin-top: 1em;
+
+        h2 {
+          font-size: 1.5em;
+          margin-top: 0;
+          text-align: left;
+          @include span-columns(2, 3);
+        }
+
+        h3 {
+          font-size: 1.5em;
+          @include span-columns(1 omega, 3);
+          text-align: right;
+          .offline {
+            display: none;
+          }
+        }
+      }
     }
   }
 

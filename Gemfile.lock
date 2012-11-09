@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/jpettersson/sandy.git
-  revision: 063fbd15e24a2d5a405670f3c9e286e2dc168ddb
+  revision: f8e0e4805eb8cafe570d25d1d99b018289f4c81e
   specs:
     sandy (0.0.5)
       httparty (~> 0.9.0)
@@ -48,7 +48,7 @@ GEM
       net-ssh (>= 2.0.14)
       net-ssh-gateway (>= 1.1.0)
     capistrano_colors (0.5.5)
-    chronic (0.6.7)
+    chronic (0.8.0)
     chunky_png (1.2.6)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
@@ -159,9 +159,9 @@ GEM
       kgio (~> 2.6)
       rack
       raindrops (~> 0.7)
-    whenever (0.7.3)
+    whenever (0.8.0)
       activesupport (>= 2.3.4)
-      chronic (~> 0.6.3)
+      chronic (>= 0.6.3)
 
 PLATFORMS
   ruby

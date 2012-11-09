@@ -1,0 +1,10 @@
+- if provider.health < 0.02
+  - color_class = "low"
+- elsif provider.health < 0.08
+  - color_class = "medium"
+- else
+  - color_class = "high" 
+
+.provider{:class => color_class}
+  %h2= provider.name
+  %h3= raw "#{pretty_percentage(provider.offline_customers, provider.total_customers)}<span class='offline'><br />Offline</span>"

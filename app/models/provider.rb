@@ -1,6 +1,5 @@
 class Provider < ActiveRecord::Base
-  has_many :region_providers
-  has_many :regions, :through => :region_providers
+  has_and_belongs_to_many :regions
   has_many :areas
   has_many :area_samples, :through => :areas
   attr_accessible :code, :name, :provider_type, :url, :longitude, :latitude, :slug
@@ -11,31 +10,30 @@ class Provider < ActiveRecord::Base
     :high => 0.6
   }
 
-  def root_area
-    area = Area.new({
-      :area_name => name,
-      :slug => slug,
-      :longitude => longitude,
-      :latitude => latitude
-    })
-
-    area.area_samples << AreaSample.new({
-      :total_custs => total_customers,
-      :custs_out => customers_affected
-    })
-
-    area
+  # LIPA's data comes in three levels, but the first level is pretty useless
+  # with only 3 regions, whereof one is empty. Skipping ahead to the second
+  # level instead:
+  def filtered_areas
+    if code == "LIPA"
+      areas.at_depth(1).reject{|a| a.is_hidden }
+    else
+      areas.at_depth(0).reject{|a| a.is_hidden }
+    end
   end
 
   def data_updated_at
     area_samples.last.updated_at.in_time_zone("Eastern Time (US & Canada)").strftime("%m/%d/%Y %H:%M EDT")
   end
 
+  def has_total_customers?
+    total_customers > 0
+  end
+
   def total_customers
     areas.at_depth(root_depth).map{|a| a.area_samples.last.total_custs || 0}.inject(:+)
   end
 
-  def customers_affected
+  def offline_customers
     areas.at_depth(root_depth).map{|a| a.area_samples.last.custs_out || 0}.inject(:+)
   end
 
@@ -45,6 +43,14 @@ class Provider < ActiveRecord::Base
     out = a.map{|a| a.area_samples.last.custs_out || 0}
 
     out.inject(:+).to_f / total.inject(:+).to_f
+  end
+
+  def health
+    if has_total_customers?
+      outage_percentage
+    else
+      area_samples.last.custs_out / 500
+    end
   end
 
   def sample! force=false

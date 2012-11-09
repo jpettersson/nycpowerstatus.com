@@ -1,25 +1,28 @@
-- content_for :time_series do
-  =raw @time_series_json
+/- content_for :time_series do
+/  =raw time_series_from @areas
 
-- content_for :map_points do
-  =raw @map_points_json
-
-- provider = t("providers.#{@provider.code}")
+/- content_for :map_points do
+/  =raw map_points_from @areas
 
 %header
   = render 'power/nav'
 
-  %h1= "Does " + provider[:root_area_name] + " have power?"
-  %h2= raw t("index.subtitle", {:pretty_outage_percent => @pretty_outage_percent, :provider => provider[:name], :total_customers => @total_customers, :link => provider[:twitter]})
+  %h1= "Does " + @region.name + " have power?"
+  - if @region.providers.length == 1
+    = render 'power/index/single_provider', :provider => @region.providers.first
+  - else
+    .providers
+      %h2= "Customers online / provider:"
+      = render :partial => 'power/index/multiple_provider', :collection => @region.providers, :as => :provider
 
 .trend
-  %h2= "Outage history for " + provider[:root_area_name] + ":"
+  %h2= "History for " + @region.name + ":"
   = render 'power/trend'
 
 .current
-  %h2= "Customers offline per area:"
-
+  %h2= "Areas:"
   .map#map_canvas
 
-  .sub-areas
-    = render 'power/sub_areas', :areas => @areas
+  /%h2= "Customers offline per area:"
+  /.sub-areas
+  /  = render 'power/sub_areas', :areas => @areas

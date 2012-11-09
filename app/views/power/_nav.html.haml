@@ -1,20 +1,20 @@
-- if @provider.code == 'ConEd'
-  - coned_class = 'active'
-  - lipa_class = ''
-  - pseg_class = ''
-- elsif @provider.code == 'LIPA'
-  - coned_class = ''
-  - lipa_class = 'active'
-  - pseg_class = ''
-- elsif @provider.code == 'PSEG'
-  - coned_class = ''
-  - lipa_class = ''
-  - pseg_class = 'active'
+- if @region.slug == 'nyc'
+  - nyc_class = 'active'
+  - li_class = ''
+  - nj_class = ''
+- elsif @region.slug == 'long-island'
+  - nyc_class = ''
+  - li_class = 'active'
+  - nj_class = ''
+- elsif @region.slug == 'new-jersey'
+  - nyc_class = ''
+  - li_class = ''
+  - nj_class = 'active'
 
 .nav
-  .new-jersey{:class => pseg_class}
+  .new-jersey{:class => nj_class}
     %h3= link_to 'New Jersey', '/new-jersey'
-  .nyc{:class => coned_class}
+  .nyc{:class => nyc_class}
     %h3= link_to 'NYC', '/'
-  .long-island{:class => lipa_class}
+  .long-island{:class => li_class}
     %h3= link_to 'Long Island', '/long-island'
