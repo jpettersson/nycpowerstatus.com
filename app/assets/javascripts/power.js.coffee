@@ -125,7 +125,7 @@ $ ->
       do (point) ->
         point.latLong = new google.maps.LatLng point.latitude, point.longitude 
 
-        percetange = point.health #last_sample.custs_out / point.last_sample.total_custs
+        percetange = point.health
 
         if percetange < 0.02
           color = "#41934f"
@@ -137,7 +137,7 @@ $ ->
         marker = new google.maps.Marker
           position: point.latLong,
           map: map,
-          title:point.name
+          title: point.name
           icon:
             path: google.maps.SymbolPath.CIRCLE,
             scale: 10

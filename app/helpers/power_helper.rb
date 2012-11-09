@@ -19,7 +19,7 @@ module PowerHelper
   def time_series_from areas
     arr = areas.map do|area|
       {
-        :name => area.area_name, 
+        :name => area.name, 
         :data => area.samples.limit(10000).map do |sample|
           {:x => sample.created_at.to_i, :y => sample.custs_out}
         end

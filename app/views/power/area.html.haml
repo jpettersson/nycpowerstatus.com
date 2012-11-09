@@ -4,24 +4,18 @@
 - content_for :map_points do
   =raw map_points_from @sub_areas
 
-- provider = t("providers.#{@area.provider.code}")
-
 %header
   = render 'power/nav', :region => @region
 
-  %h1= "Does #{@area.area_name} have power?"
-  %h2= raw t("area.subtitle", {:pretty_outage_percent => @pretty_outage_percent, :provider => provider[:name], :total_customers => @total_customers, :area => @area.area_name, :link => provider[:twitter]})
+  %h1= "Does #{@area.name} have power?"
+  %h2= raw t("area.subtitle", {:pretty_outage_percent => pretty_percentage(@area.last_sample.custs_out, @area.last_sample.total_custs), :provider => @area.provider.name, :total_customers => @total_customers, :area => @area.name, :link => @area.provider.url})
 
 .trend
-  %h2= "Outage history for #{@area.area_name}:"
+  %h2= "Outage history for #{@area.name}:"
   = render 'power/trend'
 
 .current
-  - if @area.children.length > 0
-    /%h2= "Customers offline per " + provider[:sub_area_descriptors][1] + ":"
-  - else
-    %h2= "#{@area.area_name}:"
-
+  %h2= "#{@area.name}:"
   .map#map_canvas
 
   .sub-areas

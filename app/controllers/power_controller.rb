@@ -3,19 +3,23 @@ class PowerController < ApplicationController
     @region = Region.find_by_slug(params[:region])
   end
 
+  def provider 
+    @provider = Provider.find_by_slug(params[:provider])
+  end
+
   def area
     if params[:is_provider]
-      @area = Provider.find(params[:slug])
+      @area = Provider.find_by_slug(params[:slug])
+      @region = @area.regions.first
+      @sub_areas = @area.areas.at_depth(0)
     else
       @area = Area.find(params[:slug])
-    end
-
-    @region = @area.provider.regions.first
-
-    if @area.children.length > 0
-      @sub_areas = @area.children
-    else
-      @sub_areas = []
+      @region = @area.provider.regions.first
+      if @area.children.length > 0
+        @sub_areas = @area.children.reject{|a| a.is_hidden }
+      else
+        @sub_areas = []
+      end
     end
 
     # if @area.has_total_customers?

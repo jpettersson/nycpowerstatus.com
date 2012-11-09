@@ -1,0 +1,21 @@
+%header
+  = render 'power/nav', :region => @provider.regions.first
+
+  %h1= "Does " + @provider.regions.first.name + " have power?"
+  - content_for :map_points do
+    =raw map_points_from @provider.areas.at_depth(0)
+  - content_for :time_series do
+    =raw time_series_from @provider.areas.at_depth(0)
+
+  = render 'power/index/single_provider', :provider => @provider
+
+.trend
+  %h2= "History for " + @provider.regions.first.name + ":"
+  = render 'power/trend'
+
+.current
+  %h2= "Areas:"
+  .map#map_canvas
+
+  .sub-areas
+    = render 'power/sub_areas', :areas => @provider.areas.at_depth(0)

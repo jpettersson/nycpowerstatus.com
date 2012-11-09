@@ -13,13 +13,13 @@ class Provider < ActiveRecord::Base
   # LIPA's data comes in three levels, but the first level is pretty useless
   # with only 3 regions, whereof one is empty. Skipping ahead to the second
   # level instead:
-  def filtered_areas
-    if code == "LIPA"
-      areas.at_depth(1).reject{|a| a.is_hidden }
-    else
-      areas.at_depth(0).reject{|a| a.is_hidden }
-    end
-  end
+  # def areas
+  #   if code == "LIPA"
+  #     areas.at_depth(1).reject{|a| a.is_hidden }
+  #   else
+  #     areas.at_depth(0).reject{|a| a.is_hidden }
+  #   end
+  # end
 
   def data_updated_at
     area_samples.last.updated_at.in_time_zone("Eastern Time (US & Canada)").strftime("%m/%d/%Y %H:%M EDT")
