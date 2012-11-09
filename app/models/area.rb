@@ -2,6 +2,9 @@ class Area < ActiveRecord::Base
   has_ancestry :cache_depth => true
   has_many :area_samples
   belongs_to :provider
+
+  #delegate :region, :to => :provider, :allow_nil => true
+
   attr_accessible :parent, :area_name, :created_at, :latitude, :longitude, :updated_at, :provider_id, :slug, :health
   
   extend FriendlyId

@@ -3,6 +3,10 @@ Doesnychavepower::Application.routes.draw do
   get "/long-island" => "power#index", :region => 'long-island'
   get "/new-jersey" => "power#index", :region => 'new-jersey'
 
+  get "/pseg" => "power#area", :is_provider => true
+  get "/jcpl" => "power#area", :is_provider => true
+  get "/orange-rockland" => "power#area", :is_provider => true
+
   # Reminding myself that this was a bad idea.. now I have to do redirection because
   # I need to move to sub URL's because of the different providers..
   get "/:slug" => "power#area"

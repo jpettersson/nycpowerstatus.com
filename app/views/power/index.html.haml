@@ -1,5 +1,5 @@
 %header
-  = render 'power/nav'
+  = render 'power/nav', :region => @region
 
   %h1= "Does " + @region.name + " have power?"
   - if @region.providers.length == 1
@@ -24,9 +24,10 @@
   = render 'power/trend'
 
 .current
+  - if @region.providers.length == 1
+    %h2= "Areas:"
   .map#map_canvas
 
   - if @region.providers.length == 1
-    %h2= "Customers offline per area:"
     .sub-areas
       = render 'power/sub_areas', :areas => @region.providers.first.areas.at_depth(0)

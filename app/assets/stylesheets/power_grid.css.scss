@@ -266,6 +266,13 @@ body {
   body {
     $container-style: static;
     @include set-container-width;
+      header {
+        .providers {
+          .provider {
+            margin-top: 4em;
+          }
+        }
+      }
       footer {
         margin-top: 4em;
       }

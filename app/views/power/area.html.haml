@@ -1,13 +1,13 @@
 - content_for :time_series do
-  =raw @time_series_json
+  =raw time_series_from [@area]
 
 - content_for :map_points do
-  =raw @map_points_json
+  =raw map_points_from @sub_areas
 
 - provider = t("providers.#{@area.provider.code}")
 
 %header
-  = render 'power/nav'
+  = render 'power/nav', :region => @region
 
   %h1= "Does #{@area.area_name} have power?"
   %h2= raw t("area.subtitle", {:pretty_outage_percent => @pretty_outage_percent, :provider => provider[:name], :total_customers => @total_customers, :area => @area.area_name, :link => provider[:twitter]})
@@ -26,4 +26,4 @@
 
   .sub-areas
     - if @area.children.length > 0
-      = render 'power/sub_areas', :areas => @areas
+      = render 'power/sub_areas', :areas => @sub_areas
