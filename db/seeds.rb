@@ -11,12 +11,12 @@
   },
   {
     :code => 'LIPA', 
-    :name => "Long Island Power Authority", 
+    :name => "LIPA", 
     :provider_type => 'electricity', 
     :longitude => '-73.381805', 
     :latitude => '40.784909', 
     :url => 'http://www.lipower.org/', 
-    :slug => 'lipa'
+    :slug => 'long-island'
   },
   {
     :code => 'PSEG', 
@@ -25,14 +25,14 @@
     :longitude => '-74.233246', 
     :latitude => '40.702609', 
     :url => 'http://www.pseg.com/', 
-    :slug => 'pseg'
+    :slug => 'new-jersey'
   },
   {
     :code => 'JCPL', 
     :name => "JCP&L", 
     :provider_type => 'electricity', 
-    :longitude => '40.486216', 
-    :latitude => '-74.451819', 
+    :longitude => '-74.451819', 
+    :latitude => '40.486216', 
     :url => 'https://www.firstenergycorp.com/content/customer/jersey_central_power_light.html', 
     :slug => 'jcpl'
   },
@@ -40,8 +40,8 @@
     :code => 'OrangeRockland', 
     :name => "Orange & Rockland", 
     :provider_type => 'electricity', 
-    :longitude => '41.224324', 
-    :latitude => '-74.10553', 
+    :longitude => '-74.10553', 
+    :latitude => '41.224324', 
     :url => 'http://www.oru.com/', 
     :slug => 'orange-and-rockland'
   }

@@ -30,7 +30,7 @@ class Provider < ActiveRecord::Base
   end
 
   def total_customers
-    0 #areas.at_depth(root_depth).map{|a| a.area_samples.last.total_custs || 0}.inject(:+)
+    areas.at_depth(root_depth).map{|a| a.area_samples.last.total_custs || 0}.inject(:+) || 0
   end
 
   def offline_customers
@@ -49,7 +49,11 @@ class Provider < ActiveRecord::Base
     if has_total_customers?
       outage_percentage
     else
-      area_samples.last.custs_out / 500
+      if area_samples.last
+       area_samples.last.custs_out / 500
+      else
+        0
+      end
     end
   end
 
