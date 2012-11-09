@@ -58,21 +58,29 @@ end
     :longitude => '',
     :latitude => '',
     :slug => '',
-    :providers => [Provider.find_by_code('ConEd')]
+    :providers => [
+      Provider.find_by_code('ConEd')
+    ]
   },
   {
     :name => 'Long Island',
     :longitude => '-73.381805',
     :latitude => '40.784909',
     :slug => 'long-island',
-    :providers => [Provider.find_by_code('LIPA')]
+    :providers => [
+      Provider.find_by_code('LIPA')
+    ]
   },
   {
     :name => 'New Jersey',
     :longitude => '-73.381805',
     :latitude => '40.784909',
-    :slug => 'long-island',
-    :providers => [Provider.find_by_code('PSEG'), Provider.find_by_code('PSEG')]
+    :slug => 'new-jersey',
+    :providers => [
+      Provider.find_by_code('PSEG'), 
+      Provider.find_by_code('JCPL'), 
+      Provider.find_by_code('OrangeRockland')
+    ]
   },
 ].each do |r|
   unless region = Region.find_by_name(r[:name])

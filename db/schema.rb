@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121107013604) do
+ActiveRecord::Schema.define(:version => 20121109034444) do
 
   create_table "area_samples", :force => true do |t|
     t.integer  "area_id"
@@ -49,6 +49,20 @@ ActiveRecord::Schema.define(:version => 20121107013604) do
     t.string   "latitude"
     t.string   "longitude"
     t.string   "slug"
+  end
+
+  create_table "providers_regions", :id => false, :force => true do |t|
+    t.integer "provider_id"
+    t.integer "region_id"
+  end
+
+  create_table "regions", :force => true do |t|
+    t.string   "name"
+    t.string   "slug"
+    t.string   "longitude"
+    t.string   "latitude"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
 end

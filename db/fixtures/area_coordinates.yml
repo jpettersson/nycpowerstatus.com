@@ -2049,3 +2049,1688 @@
   :latitude: '40.6975898'
   :disable_location: 
   :is_hidden: 
+- :area_slug: chesterfield-township
+  :longitude: '-74.640381'
+  :latitude: '40.115204'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: mansfield-township
+  :longitude: '-74.9008333'
+  :latitude: '40.8044444'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: new-hanover-township
+  :longitude: '-74.5816667'
+  :latitude: '40.0330556'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: north-hanover-township
+  :longitude: '-74.5775'
+  :latitude: '40.0591667'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: pemberton-borough
+  :longitude: '-74.6795999'
+  :latitude: '39.9735'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: pemberton-township
+  :longitude: '-74.5841089'
+  :latitude: '39.9600831'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: southampton-township
+  :longitude: '-74.7265791'
+  :latitude: '39.9274288'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: springfield-township
+  :longitude: '-74.3222146'
+  :latitude: '40.7016937'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: woodland-township
+  :longitude: '-74.515'
+  :latitude: '39.8472222'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: wrightstown-borough
+  :longitude: '-74.6839545'
+  :latitude: '39.9734528'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: livingston-township
+  :longitude: '-74.3300842'
+  :latitude: '40.7862871'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: maplewood-township
+  :longitude: '-74.271992'
+  :latitude: '40.7299793'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: millburn-township
+  :longitude: '-74.3206696'
+  :latitude: '40.7340454'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: alexandria-township
+  :longitude: '-75.0363889'
+  :latitude: '40.5869444'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: bethlehem-township
+  :longitude: '-75.0144444'
+  :latitude: '40.6741667'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: bloomsbury-borough
+  :longitude: '-75.082156'
+  :latitude: '40.656534'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: califon-borough
+  :longitude: '-74.837624'
+  :latitude: '40.735451'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: clinton-town
+  :longitude: '-74.8684564'
+  :latitude: '40.6306905'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: clinton-township
+  :longitude: '-74.8684564'
+  :latitude: '40.6306905'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: delaware-township
+  :longitude: '-74.9572222'
+  :latitude: '40.4427778'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: east-amwell-township
+  :longitude: '-74.8369444'
+  :latitude: '40.4308333'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: flemington-borough
+  :longitude: '-74.8587648'
+  :latitude: '40.5100209'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: franklin-township
+  :longitude: '-74.5169444'
+  :latitude: '40.4938889'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: frenchtown-borough
+  :longitude: '-75.060573'
+  :latitude: '40.527681'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: glen-gardner-borough
+  :longitude: '-74.939847'
+  :latitude: '40.69526'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: hampton-borough
+  :longitude: '-74.955874'
+  :latitude: '40.706622'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: high-bridge-borough
+  :longitude: '-74.897817'
+  :latitude: '40.667307'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: holland-township
+  :longitude: '-75.1170201'
+  :latitude: '40.5953401'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: kingwood-township
+  :longitude: '-75.015'
+  :latitude: '40.4869444'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: lambertville-city
+  :longitude: '-74.9429448'
+  :latitude: '40.3659394'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: lebanon-borough
+  :longitude: '-74.835796'
+  :latitude: '40.640793'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: lebanon-township
+  :longitude: '-74.8944444'
+  :latitude: '40.7263889'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: milford-borough
+  :longitude: '-75.09273'
+  :latitude: '40.568471'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: raritan-township
+  :longitude: '-74.8513889'
+  :latitude: '40.5091667'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: readington-township
+  :longitude: '-74.78'
+  :latitude: '40.5783333'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: stockton-borough
+  :longitude: '-74.9764024'
+  :latitude: '40.4075806'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: tewksbury-township
+  :longitude: '-74.7833333'
+  :latitude: '40.6919444'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: union-township
+  :longitude: '-74.2631635'
+  :latitude: '40.6975898'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: west-amwell-township
+  :longitude: '-74.9152778'
+  :latitude: '40.3791667'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: east-windsor-township
+  :longitude: '-74.5402506'
+  :latitude: '40.2677539'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: hightstown-borough
+  :longitude: '-74.5225059'
+  :latitude: '40.2705573'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: hopewell-township
+  :longitude: '-74.8163889'
+  :latitude: '40.3333333'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: robbinsville-township
+  :longitude: '-74.6294344'
+  :latitude: '40.1774255'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: west-windsor-township
+  :longitude: '-74.618634'
+  :latitude: '40.2983262'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: cranbury-township
+  :longitude: '-74.514167'
+  :latitude: '40.316111'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: east-brunswick-township
+  :longitude: '-74.4049778'
+  :latitude: '40.4316955'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: helmetta-borough
+  :longitude: '-74.4184554'
+  :latitude: '40.378724'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: jamesburg-borough
+  :longitude: '-74.4386488'
+  :latitude: '40.3464929'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: monroe-township
+  :longitude: '-74.4330474'
+  :latitude: '40.336419'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: old-bridge-township
+  :longitude: '-74.307282'
+  :latitude: '40.4128551'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: sayreville-borough
+  :longitude: '-74.3618824'
+  :latitude: '40.463863'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: south-amboy-city
+  :longitude: '-74.290702'
+  :latitude: '40.4778838'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: south-brunswick-township
+  :longitude: '-74.5316938'
+  :latitude: '40.3806901'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: spotswood-borough
+  :longitude: '-74.4081467'
+  :latitude: '40.38153'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: aberdeen-township
+  :longitude: '-74.2221155'
+  :latitude: '40.4170948'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: allenhurst-borough
+  :longitude: '-74.00043'
+  :latitude: '40.236'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: asbury-park-city
+  :longitude: '-74.0120817'
+  :latitude: '40.2203907'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: atlantic-highlands-borough
+  :longitude: '-74.035329'
+  :latitude: '40.416581'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: avon-by-the-sea-borough
+  :longitude: '-74.0230656'
+  :latitude: '40.1907648'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: belmar-borough
+  :longitude: '-74.024682'
+  :latitude: '40.183128'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: bradley-beach-borough
+  :longitude: '-74.0174518'
+  :latitude: '40.2047819'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: brielle-borough
+  :longitude: '-74.0623244'
+  :latitude: '40.1030781'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: colts-neck-township
+  :longitude: '-74.1723652'
+  :latitude: '40.2876108'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: deal-borough
+  :longitude: '-74.0008143'
+  :latitude: '40.2470442'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: eatontown-borough
+  :longitude: '-74.058204'
+  :latitude: '40.305771'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: englishtown-borough
+  :longitude: '-74.3588089'
+  :latitude: '40.29565'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: fair-haven-borough
+  :longitude: '-74.0300606'
+  :latitude: '40.3545646'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: farmingdale-borough
+  :longitude: '-74.1704676'
+  :latitude: '40.1960636'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: freehold-borough
+  :longitude: '-74.2737573'
+  :latitude: '40.260111'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: freehold-township
+  :longitude: '-74.286293'
+  :latitude: '40.232632'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: hazlet-township
+  :longitude: '-74.1911111'
+  :latitude: '40.4155556'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: highlands-borough
+  :longitude: '-73.9871749'
+  :latitude: '40.401444'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: holmdel-township
+  :longitude: '-74.185278'
+  :latitude: '40.391111'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: howell-township
+  :longitude: '-74.2082671'
+  :latitude: '40.1645785'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: interlaken-borough
+  :longitude: '-74.010802'
+  :latitude: '40.2322739'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: keansburg-borough
+  :longitude: '-74.133371'
+  :latitude: '40.441395'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: keyport-borough
+  :longitude: '-74.2032581'
+  :latitude: '40.4318033'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: little-silver-borough
+  :longitude: '-74.0358876'
+  :latitude: '40.3312131'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: loch-arbour-village
+  :longitude: '-74.0009703'
+  :latitude: '40.2328904'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: long-branch-city
+  :longitude: '-73.9923596'
+  :latitude: '40.3042778'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: manalapan-township
+  :longitude: '-74.33'
+  :latitude: '40.2969444'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: manasquan-borough
+  :longitude: '-74.0520439'
+  :latitude: '40.0404004'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: marlboro-township
+  :longitude: '-74.2686111'
+  :latitude: '40.3386111'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: matawan-borough
+  :longitude: '-74.2320346'
+  :latitude: '40.4099164'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: middletown-township
+  :longitude: '-74.0915982'
+  :latitude: '40.3968012'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: millstone-township
+  :longitude: '-74.4375'
+  :latitude: '40.2094444'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: monmouth-beach-borough
+  :longitude: '-73.979292'
+  :latitude: '40.331151'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: neptune-city-borough
+  :longitude: '-74.0270745'
+  :latitude: '40.1779922'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: neptune-township
+  :longitude: '-74.0386271'
+  :latitude: '40.2091219'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: ocean-township
+  :longitude: '-74.029843'
+  :latitude: '40.2479729'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: oceanport-borough
+  :longitude: '-74.007992'
+  :latitude: '40.199215'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: red-bank-borough
+  :longitude: '-74.070065'
+  :latitude: '40.349625'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: roosevelt-borough
+  :longitude: '-74.4751519'
+  :latitude: '40.2189997'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: rumson-borough
+  :longitude: '-74.0021896'
+  :latitude: '40.3757997'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: sea-bright-borough
+  :longitude: '-73.974796'
+  :latitude: '40.377167'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: sea-girt-borough
+  :longitude: '-74.0420816'
+  :latitude: '40.1328924'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: shrewsbury-borough
+  :longitude: '-74.062499'
+  :latitude: '40.32304'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: shrewsbury-township
+  :longitude: '-74.0719444'
+  :latitude: '40.3125'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: spring-lake-borough
+  :longitude: '-74.0331523'
+  :latitude: '40.1508778'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: spring-lake-heights-borough
+  :longitude: '-74.0447003'
+  :latitude: '40.1505348'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: tinton-falls-borough
+  :longitude: '-74.0907454'
+  :latitude: '40.2983976'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: union-beach-borough
+  :longitude: '-74.178948'
+  :latitude: '40.439211'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: upper-freehold-township
+  :longitude: '-74.5236111'
+  :latitude: '40.1555556'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: wall-township
+  :longitude: '-74.0702778'
+  :latitude: '40.1586111'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: west-long-branch-borough
+  :longitude: '-74.018878'
+  :latitude: '40.28332'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: boonton-town
+  :longitude: '-74.4300912'
+  :latitude: '40.9293994'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: boonton-township
+  :longitude: '-74.4223346'
+  :latitude: '40.917325'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: butler-borough
+  :longitude: '-74.3375455'
+  :latitude: '41.0026911'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: chatham-borough
+  :longitude: '-74.3927674'
+  :latitude: '40.7242352'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: chatham-township
+  :longitude: '-74.4172591'
+  :latitude: '40.7265893'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: chester-borough
+  :longitude: '-74.6968284'
+  :latitude: '40.7842667'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: chester-township
+  :longitude: '-74.6861111'
+  :latitude: '40.7808333'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: denville-township
+  :longitude: '-74.4883333'
+  :latitude: '40.8861111'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: dover-town
+  :longitude: '-74.5621025'
+  :latitude: '40.883988'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: east-hanover-township
+  :longitude: '-74.3647222'
+  :latitude: '40.82'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: florham-park-borough
+  :longitude: '-74.3984502'
+  :latitude: '40.7820146'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: hanover-township
+  :longitude: '-74.430479'
+  :latitude: '40.818917'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: harding-township
+  :longitude: '-74.511172'
+  :latitude: '40.7397683'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: jefferson-township
+  :longitude: '-74.5727778'
+  :latitude: '40.9833333'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: kinnelon-borough
+  :longitude: '-74.3756819'
+  :latitude: '40.998063'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: lincoln-park-borough
+  :longitude: '-74.313786'
+  :latitude: '40.950814'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: long-hill-township
+  :longitude: '-74.4947222'
+  :latitude: '40.6761111'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: madison-borough
+  :longitude: '-74.4292863'
+  :latitude: '40.7546719'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: mendham-borough
+  :longitude: '-74.6007142'
+  :latitude: '40.7759334'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: mendham-township
+  :longitude: '-74.5765686'
+  :latitude: '40.7870633'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: mine-hill-township
+  :longitude: '-74.6011111'
+  :latitude: '40.8788889'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: montville-township
+  :longitude: '-74.383763'
+  :latitude: '40.9148209'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: morris-plains-borough
+  :longitude: '-74.4675018'
+  :latitude: '40.8347395'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: morris-township
+  :longitude: '-74.4922222'
+  :latitude: '40.7941667'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: morristown-town
+  :longitude: '-74.4815438'
+  :latitude: '40.7967667'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: mount-arlington-borough
+  :longitude: '-74.63177'
+  :latitude: '40.930997'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: mount-olive-township
+  :longitude: '-74.7316667'
+  :latitude: '40.8644444'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: mountain-lakes-borough
+  :longitude: '-74.4536945'
+  :latitude: '40.8860544'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: netcong-borough
+  :longitude: '-74.705166'
+  :latitude: '40.89912'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: parsippany-troy-hills-township
+  :longitude: '-74.4173877'
+  :latitude: '40.8652865'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: pequannock-township
+  :longitude: '-74.2973239'
+  :latitude: '40.960201'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: randolph-township
+  :longitude: '-74.5747222'
+  :latitude: '40.8477778'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: riverdale-borough
+  :longitude: '-74.3176876'
+  :latitude: '40.9944769'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: rockaway-borough
+  :longitude: '-74.5107384'
+  :latitude: '40.8994957'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: rockaway-township
+  :longitude: '-74.5197069'
+  :latitude: '40.9309767'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: roxbury-township
+  :longitude: '-74.6516667'
+  :latitude: '40.8780556'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: victory-gardens-borough
+  :longitude: '-74.514102'
+  :latitude: '40.8958681'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: washington-township
+  :longitude: '-75.0683333'
+  :latitude: '39.74'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: wharton-borough
+  :longitude: '-74.574647'
+  :latitude: '40.89439'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: ocean
+  :longitude: '-74.029843'
+  :latitude: '40.2479729'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: barnegat-township
+  :longitude: '-74.2693297'
+  :latitude: '39.7649223'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: bay-head-borough
+  :longitude: '-74.0646232'
+  :latitude: '40.0835006'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: beachwood-borough
+  :longitude: '-74.208005'
+  :latitude: '39.917485'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: berkeley-township
+  :longitude: '-74.19'
+  :latitude: '39.9458333'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: brick-township
+  :longitude: '-74.110006'
+  :latitude: '40.057516'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: island-heights-borough
+  :longitude: '-74.14474'
+  :latitude: '39.9394779'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: jackson-township
+  :longitude: '-74.3294444'
+  :latitude: '40.1080556'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: lacey-township
+  :longitude: '-74.2316667'
+  :latitude: '39.8508333'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: lakehurst-borough
+  :longitude: '-74.3206208'
+  :latitude: '40.0140603'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: lakewood-township
+  :longitude: '-74.2097014'
+  :latitude: '40.082129'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: lavallette-borough
+  :longitude: '-74.0695973'
+  :latitude: '39.9683195'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: manchester-township
+  :longitude: '-74.3392821'
+  :latitude: '39.9711696'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: mantoloking-borough
+  :longitude: '-74.0511043'
+  :latitude: '40.0370059'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: ocean-gate-borough
+  :longitude: '-74.1342726'
+  :latitude: '39.9267811'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: ocean-township--2
+  :longitude: '-74.029843'
+  :latitude: '40.2479729'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: pine-beach-borough
+  :longitude: '-74.166906'
+  :latitude: '39.933476'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: plumsted-township
+  :longitude: '-74.5002778'
+  :latitude: '40.0763889'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: point-pleasant-beach-borough
+  :longitude: '-74.0622471'
+  :latitude: '40.0709327'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: point-pleasant-borough
+  :longitude: '-74.069582'
+  :latitude: '40.072587'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: seaside-heights-borough
+  :longitude: '-74.073975'
+  :latitude: '39.943773'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: seaside-park-borough
+  :longitude: '-74.0728834'
+  :latitude: '39.934347'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: south-toms-river-borough
+  :longitude: '-74.2030879'
+  :latitude: '39.941839'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: stafford-township
+  :longitude: '-74.250354'
+  :latitude: '39.692076'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: toms-river-township
+  :longitude: '-74.1979458'
+  :latitude: '39.9537358'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: passiac
+  :longitude: '-74.1284764'
+  :latitude: '40.8567662'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: bloomingdale-borough
+  :longitude: '-74.3386939'
+  :latitude: '41.0078925'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: pompton-lakes-borough
+  :longitude: '-74.290394'
+  :latitude: '41.002061'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: ringwood-borough
+  :longitude: '-74.2654406'
+  :latitude: '41.1291517'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: wanaque-borough
+  :longitude: '-74.28944'
+  :latitude: '41.051358'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: wayne-township
+  :longitude: '-74.2765441'
+  :latitude: '40.9253725'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: west-milford-township
+  :longitude: '-74.3673254'
+  :latitude: '41.1311292'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: bedminster-township
+  :longitude: '-74.6766667'
+  :latitude: '40.6808333'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: bernards-township
+  :longitude: '-74.5586111'
+  :latitude: '40.6727778'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: bernardsville-borough
+  :longitude: '-74.5787316'
+  :latitude: '40.714192'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: branchburg-township
+  :longitude: '-74.7205556'
+  :latitude: '40.5547222'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: bridgewater-township
+  :longitude: '-74.6011111'
+  :latitude: '40.6233333'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: far-hills-borough
+  :longitude: '-74.6381509'
+  :latitude: '40.684925'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: green-brook-township
+  :longitude: '-74.4827778'
+  :latitude: '40.6044444'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: hillsborough-township
+  :longitude: '-74.6472522'
+  :latitude: '40.5106322'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: peapack-and-gladstone-borough
+  :longitude: '-74.6620003'
+  :latitude: '40.7145262'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: warren-township
+  :longitude: '-74.5004796'
+  :latitude: '40.6342489'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: watchung-borough
+  :longitude: '-74.452783'
+  :latitude: '40.635864'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: sussex
+  :longitude: '-74.6076614'
+  :latitude: '41.2098177'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: andover-borough
+  :longitude: '-74.7421'
+  :latitude: '40.98642'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: andover-township
+  :longitude: '-74.7295522'
+  :latitude: '41.0155479'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: branchville-borough
+  :longitude: '-74.7509246'
+  :latitude: '41.1490924'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: byram-township
+  :longitude: '-74.7227291'
+  :latitude: '40.9601024'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: frankford-township
+  :longitude: '-74.7452778'
+  :latitude: '41.1572222'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: franklin-borough
+  :longitude: '-75.0923411'
+  :latitude: '39.6428414'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: fredon-township
+  :longitude: '-74.8202778'
+  :latitude: '41.0305556'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: green-township
+  :longitude: '-74.788226'
+  :latitude: '40.9708921'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: hamburg-borough
+  :longitude: '-74.572411'
+  :latitude: '41.152893'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: hampton-township
+  :longitude: '-74.8011315'
+  :latitude: '41.1087588'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: hardyston-township
+  :longitude: '-74.5540506'
+  :latitude: '41.1137037'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: hopatcong-borough
+  :longitude: '-74.6704395'
+  :latitude: '40.9256541'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: lafayette-township
+  :longitude: '-74.6775'
+  :latitude: '41.1113889'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: montague-township
+  :longitude: '-74.7491667'
+  :latitude: '41.3036111'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: newton-town
+  :longitude: '-74.7526651'
+  :latitude: '41.0581527'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: ogdensburg-borough
+  :longitude: '-74.594352'
+  :latitude: '41.078532'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: sandyston-township
+  :longitude: '-74.8052778'
+  :latitude: '41.2147222'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: sparta-township
+  :longitude: '-74.6322222'
+  :latitude: '41.0383333'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: stanhope-borough
+  :longitude: '-74.7048279'
+  :latitude: '40.9152834'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: stillwater-township
+  :longitude: '-74.8763121'
+  :latitude: '41.0355622'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: sussex-borough
+  :longitude: '-74.607105'
+  :latitude: '41.208061'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: vernon-township
+  :longitude: '-74.4937943'
+  :latitude: '41.1947018'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: walpack-township
+  :longitude: '-74.9122222'
+  :latitude: '41.1255556'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: wantage-township
+  :longitude: '-74.6297222'
+  :latitude: '41.24'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: berkeley-heights-township
+  :longitude: '-74.4310524'
+  :latitude: '40.6808726'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: mountainside-borough
+  :longitude: '-74.3555991'
+  :latitude: '40.6723307'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: new-providence-borough
+  :longitude: '-74.3997976'
+  :latitude: '40.6996994'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: springfield-township--2
+  :longitude: '-74.3222146'
+  :latitude: '40.7016937'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: summit-city
+  :longitude: '-74.3625'
+  :latitude: '40.716111'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: warren
+  :longitude: '-74.5004796'
+  :latitude: '40.6342489'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: allamuchy-township
+  :longitude: '-74.8341667'
+  :latitude: '40.9205556'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: alpha-borough
+  :longitude: '-75.156966'
+  :latitude: '40.6574168'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: belvidere-town
+  :longitude: '-75.0776747'
+  :latitude: '40.82982'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: blairstown-township
+  :longitude: '-74.9589405'
+  :latitude: '40.9831018'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: franklin-township--2
+  :longitude: '-74.5169444'
+  :latitude: '40.4938889'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: frelinghuysen-township
+  :longitude: '-74.8958333'
+  :latitude: '40.9594444'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: greenwich-township
+  :longitude: '-75.2968973'
+  :latitude: '39.8342124'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: hackettstown-town
+  :longitude: '-74.8290555'
+  :latitude: '40.8539879'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: hardwick-township
+  :longitude: '-74.9326129'
+  :latitude: '41.0543894'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: harmony-township
+  :longitude: '-75.1219444'
+  :latitude: '40.7602778'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: hope-township
+  :longitude: '-74.9673626'
+  :latitude: '40.9111182'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: independence-township
+  :longitude: '-74.8666667'
+  :latitude: '40.8666667'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: knowlton-township
+  :longitude: '-75.0273583'
+  :latitude: '40.9308948'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: liberty-township
+  :longitude: '-74.9547222'
+  :latitude: '40.8697222'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: lopatcong-township
+  :longitude: '-75.1638889'
+  :latitude: '40.7063889'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: mansfield-township--2
+  :longitude: '-74.9008333'
+  :latitude: '40.8044444'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: oxford-township
+  :longitude: '-74.999813'
+  :latitude: '40.8132568'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: phillipsburg-town
+  :longitude: '-75.1901761'
+  :latitude: '40.6937099'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: pohatcong-township
+  :longitude: '-75.1616667'
+  :latitude: '40.6669444'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: washington-borough
+  :longitude: '-74.980065'
+  :latitude: '40.759968'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: washington-township--2
+  :longitude: '-75.0683333'
+  :latitude: '39.74'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: white-township
+  :longitude: '-75.0583333'
+  :latitude: '40.8311111'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: bergen-nj
+  :longitude: '-74.07701'
+  :latitude: '40.9262762'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: allendale
+  :longitude: '-74.129032'
+  :latitude: '41.0414857'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: alpine
+  :longitude: '-73.9312478'
+  :latitude: '40.9559316'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: closter
+  :longitude: '-73.9615262'
+  :latitude: '40.9731536'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: cresskill
+  :longitude: '-73.9593041'
+  :latitude: '40.9414874'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: demarest
+  :longitude: '-73.9634708'
+  :latitude: '40.9573205'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: franklin-lakes
+  :longitude: '-74.2057011'
+  :latitude: '41.0167639'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: harrington-park
+  :longitude: '-73.9798601'
+  :latitude: '40.9837089'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: haworth
+  :longitude: '-73.9901383'
+  :latitude: '40.9609315'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: mahwah
+  :longitude: '-74.1875'
+  :latitude: '41.0827778'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: montvale
+  :longitude: '-74.0229173'
+  :latitude: '41.0467635'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: northvale
+  :longitude: '-73.9490258'
+  :latitude: '41.0064864'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: norwood
+  :longitude: '-73.9618039'
+  :latitude: '40.9981532'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: oakland
+  :longitude: '-74.2643143'
+  :latitude: '41.0131529'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: old-tappan
+  :longitude: '-73.9912493'
+  :latitude: '41.010653'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: ramsey
+  :longitude: '-74.1409771'
+  :latitude: '41.0573188'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: river-vale
+  :longitude: '-74.0119736'
+  :latitude: '41.0147679'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: rockleigh
+  :longitude: '-73.930414'
+  :latitude: '41.0003754'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: saddle-river
+  :longitude: '-74.1020866'
+  :latitude: '41.0317637'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: upper-saddle-river
+  :longitude: '-74.0984756'
+  :latitude: '41.0584299'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: wyckoff
+  :longitude: '-74.1729106'
+  :latitude: '41.0095316'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: orange-ny
+  :longitude: '-74.260115'
+  :latitude: '40.7464111'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: blooming-grove
+  :longitude: '-75.1280589'
+  :latitude: '41.372086'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: chester-town
+  :longitude: '-74.6861111'
+  :latitude: '40.7808333'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: chester-village
+  :longitude: '-74.6861111'
+  :latitude: '40.7808333'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: crawford
+  :longitude: '-74.1840322'
+  :latitude: '40.3903863'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: deerpark
+  :longitude: '-74.663464'
+  :latitude: '41.4591459'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: florida
+  :longitude: '-74.35682'
+  :latitude: '41.3317606'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: goshen-town
+  :longitude: '-75.5727083'
+  :latitude: '39.9681644'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: goshen-village
+  :longitude: '-75.5727083'
+  :latitude: '39.9681644'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: greenville
+  :longitude: '-74.0916944'
+  :latitude: '40.6987935'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: greenwood-lake
+  :longitude: '-74.3206208'
+  :latitude: '41.189079'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: harriman
+  :longitude: '-74.1005044'
+  :latitude: '41.2244434'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: highland-falls
+  :longitude: '-74.6876411'
+  :latitude: '40.183639'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: highlands
+  :longitude: '-73.991527'
+  :latitude: '40.40372'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: kiryas-joel
+  :longitude: '-74.0437521'
+  :latitude: '41.1131514'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: middletown
+  :longitude: '-74.0915982'
+  :latitude: '40.3968012'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: minisink
+  :longitude: '-74.7935642'
+  :latitude: '40.8913944'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: monroe-town
+  :longitude: '-74.4330474'
+  :latitude: '40.336419'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: monroe-village
+  :longitude: '-74.4330474'
+  :latitude: '40.336419'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: mount-hope
+  :longitude: '-74.9673626'
+  :latitude: '40.9111182'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: otisville
+  :longitude: '-74.4056612'
+  :latitude: '40.0583238'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: port-jervis
+  :longitude: '-74.692663'
+  :latitude: '41.3750937'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: south-blooming-grove
+  :longitude: '-75.1280589'
+  :latitude: '41.372086'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: tuxedo-park
+  :longitude: '-74.2016667'
+  :latitude: '41.2013889'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: tuxedo-town
+  :longitude: '-74.2016667'
+  :latitude: '41.2013889'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: unionville
+  :longitude: '-74.5615492'
+  :latitude: '41.302039'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: wallkill
+  :longitude: '-74.5895313'
+  :latitude: '41.1395699'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: warwick-town
+  :longitude: '-74.3598755'
+  :latitude: '41.256483'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: warwick-village
+  :longitude: '-74.3598755'
+  :latitude: '41.256483'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: washingtonville
+  :longitude: '-74.4598755'
+  :latitude: '40.6348245'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: wawayanda
+  :longitude: '-74.73822'
+  :latitude: '41.0114864'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: woodbury--2
+  :longitude: '-75.1526774'
+  :latitude: '39.8381691'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: passaic-nj
+  :longitude: '-74.1284764'
+  :latitude: '40.8567662'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: ringwood
+  :longitude: '-74.2454254'
+  :latitude: '41.1134289'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: west-milford
+  :longitude: '-74.3673254'
+  :latitude: '41.1311292'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: pike-pa
+  :longitude: '-75.0611147'
+  :latitude: '41.3361875'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: dingman
+  :longitude: '-74.9442585'
+  :latitude: '41.3402828'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: matamoras
+  :longitude: '-74.7001632'
+  :latitude: '41.3687049'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: milford-borough--2
+  :longitude: '-75.09273'
+  :latitude: '40.568471'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: milford-township
+  :longitude: '-74.3673254'
+  :latitude: '41.1311292'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: westfall
+  :longitude: '-74.7688173'
+  :latitude: '41.3853449'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: rockland-ny
+  :longitude: '-73.9830029'
+  :latitude: '41.1489458'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: airmont
+  :longitude: '-74.1162544'
+  :latitude: '41.1009293'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: chestnut-ridge
+  :longitude: '-74.0556966'
+  :latitude: '41.084263'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: clarkstown
+  :longitude: '-74.7151621'
+  :latitude: '39.4351162'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: grand-view-on-hudson
+  :longitude: '-73.9213889'
+  :latitude: '41.0683333'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: haverstraw-town
+  :longitude: '-73.9645837'
+  :latitude: '41.1975947'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: haverstraw-village
+  :longitude: '-73.9645837'
+  :latitude: '41.1975947'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: hillburn
+  :longitude: '-74.1693119'
+  :latitude: '41.1239845'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: kaser
+  :longitude: '-74.0670862'
+  :latitude: '41.1212068'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: montebello
+  :longitude: '-74.118477'
+  :latitude: '41.1359287'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: new-hempstead
+  :longitude: '-74.049673'
+  :latitude: '41.149567'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: new-square
+  :longitude: '-73.991404'
+  :latitude: '40.733592'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: nyack
+  :longitude: '-73.9179146'
+  :latitude: '41.0906519'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: orangetown
+  :longitude: '-73.9477384'
+  :latitude: '41.0555461'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: piermont
+  :longitude: '-73.918192'
+  :latitude: '41.0420414'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: pomona-haverstraw
+  :longitude: '-74.053709'
+  :latitude: '41.18985'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: pomona-ramapo
+  :longitude: '-74.053709'
+  :latitude: '41.18985'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: ramapo
+  :longitude: '-74.1684787'
+  :latitude: '41.1412064'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: sloatsburg
+  :longitude: '-74.192924'
+  :latitude: '41.1545395'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: south-nyack
+  :longitude: '-73.9201369'
+  :latitude: '41.083152'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: spring-valley
+  :longitude: '-74.0437521'
+  :latitude: '41.1131514'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: stony-point
+  :longitude: '-75.5163124'
+  :latitude: '39.4606678'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: suffern
+  :longitude: '-74.1495889'
+  :latitude: '41.1148179'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: upper-nyack
+  :longitude: '-73.9201371'
+  :latitude: '41.1070404'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: wesley-hills
+  :longitude: '-74.0698645'
+  :latitude: '41.1592618'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: west-haverstraw
+  :longitude: '-73.9854177'
+  :latitude: '41.2095389'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: sullivan-ny
+  :longitude: '-74.0014587'
+  :latitude: '40.727586'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: bloomingburg
+  :longitude: '-74.4056612'
+  :latitude: '40.0583238'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: forestburg
+  :longitude: '-74.4056612'
+  :latitude: '40.0583238'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: lumberland
+  :longitude: '-74.4056612'
+  :latitude: '40.0583238'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: mamakating
+  :longitude: '-74.4056612'
+  :latitude: '40.0583238'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: wurtsboro
+  :longitude: '-74.4056612'
+  :latitude: '40.0583238'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: sussex-nj
+  :longitude: '-74.6076614'
+  :latitude: '41.2098177'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: montague
+  :longitude: '-74.7491667'
+  :latitude: '41.3036111'
+  :disable_location: 
+  :is_hidden: 
+- :area_slug: vernon
+  :longitude: '-74.4937943'
+  :latitude: '41.1947018'
+  :disable_location: 
+  :is_hidden: 
