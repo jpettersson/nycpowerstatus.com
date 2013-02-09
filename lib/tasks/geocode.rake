@@ -29,6 +29,22 @@ namespace :geocode do
     end
   end
 
+  task :dump => :environment do
+    ['ConEd', 'LIPA', 'PSEG', 'OrangeRockland', 'JCPL'].each do |provider_name|
+      if provider = Provider.find_by_code(provider_name)
+        coords = {}
+        provider.areas.each do |area|
+          coords[area.name.downcase] = {
+            :latitude => area.latitude,
+            :longitude => area.longitude
+          }
+        end
+
+        File.open(File.join(Rails.root, 'db', 'fixtures', provider_name, "gps_data.yml"), 'w') {|f| f.write(coords.to_yaml) }
+      end
+    end
+  end
+
   task :save => :environment do
 
     # Using the slug as identification means we have to rely on the specific 

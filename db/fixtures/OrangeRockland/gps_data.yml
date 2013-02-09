@@ -1,0 +1,292 @@
+---
+bergen (nj):
+  :latitude: '40.9262762'
+  :longitude: '-74.07701'
+allendale:
+  :latitude: '41.0414857'
+  :longitude: '-74.129032'
+alpine:
+  :latitude: '40.9559316'
+  :longitude: '-73.9312478'
+closter:
+  :latitude: '40.9731536'
+  :longitude: '-73.9615262'
+cresskill:
+  :latitude: '40.9414874'
+  :longitude: '-73.9593041'
+demarest:
+  :latitude: '40.9573205'
+  :longitude: '-73.9634708'
+franklin lakes:
+  :latitude: '41.0167639'
+  :longitude: '-74.2057011'
+harrington park:
+  :latitude: '40.9837089'
+  :longitude: '-73.9798601'
+haworth:
+  :latitude: '40.9609315'
+  :longitude: '-73.9901383'
+mahwah:
+  :latitude: '41.0827778'
+  :longitude: '-74.1875'
+montvale:
+  :latitude: '41.0467635'
+  :longitude: '-74.0229173'
+northvale:
+  :latitude: '41.0064864'
+  :longitude: '-73.9490258'
+norwood:
+  :latitude: '40.9981532'
+  :longitude: '-73.9618039'
+oakland:
+  :latitude: '41.0131529'
+  :longitude: '-74.2643143'
+old tappan:
+  :latitude: '41.010653'
+  :longitude: '-73.9912493'
+ramsey:
+  :latitude: '41.0573188'
+  :longitude: '-74.1409771'
+river vale:
+  :latitude: '41.0147679'
+  :longitude: '-74.0119736'
+rockleigh:
+  :latitude: '41.0003754'
+  :longitude: '-73.930414'
+saddle river:
+  :latitude: '41.0317637'
+  :longitude: '-74.1020866'
+upper saddle river:
+  :latitude: '41.0584299'
+  :longitude: '-74.0984756'
+wyckoff:
+  :latitude: '41.0095316'
+  :longitude: '-74.1729106'
+orange (ny):
+  :latitude: '40.7464111'
+  :longitude: '-74.260115'
+blooming grove:
+  :latitude: '41.372086'
+  :longitude: '-75.1280589'
+chester town:
+  :latitude: '40.7808333'
+  :longitude: '-74.6861111'
+chester village:
+  :latitude: '40.7808333'
+  :longitude: '-74.6861111'
+crawford:
+  :latitude: '40.3903863'
+  :longitude: '-74.1840322'
+deerpark:
+  :latitude: '41.4591459'
+  :longitude: '-74.663464'
+florida:
+  :latitude: '41.3317606'
+  :longitude: '-74.35682'
+goshen town:
+  :latitude: '39.9681644'
+  :longitude: '-75.5727083'
+goshen village:
+  :latitude: '39.9681644'
+  :longitude: '-75.5727083'
+greenville:
+  :latitude: '40.6987935'
+  :longitude: '-74.0916944'
+greenwood lake:
+  :latitude: '41.189079'
+  :longitude: '-74.3206208'
+harriman:
+  :latitude: '41.2244434'
+  :longitude: '-74.1005044'
+highland falls:
+  :latitude: '40.183639'
+  :longitude: '-74.6876411'
+highlands:
+  :latitude: '40.40372'
+  :longitude: '-73.991527'
+kiryas joel:
+  :latitude: '41.1131514'
+  :longitude: '-74.0437521'
+middletown:
+  :latitude: '40.3968012'
+  :longitude: '-74.0915982'
+minisink:
+  :latitude: '40.8913944'
+  :longitude: '-74.7935642'
+monroe town:
+  :latitude: '40.336419'
+  :longitude: '-74.4330474'
+monroe village:
+  :latitude: '40.336419'
+  :longitude: '-74.4330474'
+mount hope:
+  :latitude: '40.9111182'
+  :longitude: '-74.9673626'
+otisville:
+  :latitude: '40.0583238'
+  :longitude: '-74.4056612'
+port jervis:
+  :latitude: '41.3750937'
+  :longitude: '-74.692663'
+south blooming grove:
+  :latitude: '41.372086'
+  :longitude: '-75.1280589'
+tuxedo park:
+  :latitude: '41.2013889'
+  :longitude: '-74.2016667'
+tuxedo town:
+  :latitude: '41.2013889'
+  :longitude: '-74.2016667'
+unionville:
+  :latitude: '41.302039'
+  :longitude: '-74.5615492'
+wallkill:
+  :latitude: '41.1395699'
+  :longitude: '-74.5895313'
+warwick town:
+  :latitude: '41.256483'
+  :longitude: '-74.3598755'
+warwick village:
+  :latitude: '41.256483'
+  :longitude: '-74.3598755'
+washingtonville:
+  :latitude: '40.6348245'
+  :longitude: '-74.4598755'
+wawayanda:
+  :latitude: '41.0114864'
+  :longitude: '-74.73822'
+woodbury:
+  :latitude: '39.8381691'
+  :longitude: '-75.1526774'
+passaic (nj):
+  :latitude: '40.8567662'
+  :longitude: '-74.1284764'
+ringwood:
+  :latitude: '41.1134289'
+  :longitude: '-74.2454254'
+west milford:
+  :latitude: '41.1311292'
+  :longitude: '-74.3673254'
+pike (pa):
+  :latitude: '41.3361875'
+  :longitude: '-75.0611147'
+dingman:
+  :latitude: '41.3402828'
+  :longitude: '-74.9442585'
+matamoras:
+  :latitude: '41.3687049'
+  :longitude: '-74.7001632'
+milford borough:
+  :latitude: '40.568471'
+  :longitude: '-75.09273'
+milford township:
+  :latitude: '41.1311292'
+  :longitude: '-74.3673254'
+westfall:
+  :latitude: '41.3853449'
+  :longitude: '-74.7688173'
+rockland (ny):
+  :latitude: '41.1489458'
+  :longitude: '-73.9830029'
+airmont:
+  :latitude: '41.1009293'
+  :longitude: '-74.1162544'
+chestnut ridge:
+  :latitude: '41.084263'
+  :longitude: '-74.0556966'
+clarkstown:
+  :latitude: '39.4351162'
+  :longitude: '-74.7151621'
+grand view-on-hudson:
+  :latitude: '41.0683333'
+  :longitude: '-73.9213889'
+haverstraw town:
+  :latitude: '41.1975947'
+  :longitude: '-73.9645837'
+haverstraw village:
+  :latitude: '41.1975947'
+  :longitude: '-73.9645837'
+hillburn:
+  :latitude: '41.1239845'
+  :longitude: '-74.1693119'
+kaser:
+  :latitude: '41.1212068'
+  :longitude: '-74.0670862'
+montebello:
+  :latitude: '41.1359287'
+  :longitude: '-74.118477'
+new hempstead:
+  :latitude: '41.149567'
+  :longitude: '-74.049673'
+new square:
+  :latitude: '40.733592'
+  :longitude: '-73.991404'
+nyack:
+  :latitude: '41.0906519'
+  :longitude: '-73.9179146'
+orangetown:
+  :latitude: '41.0555461'
+  :longitude: '-73.9477384'
+piermont:
+  :latitude: '41.0420414'
+  :longitude: '-73.918192'
+pomona - haverstraw:
+  :latitude: '41.18985'
+  :longitude: '-74.053709'
+pomona - ramapo:
+  :latitude: '41.18985'
+  :longitude: '-74.053709'
+ramapo:
+  :latitude: '41.1412064'
+  :longitude: '-74.1684787'
+sloatsburg:
+  :latitude: '41.1545395'
+  :longitude: '-74.192924'
+south nyack:
+  :latitude: '41.083152'
+  :longitude: '-73.9201369'
+spring valley:
+  :latitude: '41.1131514'
+  :longitude: '-74.0437521'
+stony point:
+  :latitude: '39.4606678'
+  :longitude: '-75.5163124'
+suffern:
+  :latitude: '41.1148179'
+  :longitude: '-74.1495889'
+upper nyack:
+  :latitude: '41.1070404'
+  :longitude: '-73.9201371'
+wesley hills:
+  :latitude: '41.1592618'
+  :longitude: '-74.0698645'
+west haverstraw:
+  :latitude: '41.2095389'
+  :longitude: '-73.9854177'
+sullivan (ny):
+  :latitude: '40.727586'
+  :longitude: '-74.0014587'
+bloomingburg:
+  :latitude: '40.0583238'
+  :longitude: '-74.4056612'
+forestburg:
+  :latitude: '40.0583238'
+  :longitude: '-74.4056612'
+lumberland:
+  :latitude: '40.0583238'
+  :longitude: '-74.4056612'
+mamakating:
+  :latitude: '40.0583238'
+  :longitude: '-74.4056612'
+wurtsboro:
+  :latitude: '40.0583238'
+  :longitude: '-74.4056612'
+sussex (nj):
+  :latitude: '41.2098177'
+  :longitude: '-74.6076614'
+montague:
+  :latitude: '41.3036111'
+  :longitude: '-74.7491667'
+vernon:
+  :latitude: '41.1947018'
+  :longitude: '-74.4937943'

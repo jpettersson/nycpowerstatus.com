@@ -1,0 +1,733 @@
+---
+burlington:
+  :latitude: 
+  :longitude: 
+chesterfield township:
+  :latitude: '40.115204'
+  :longitude: '-74.640381'
+mansfield township:
+  :latitude: '40.8044444'
+  :longitude: '-74.9008333'
+new hanover township:
+  :latitude: '40.0330556'
+  :longitude: '-74.5816667'
+north hanover township:
+  :latitude: '40.0591667'
+  :longitude: '-74.5775'
+pemberton borough:
+  :latitude: '39.9735'
+  :longitude: '-74.6795999'
+pemberton township:
+  :latitude: '39.9600831'
+  :longitude: '-74.5841089'
+southampton township:
+  :latitude: '39.9274288'
+  :longitude: '-74.7265791'
+springfield township:
+  :latitude: '40.7016937'
+  :longitude: '-74.3222146'
+woodland township:
+  :latitude: '39.8472222'
+  :longitude: '-74.515'
+wrightstown borough:
+  :latitude: '39.9734528'
+  :longitude: '-74.6839545'
+essex:
+  :latitude: 
+  :longitude: 
+livingston township:
+  :latitude: '40.7862871'
+  :longitude: '-74.3300842'
+maplewood township:
+  :latitude: '40.7299793'
+  :longitude: '-74.271992'
+millburn township:
+  :latitude: '40.7340454'
+  :longitude: '-74.3206696'
+hunterdon:
+  :latitude: 
+  :longitude: 
+alexandria township:
+  :latitude: '40.5869444'
+  :longitude: '-75.0363889'
+bethlehem township:
+  :latitude: '40.6741667'
+  :longitude: '-75.0144444'
+bloomsbury borough:
+  :latitude: '40.656534'
+  :longitude: '-75.082156'
+califon borough:
+  :latitude: '40.735451'
+  :longitude: '-74.837624'
+clinton town:
+  :latitude: '40.6306905'
+  :longitude: '-74.8684564'
+clinton township:
+  :latitude: '40.6306905'
+  :longitude: '-74.8684564'
+delaware township:
+  :latitude: '40.4427778'
+  :longitude: '-74.9572222'
+east amwell township:
+  :latitude: '40.4308333'
+  :longitude: '-74.8369444'
+flemington borough:
+  :latitude: '40.5100209'
+  :longitude: '-74.8587648'
+franklin township:
+  :latitude: '40.4938889'
+  :longitude: '-74.5169444'
+frenchtown borough:
+  :latitude: '40.527681'
+  :longitude: '-75.060573'
+glen gardner borough:
+  :latitude: '40.69526'
+  :longitude: '-74.939847'
+hampton borough:
+  :latitude: '40.706622'
+  :longitude: '-74.955874'
+high bridge borough:
+  :latitude: '40.667307'
+  :longitude: '-74.897817'
+holland township:
+  :latitude: '40.5953401'
+  :longitude: '-75.1170201'
+kingwood township:
+  :latitude: '40.4869444'
+  :longitude: '-75.015'
+lambertville city:
+  :latitude: '40.3659394'
+  :longitude: '-74.9429448'
+lebanon borough:
+  :latitude: '40.640793'
+  :longitude: '-74.835796'
+lebanon township:
+  :latitude: '40.7263889'
+  :longitude: '-74.8944444'
+milford borough:
+  :latitude: '40.568471'
+  :longitude: '-75.09273'
+raritan township:
+  :latitude: '40.5091667'
+  :longitude: '-74.8513889'
+readington township:
+  :latitude: '40.5783333'
+  :longitude: '-74.78'
+stockton borough:
+  :latitude: '40.4075806'
+  :longitude: '-74.9764024'
+tewksbury township:
+  :latitude: '40.6919444'
+  :longitude: '-74.7833333'
+union township:
+  :latitude: '40.6975898'
+  :longitude: '-74.2631635'
+west amwell township:
+  :latitude: '40.3791667'
+  :longitude: '-74.9152778'
+mercer:
+  :latitude: 
+  :longitude: 
+east windsor township:
+  :latitude: '40.2677539'
+  :longitude: '-74.5402506'
+hightstown borough:
+  :latitude: '40.2705573'
+  :longitude: '-74.5225059'
+hopewell township:
+  :latitude: '40.3333333'
+  :longitude: '-74.8163889'
+robbinsville township:
+  :latitude: '40.1774255'
+  :longitude: '-74.6294344'
+west windsor township:
+  :latitude: '40.2983262'
+  :longitude: '-74.618634'
+middlesex:
+  :latitude: 
+  :longitude: 
+cranbury township:
+  :latitude: '40.316111'
+  :longitude: '-74.514167'
+east brunswick township:
+  :latitude: '40.4316955'
+  :longitude: '-74.4049778'
+helmetta borough:
+  :latitude: '40.378724'
+  :longitude: '-74.4184554'
+jamesburg borough:
+  :latitude: '40.3464929'
+  :longitude: '-74.4386488'
+monroe township:
+  :latitude: '40.336419'
+  :longitude: '-74.4330474'
+old bridge township:
+  :latitude: '40.4128551'
+  :longitude: '-74.307282'
+sayreville borough:
+  :latitude: '40.463863'
+  :longitude: '-74.3618824'
+south amboy city:
+  :latitude: '40.4778838'
+  :longitude: '-74.290702'
+south brunswick township:
+  :latitude: '40.3806901'
+  :longitude: '-74.5316938'
+spotswood borough:
+  :latitude: '40.38153'
+  :longitude: '-74.4081467'
+monmouth:
+  :latitude: 
+  :longitude: 
+aberdeen township:
+  :latitude: '40.4170948'
+  :longitude: '-74.2221155'
+allenhurst borough:
+  :latitude: '40.236'
+  :longitude: '-74.00043'
+asbury park city:
+  :latitude: '40.2203907'
+  :longitude: '-74.0120817'
+atlantic highlands borough:
+  :latitude: '40.416581'
+  :longitude: '-74.035329'
+avon by the sea borough:
+  :latitude: '40.1907648'
+  :longitude: '-74.0230656'
+belmar borough:
+  :latitude: '40.183128'
+  :longitude: '-74.024682'
+bradley beach borough:
+  :latitude: '40.2047819'
+  :longitude: '-74.0174518'
+brielle borough:
+  :latitude: '40.1030781'
+  :longitude: '-74.0623244'
+colts neck township:
+  :latitude: '40.2876108'
+  :longitude: '-74.1723652'
+deal borough:
+  :latitude: '40.2470442'
+  :longitude: '-74.0008143'
+eatontown borough:
+  :latitude: '40.305771'
+  :longitude: '-74.058204'
+englishtown borough:
+  :latitude: '40.29565'
+  :longitude: '-74.3588089'
+fair haven borough:
+  :latitude: '40.3545646'
+  :longitude: '-74.0300606'
+farmingdale borough:
+  :latitude: '40.1960636'
+  :longitude: '-74.1704676'
+freehold borough:
+  :latitude: '40.260111'
+  :longitude: '-74.2737573'
+freehold township:
+  :latitude: '40.232632'
+  :longitude: '-74.286293'
+hazlet township:
+  :latitude: '40.4155556'
+  :longitude: '-74.1911111'
+highlands borough:
+  :latitude: '40.401444'
+  :longitude: '-73.9871749'
+holmdel township:
+  :latitude: '40.391111'
+  :longitude: '-74.185278'
+howell township:
+  :latitude: '40.1645785'
+  :longitude: '-74.2082671'
+interlaken borough:
+  :latitude: '40.2322739'
+  :longitude: '-74.010802'
+keansburg borough:
+  :latitude: '40.441395'
+  :longitude: '-74.133371'
+keyport borough:
+  :latitude: '40.4318033'
+  :longitude: '-74.2032581'
+little silver borough:
+  :latitude: '40.3312131'
+  :longitude: '-74.0358876'
+loch arbour village:
+  :latitude: '40.2328904'
+  :longitude: '-74.0009703'
+long branch city:
+  :latitude: '40.3042778'
+  :longitude: '-73.9923596'
+manalapan township:
+  :latitude: '40.2969444'
+  :longitude: '-74.33'
+manasquan borough:
+  :latitude: '40.0404004'
+  :longitude: '-74.0520439'
+marlboro township:
+  :latitude: '40.3386111'
+  :longitude: '-74.2686111'
+matawan borough:
+  :latitude: '40.4099164'
+  :longitude: '-74.2320346'
+middletown township:
+  :latitude: '40.3968012'
+  :longitude: '-74.0915982'
+millstone township:
+  :latitude: '40.2094444'
+  :longitude: '-74.4375'
+monmouth beach borough:
+  :latitude: '40.331151'
+  :longitude: '-73.979292'
+neptune city borough:
+  :latitude: '40.1779922'
+  :longitude: '-74.0270745'
+neptune township:
+  :latitude: '40.2091219'
+  :longitude: '-74.0386271'
+ocean township:
+  :latitude: '40.2479729'
+  :longitude: '-74.029843'
+oceanport borough:
+  :latitude: '40.199215'
+  :longitude: '-74.007992'
+red bank borough:
+  :latitude: '40.349625'
+  :longitude: '-74.070065'
+roosevelt borough:
+  :latitude: '40.2189997'
+  :longitude: '-74.4751519'
+rumson borough:
+  :latitude: '40.3757997'
+  :longitude: '-74.0021896'
+sea bright borough:
+  :latitude: '40.377167'
+  :longitude: '-73.974796'
+sea girt borough:
+  :latitude: '40.1328924'
+  :longitude: '-74.0420816'
+shrewsbury borough:
+  :latitude: '40.32304'
+  :longitude: '-74.062499'
+shrewsbury township:
+  :latitude: '40.3125'
+  :longitude: '-74.0719444'
+spring lake borough:
+  :latitude: '40.1508778'
+  :longitude: '-74.0331523'
+spring lake heights borough:
+  :latitude: '40.1505348'
+  :longitude: '-74.0447003'
+tinton falls borough:
+  :latitude: '40.2983976'
+  :longitude: '-74.0907454'
+union beach borough:
+  :latitude: '40.439211'
+  :longitude: '-74.178948'
+upper freehold township:
+  :latitude: '40.1555556'
+  :longitude: '-74.5236111'
+wall township:
+  :latitude: '40.1586111'
+  :longitude: '-74.0702778'
+west long branch borough:
+  :latitude: '40.28332'
+  :longitude: '-74.018878'
+morris:
+  :latitude: 
+  :longitude: 
+boonton town:
+  :latitude: '40.9293994'
+  :longitude: '-74.4300912'
+boonton township:
+  :latitude: '40.917325'
+  :longitude: '-74.4223346'
+butler borough:
+  :latitude: '41.0026911'
+  :longitude: '-74.3375455'
+chatham borough:
+  :latitude: '40.7242352'
+  :longitude: '-74.3927674'
+chatham township:
+  :latitude: '40.7265893'
+  :longitude: '-74.4172591'
+chester borough:
+  :latitude: '40.7842667'
+  :longitude: '-74.6968284'
+chester township:
+  :latitude: '40.7808333'
+  :longitude: '-74.6861111'
+denville township:
+  :latitude: '40.8861111'
+  :longitude: '-74.4883333'
+dover town:
+  :latitude: '40.883988'
+  :longitude: '-74.5621025'
+east hanover township:
+  :latitude: '40.82'
+  :longitude: '-74.3647222'
+florham park borough:
+  :latitude: '40.7820146'
+  :longitude: '-74.3984502'
+hanover township:
+  :latitude: '40.818917'
+  :longitude: '-74.430479'
+harding township:
+  :latitude: '40.7397683'
+  :longitude: '-74.511172'
+jefferson township:
+  :latitude: '40.9833333'
+  :longitude: '-74.5727778'
+kinnelon borough:
+  :latitude: '40.998063'
+  :longitude: '-74.3756819'
+lincoln park borough:
+  :latitude: '40.950814'
+  :longitude: '-74.313786'
+long hill township:
+  :latitude: '40.6761111'
+  :longitude: '-74.4947222'
+madison borough:
+  :latitude: '40.7546719'
+  :longitude: '-74.4292863'
+mendham borough:
+  :latitude: '40.7759334'
+  :longitude: '-74.6007142'
+mendham township:
+  :latitude: '40.7870633'
+  :longitude: '-74.5765686'
+mine hill township:
+  :latitude: '40.8788889'
+  :longitude: '-74.6011111'
+montville township:
+  :latitude: '40.9148209'
+  :longitude: '-74.383763'
+morris plains borough:
+  :latitude: '40.8347395'
+  :longitude: '-74.4675018'
+morris township:
+  :latitude: '40.7941667'
+  :longitude: '-74.4922222'
+morristown town:
+  :latitude: '40.7967667'
+  :longitude: '-74.4815438'
+mount arlington borough:
+  :latitude: '40.930997'
+  :longitude: '-74.63177'
+mount olive township:
+  :latitude: '40.8644444'
+  :longitude: '-74.7316667'
+mountain lakes borough:
+  :latitude: '40.8860544'
+  :longitude: '-74.4536945'
+netcong borough:
+  :latitude: '40.89912'
+  :longitude: '-74.705166'
+parsippany troy hills township:
+  :latitude: '40.8652865'
+  :longitude: '-74.4173877'
+pequannock township:
+  :latitude: '40.960201'
+  :longitude: '-74.2973239'
+randolph township:
+  :latitude: '40.8477778'
+  :longitude: '-74.5747222'
+riverdale borough:
+  :latitude: '40.9944769'
+  :longitude: '-74.3176876'
+rockaway borough:
+  :latitude: '40.8994957'
+  :longitude: '-74.5107384'
+rockaway township:
+  :latitude: '40.9309767'
+  :longitude: '-74.5197069'
+roxbury township:
+  :latitude: '40.8780556'
+  :longitude: '-74.6516667'
+victory gardens borough:
+  :latitude: '40.8958681'
+  :longitude: '-74.514102'
+washington township:
+  :latitude: '39.74'
+  :longitude: '-75.0683333'
+wharton borough:
+  :latitude: '40.89439'
+  :longitude: '-74.574647'
+ocean:
+  :latitude: '40.2479729'
+  :longitude: '-74.029843'
+barnegat township:
+  :latitude: '39.7649223'
+  :longitude: '-74.2693297'
+bay head borough:
+  :latitude: '40.0835006'
+  :longitude: '-74.0646232'
+beachwood borough:
+  :latitude: '39.917485'
+  :longitude: '-74.208005'
+berkeley township:
+  :latitude: '39.9458333'
+  :longitude: '-74.19'
+brick township:
+  :latitude: '40.057516'
+  :longitude: '-74.110006'
+island heights borough:
+  :latitude: '39.9394779'
+  :longitude: '-74.14474'
+jackson township:
+  :latitude: '40.1080556'
+  :longitude: '-74.3294444'
+lacey township:
+  :latitude: '39.8508333'
+  :longitude: '-74.2316667'
+lakehurst borough:
+  :latitude: '40.0140603'
+  :longitude: '-74.3206208'
+lakewood township:
+  :latitude: '40.082129'
+  :longitude: '-74.2097014'
+lavallette borough:
+  :latitude: '39.9683195'
+  :longitude: '-74.0695973'
+manchester township:
+  :latitude: '39.9711696'
+  :longitude: '-74.3392821'
+mantoloking borough:
+  :latitude: '40.0370059'
+  :longitude: '-74.0511043'
+ocean gate borough:
+  :latitude: '39.9267811'
+  :longitude: '-74.1342726'
+pine beach borough:
+  :latitude: '39.933476'
+  :longitude: '-74.166906'
+plumsted township:
+  :latitude: '40.0763889'
+  :longitude: '-74.5002778'
+point pleasant beach borough:
+  :latitude: '40.0709327'
+  :longitude: '-74.0622471'
+point pleasant borough:
+  :latitude: '40.072587'
+  :longitude: '-74.069582'
+seaside heights borough:
+  :latitude: '39.943773'
+  :longitude: '-74.073975'
+seaside park borough:
+  :latitude: '39.934347'
+  :longitude: '-74.0728834'
+south toms river borough:
+  :latitude: '39.941839'
+  :longitude: '-74.2030879'
+stafford township:
+  :latitude: '39.692076'
+  :longitude: '-74.250354'
+toms river township:
+  :latitude: '39.9537358'
+  :longitude: '-74.1979458'
+passiac:
+  :latitude: '40.8567662'
+  :longitude: '-74.1284764'
+bloomingdale borough:
+  :latitude: '41.0078925'
+  :longitude: '-74.3386939'
+pompton lakes borough:
+  :latitude: '41.002061'
+  :longitude: '-74.290394'
+ringwood borough:
+  :latitude: '41.1291517'
+  :longitude: '-74.2654406'
+wanaque borough:
+  :latitude: '41.051358'
+  :longitude: '-74.28944'
+wayne township:
+  :latitude: '40.9253725'
+  :longitude: '-74.2765441'
+west milford township:
+  :latitude: '41.1311292'
+  :longitude: '-74.3673254'
+somerset:
+  :latitude: 
+  :longitude: 
+bedminster township:
+  :latitude: '40.6808333'
+  :longitude: '-74.6766667'
+bernards township:
+  :latitude: '40.6727778'
+  :longitude: '-74.5586111'
+bernardsville borough:
+  :latitude: '40.714192'
+  :longitude: '-74.5787316'
+branchburg township:
+  :latitude: '40.5547222'
+  :longitude: '-74.7205556'
+bridgewater township:
+  :latitude: '40.6233333'
+  :longitude: '-74.6011111'
+far hills borough:
+  :latitude: '40.684925'
+  :longitude: '-74.6381509'
+green brook township:
+  :latitude: '40.6044444'
+  :longitude: '-74.4827778'
+hillsborough township:
+  :latitude: '40.5106322'
+  :longitude: '-74.6472522'
+peapack and gladstone borough:
+  :latitude: '40.7145262'
+  :longitude: '-74.6620003'
+warren township:
+  :latitude: '40.6342489'
+  :longitude: '-74.5004796'
+watchung borough:
+  :latitude: '40.635864'
+  :longitude: '-74.452783'
+sussex:
+  :latitude: '41.2098177'
+  :longitude: '-74.6076614'
+andover borough:
+  :latitude: '40.98642'
+  :longitude: '-74.7421'
+andover township:
+  :latitude: '41.0155479'
+  :longitude: '-74.7295522'
+branchville borough:
+  :latitude: '41.1490924'
+  :longitude: '-74.7509246'
+byram township:
+  :latitude: '40.9601024'
+  :longitude: '-74.7227291'
+frankford township:
+  :latitude: '41.1572222'
+  :longitude: '-74.7452778'
+franklin borough:
+  :latitude: '39.6428414'
+  :longitude: '-75.0923411'
+fredon township:
+  :latitude: '41.0305556'
+  :longitude: '-74.8202778'
+green township:
+  :latitude: '40.9708921'
+  :longitude: '-74.788226'
+hamburg borough:
+  :latitude: '41.152893'
+  :longitude: '-74.572411'
+hampton township:
+  :latitude: '41.1087588'
+  :longitude: '-74.8011315'
+hardyston township:
+  :latitude: '41.1137037'
+  :longitude: '-74.5540506'
+hopatcong borough:
+  :latitude: '40.9256541'
+  :longitude: '-74.6704395'
+lafayette township:
+  :latitude: '41.1113889'
+  :longitude: '-74.6775'
+montague township:
+  :latitude: '41.3036111'
+  :longitude: '-74.7491667'
+newton town:
+  :latitude: '41.0581527'
+  :longitude: '-74.7526651'
+ogdensburg borough:
+  :latitude: '41.078532'
+  :longitude: '-74.594352'
+sandyston township:
+  :latitude: '41.2147222'
+  :longitude: '-74.8052778'
+sparta township:
+  :latitude: '41.0383333'
+  :longitude: '-74.6322222'
+stanhope borough:
+  :latitude: '40.9152834'
+  :longitude: '-74.7048279'
+stillwater township:
+  :latitude: '41.0355622'
+  :longitude: '-74.8763121'
+sussex borough:
+  :latitude: '41.208061'
+  :longitude: '-74.607105'
+vernon township:
+  :latitude: '41.1947018'
+  :longitude: '-74.4937943'
+walpack township:
+  :latitude: '41.1255556'
+  :longitude: '-74.9122222'
+wantage township:
+  :latitude: '41.24'
+  :longitude: '-74.6297222'
+union:
+  :latitude: 
+  :longitude: 
+berkeley heights township:
+  :latitude: '40.6808726'
+  :longitude: '-74.4310524'
+mountainside borough:
+  :latitude: '40.6723307'
+  :longitude: '-74.3555991'
+new providence borough:
+  :latitude: '40.6996994'
+  :longitude: '-74.3997976'
+summit city:
+  :latitude: '40.716111'
+  :longitude: '-74.3625'
+warren:
+  :latitude: '40.6342489'
+  :longitude: '-74.5004796'
+allamuchy township:
+  :latitude: '40.9205556'
+  :longitude: '-74.8341667'
+alpha borough:
+  :latitude: '40.6574168'
+  :longitude: '-75.156966'
+belvidere town:
+  :latitude: '40.82982'
+  :longitude: '-75.0776747'
+blairstown township:
+  :latitude: '40.9831018'
+  :longitude: '-74.9589405'
+frelinghuysen township:
+  :latitude: '40.9594444'
+  :longitude: '-74.8958333'
+greenwich township:
+  :latitude: '39.8342124'
+  :longitude: '-75.2968973'
+hackettstown town:
+  :latitude: '40.8539879'
+  :longitude: '-74.8290555'
+hardwick township:
+  :latitude: '41.0543894'
+  :longitude: '-74.9326129'
+harmony township:
+  :latitude: '40.7602778'
+  :longitude: '-75.1219444'
+hope township:
+  :latitude: '40.9111182'
+  :longitude: '-74.9673626'
+independence township:
+  :latitude: '40.8666667'
+  :longitude: '-74.8666667'
+knowlton township:
+  :latitude: '40.9308948'
+  :longitude: '-75.0273583'
+liberty township:
+  :latitude: '40.8697222'
+  :longitude: '-74.9547222'
+lopatcong township:
+  :latitude: '40.7063889'
+  :longitude: '-75.1638889'
+oxford township:
+  :latitude: '40.8132568'
+  :longitude: '-74.999813'
+phillipsburg town:
+  :latitude: '40.6937099'
+  :longitude: '-75.1901761'
+pohatcong township:
+  :latitude: '40.6669444'
+  :longitude: '-75.1616667'
+washington borough:
+  :latitude: '40.759968'
+  :longitude: '-74.980065'
+white township:
+  :latitude: '40.8311111'
+  :longitude: '-75.0583333'
