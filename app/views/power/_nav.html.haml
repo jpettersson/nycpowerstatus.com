@@ -6,14 +6,8 @@
   - nyc_class = ''
   - li_class = 'active'
   - nj_class = ''
-- elsif region.slug == 'new-jersey'
-  - nyc_class = ''
-  - li_class = ''
-  - nj_class = 'active'
 
 .nav
-  .new-jersey{:class => nj_class}
-    %h3= link_to 'New Jersey', '/new-jersey'
   .nyc{:class => nyc_class}
     %h3= link_to 'NYC', '/'
   .long-island{:class => li_class}

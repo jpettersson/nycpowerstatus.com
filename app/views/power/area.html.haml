@@ -8,7 +8,7 @@
   = render 'power/nav', :region => @region
 
   %h1= "Does #{@area.name} have power?"
-  %h2= raw t("area.subtitle", {:pretty_outage_percent => pretty_percentage(@area.last_sample.custs_out, @area.last_sample.total_custs), :provider => @area.provider.name, :total_customers => @total_customers, :area => @area.name, :link => @area.provider.url})
+  %h2= raw t("area.subtitle", {:pretty_online_percent => pretty_online_percentage(@area.last_sample.custs_out, @area.last_sample.total_custs), :provider => @area.provider.name, :total_customers => @total_customers, :area => @area.name, :link => @area.provider.url})
 
 .trend
   %h2= "Outage history for #{@area.name}:"

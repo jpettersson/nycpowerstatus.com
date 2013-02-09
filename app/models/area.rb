@@ -26,6 +26,10 @@ class Area < ActiveRecord::Base
     area_samples.last.custs_out.to_f / area_samples.last.total_custs.to_f
   end
 
+  def online_percentage
+    1-outage_percentage
+  end
+
   # If there's no % available, set the bar for a green area at 500 custs out max.
   def health
     if has_total_customers?

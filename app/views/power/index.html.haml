@@ -20,7 +20,7 @@
       = render :partial => 'power/index/multiple_provider', :collection => @providers, :as => :provider
 
 .trend
-  %h2= "History for " + @region.name + ":"
+  %h2= "Outage history for " + @region.name + ":"
   = render 'power/trend'
 
 .current

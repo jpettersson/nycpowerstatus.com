@@ -11,7 +11,7 @@
         %a{:href => "/#{area.slug}", :class => color_class} 
           - out = "#{area.name}<br />"
           - if area.has_total_customers?
-            - num = (area.outage_percentage * 100).to_s.split('.')
+            - num = (area.online_percentage * 100).to_s.split('.')
             - if num.length == 2
               - out += "#{num[0]}.#{num[1][0..1]}%"
             - else

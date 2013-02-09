@@ -1,13 +1,14 @@
 module PowerHelper
-  def pretty_percentage offline, total=0
+  def pretty_online_percentage offline_customers, total=0
     if total > 0
-      num = offline.to_f / total.to_f
+      num = 1-(offline_customers.to_f / total.to_f)
       arr = (num * 100).to_s.split(".")
       if arr.length == 2
         return "#{arr[0]}.#{arr[1][0..1]}%"
       end
+    else
+      "no data"
     end
-    number_to_human offline
   end
 
   def map_points_from collection
@@ -20,7 +21,7 @@ module PowerHelper
     arr = areas.map do|area|
       {
         :name => area.name, 
-        :data => area.samples.limit(10000).map do |sample|
+        :data => area.samples.last(500).map do |sample|
           {:x => sample.created_at.to_i, :y => sample.custs_out}
         end
       }
