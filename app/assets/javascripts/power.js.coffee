@@ -13,7 +13,7 @@ $ ->
     $('.trend').hide()
   else
     # Instead of using Rickshaw's built in zeroFill I'm copying 
-    # the previous value instead, effectively pathing up the data.
+    # the previous value instead, effectively patching up the data.
     copyFill = (series) ->
       x = undefined
       i = 0

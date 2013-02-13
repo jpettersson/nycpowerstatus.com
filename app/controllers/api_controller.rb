@@ -22,6 +22,10 @@ class ApiController < ApplicationController
     end
   end
 
+  def points
+
+  end
+
   private 
 
   def time_series_from areas
@@ -33,5 +37,9 @@ class ApiController < ApplicationController
         end
       }
     end
+  end
+
+  def map_points_from collection
+    collection.reject{|a| a.latitude == nil or a.longitude == nil}.to_json(:methods => :health)
   end
 end

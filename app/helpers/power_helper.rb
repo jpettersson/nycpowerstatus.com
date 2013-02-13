@@ -10,11 +10,4 @@ module PowerHelper
       "no data"
     end
   end
-
-  def map_points_from collection
-    # or a.disable_location == true
-    # :include => :last_sample, 
-    collection.reject{|a| a.latitude == nil or a.longitude == nil}.to_json(:methods => :health)
-  end
-
 end
