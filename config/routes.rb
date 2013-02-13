@@ -1,4 +1,9 @@
 Doesnychavepower::Application.routes.draw do
+
+  match "api/area/nyc/samples" => "api#samples", :provider => 'ConEd'
+  match "api/area/long-island/samples" => "api#samples", :provider => 'LIPA'
+  match "api/area/:area/samples" => 'api#samples'
+
   get "/" => "power#index", :region => 'nyc'
   get "/long-island" => "power#index", :region => 'long-island'
   get "/:slug" => "power#area"

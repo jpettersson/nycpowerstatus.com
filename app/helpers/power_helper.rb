@@ -17,15 +17,4 @@ module PowerHelper
     collection.reject{|a| a.latitude == nil or a.longitude == nil}.to_json(:methods => :health)
   end
 
-  def time_series_from areas
-    arr = areas.map do|area|
-      {
-        :name => area.name, 
-        :data => area.samples.last(500).map do |sample|
-          {:x => sample.created_at.to_i, :y => sample.custs_out}
-        end
-      }
-    end
-    arr.to_json
-  end
 end
