@@ -4,6 +4,7 @@ Power = require 'power/models/power'
 Header = require 'power/controllers/header'
 
 Spine.Model.host = Server.baseURL
+Power.init()
 
 class PowerApp extends Exo.Spine.Controller
 

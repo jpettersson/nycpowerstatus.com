@@ -7,18 +7,21 @@ class Power extends Spine.Module
 
   @init: ->
     Region.bind 'refresh', @onRegions
+
   @activateRegion: (name)->
     region = Region.select((region)-> region.slug == name)[0]
     if region
       @setCurrentRegion region
     else
+      @nextRegionSlug = name
       Region.fetch()
 
   @setCurrentRegion: (region)->
     @region = region
     @trigger 'update'
 
-  @onRegions: ->
-    console.log 'Regions downloaded!'
+  @onRegions: =>
+    if @nextRegionSlug
+      @activateRegion @nextRegionSlug
 
 module.exports = Power

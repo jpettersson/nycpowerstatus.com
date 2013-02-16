@@ -10,6 +10,12 @@ class Area < ActiveRecord::Base
   extend FriendlyId
   friendly_id :area_name, use: :slugged
 
+  def as_json(options = { })
+      super((options || { }).merge({
+          :methods => [:outage_percentage]
+      }))
+  end
+
   def name
     area_name
   end
@@ -23,7 +29,11 @@ class Area < ActiveRecord::Base
   end
 
   def outage_percentage
-    area_samples.last.custs_out.to_f / area_samples.last.total_custs.to_f
+    if area_samples.last.total_custs.to_f > 0
+      return area_samples.last.custs_out.to_f / area_samples.last.total_custs.to_f
+    else
+      return -1
+    end
   end
 
   def online_percentage
@@ -33,10 +43,14 @@ class Area < ActiveRecord::Base
   # If there's no % available, set the bar for a green area at 500 custs out max.
   def health
     if has_total_customers?
-      outage_percentage
+      result = outage_percentage
     else
-      area_samples.last.custs_out / 500
+      result = area_samples.last.custs_out / 500
     end
+
+    # if result and result.nan?
+    #   result = nil
+    # end
   end
 
   def has_total_customers?
