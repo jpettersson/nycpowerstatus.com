@@ -12,6 +12,8 @@
 
 //= require 'vendor/spine/spine'
 //= require 'vendor/spine/route'
+//= require 'vendor/spine/relation'
+//= require 'vendor/spine/ajax'
 //= require 'vendor/exo/exo'
 //= require 'vendor/exo/spine'
 

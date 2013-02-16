@@ -13,7 +13,7 @@ class Header extends Exo.Spine.Controller
   render: ->
     @html JST['power/views/header']({
       tempus: Locale['header.tempus.now']
-      region: Locale["region.#{Power.getInstance().region}"]
+      region: 'n/a' #Locale["region.#{Power.getInstance().region}"]
       have_power: Locale['header.have_power']
     })
 

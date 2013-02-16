@@ -8,9 +8,11 @@ class Nav extends Exo.Spine.Controller
 
   prepare: ->
     Power.bind 'update', @render
-    
+
   render: =>
-    @html JST['power/views/nav'](Power.getInstance())
+    @html JST['power/views/nav']({
+      region: Power.region.name
+    })
 
   navigateToNYC: ->
     @navigate '/'

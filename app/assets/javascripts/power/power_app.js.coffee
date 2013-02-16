@@ -1,6 +1,9 @@
+Server = require 'power/config/server'
 Locale = require 'power/config/locale_en'
 Power = require 'power/models/power'
 Header = require 'power/controllers/header'
+
+Spine.Model.host = Server.baseURL
 
 class PowerApp extends Exo.Spine.Controller
 
@@ -26,9 +29,7 @@ class PowerApp extends Exo.Spine.Controller
 
   activateRegion: (name)->
     console.log 'activateRegion: ', name
-    power = Power.getInstance()
-    power.region = name
-    power.save()
+    Power.activateRegion name
 
 $ ->
   new PowerApp

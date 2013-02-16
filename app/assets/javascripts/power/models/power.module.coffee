@@ -1,16 +1,18 @@
-class Power extends Exo.Spine.Model
+Region = require 'power/models/region'
+Provider = require 'power/models/provider'
+Area = require 'power/models/area'
 
-  # Holds the main application state: selected date range, area, etc.
-  @defaults
-    region: 'nyc'
-    area: ''
+class Power extends Spine.Module
+  @extend Spine.Events
 
-  @configure 'Power', 'region', 'area'
+  @activateRegion: (name)->
+    region = Region.select((region)-> region.slug == name)[0]
+    if region
+      @setCurrentRegion region
+    else
 
-  @getInstance: ->
-    unless Power.instance
-      Power.instance = Power.create()
-      
-    return Power.instance
+  @setCurrentRegion: (region)->
+    @region = region
+    @trigger 'update'
 
 module.exports = Power
