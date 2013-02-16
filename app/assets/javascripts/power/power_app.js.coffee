@@ -1,16 +1,12 @@
-Nav = require 'power/controllers/nav'
+Header = require 'power/controllers/header'
 
 class PowerApp extends Exo.Spine.Controller
 
   prepare: ->
     console.log "Power!"
-    @render()
 
-    @nav = new Nav
-      el: ($ 'header')
-
-  render: ->
-    @html JST['power/views/index']
+    @header = new Header
+    @prepend @header.el
 
 $ ->
   new PowerApp
