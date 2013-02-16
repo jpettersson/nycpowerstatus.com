@@ -1,5 +1,5 @@
 .nav
   %button.nyc{:class => ('active' if @region == 'nyc')}
-    NYC
+    = Locale['region.nyc']
   %button.long-island{:class => ('active' if @region == 'long-island')}
-    Long Island
+    = Locale['region.long-island']

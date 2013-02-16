@@ -1,3 +1,4 @@
+Locale = require 'power/config/locale_en'
 Power = require 'power/models/power'
 Header = require 'power/controllers/header'
 
@@ -9,6 +10,8 @@ class PowerApp extends Exo.Spine.Controller
         @activateRegion 'nyc'
       '/long-island': =>
         @activateRegion 'long-island'
+
+    window.Locale = Locale
 
     super
 
