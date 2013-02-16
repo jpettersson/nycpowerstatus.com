@@ -5,14 +5,20 @@ Area = require 'power/models/area'
 class Power extends Spine.Module
   @extend Spine.Events
 
+  @init: ->
+    Region.bind 'refresh', @onRegions
   @activateRegion: (name)->
     region = Region.select((region)-> region.slug == name)[0]
     if region
       @setCurrentRegion region
     else
+      Region.fetch()
 
   @setCurrentRegion: (region)->
     @region = region
     @trigger 'update'
+
+  @onRegions: ->
+    console.log 'Regions downloaded!'
 
 module.exports = Power

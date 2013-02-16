@@ -5,6 +5,7 @@ gem 'rails', '3.2.8'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+gem 'inherited_resources'
 gem 'mysql2'
 gem "ancestry"
 gem 'sandy', :git => 'https://github.com/jpettersson/sandy.git'

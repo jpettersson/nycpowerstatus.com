@@ -21,6 +21,12 @@ class Provider < ActiveRecord::Base
   #   end
   # end
 
+  def as_json(options = { })
+      super((options || { }).merge({
+          :methods => [:total_customers, :offline_customers]
+      }))
+  end
+
   def data_updated_at
     area_samples.last.updated_at.in_time_zone("Eastern Time (US & Canada)").strftime("%m/%d/%Y %H:%M EDT")
   end

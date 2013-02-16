@@ -1,5 +1,9 @@
 Doesnychavepower::Application.routes.draw do
 
+  resources :regions
+  resources :providers
+  match "providers/:provider_id/areas" => "areas#index"
+
   match "api/area/nyc/samples" => "api#samples", :provider => 'ConEd'
   match "api/area/long-island/samples" => "api#samples", :provider => 'LIPA'
   match "api/area/:area/samples" => 'api#samples'
