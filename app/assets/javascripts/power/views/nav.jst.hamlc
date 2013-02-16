@@ -1,0 +1,5 @@
+.nav
+  .nyc{:class => 'active'}
+    %h3 NYC
+  .long-island{:class => ''}
+    %h3 Long Island

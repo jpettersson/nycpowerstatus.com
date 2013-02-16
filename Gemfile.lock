@@ -76,6 +76,10 @@ GEM
       activesupport (>= 3.1, < 4.1)
       haml (~> 3.1)
       railties (>= 3.1, < 4.1)
+    haml_coffee_assets (1.11.1)
+      coffee-script (>= 1.0.0)
+      sprockets (>= 2.0.3)
+      tilt (>= 1.3.3)
     highline (1.6.15)
     hike (1.2.1)
     httparty (0.9.0)
@@ -141,6 +145,8 @@ GEM
       hike (~> 1.2)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
+    sprockets-commonjs (0.0.5)
+      sprockets (~> 2.1)
     susy (1.0.4)
       compass (>= 0.12.2)
       sass (>= 3.2.0)
@@ -176,11 +182,13 @@ DEPENDENCIES
   geokit
   haml (>= 3.1.6)
   haml-rails (>= 0.3.4)
+  haml_coffee_assets
   jquery-rails
   mysql2
   rails (= 3.2.8)
   sandy!
   sass-rails (~> 3.2.3)
+  sprockets-commonjs
   susy
   therubyracer
   uglifier (>= 1.0.3)

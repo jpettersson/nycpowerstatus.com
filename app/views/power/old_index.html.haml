@@ -1,0 +1,33 @@
+%header
+  = render 'power/nav', :region => @region
+
+  %h1= "Does " + @region.name + " have power?"
+  - if @providers.length == 1
+    - content_for :map_points do
+      =raw map_points_from @providers.first.areas.at_depth(0)
+    - content_for :time_series do
+      =raw time_series_from @providers.first.areas.at_depth(0)
+
+    = render 'power/index/single_provider', :provider => @providers.first
+  - else
+    - content_for :map_points do
+      =raw map_points_from @providers
+    - content_for :time_series do
+      =raw "null;"
+
+    .providers
+      %h2.extra= "Customers online / provider:"
+      = render :partial => 'power/index/multiple_provider', :collection => @providers, :as => :provider
+
+.trend
+  %h2= "Outage history for " + @region.name + ":"
+  = render 'power/trend'
+
+.current
+  - if @providers.length == 1
+    %h2= "Areas:"
+  .map#map_canvas
+
+  - if @providers.length == 1
+    .sub-areas
+      = render 'power/sub_areas', :areas => @providers.first.areas.at_depth(0)

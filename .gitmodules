@@ -1,0 +1,6 @@
+[submodule "vendor/exo"]
+	path = vendor/exo
+	url = git@github.com:jpettersson/exo.js.git
+[submodule "vendor/spine"]
+	path = vendor/spine
+	url = https://github.com/spine/spine.git
