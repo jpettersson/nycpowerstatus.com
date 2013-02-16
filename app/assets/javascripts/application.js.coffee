@@ -11,6 +11,7 @@
 //= require 'shim'
 
 //= require 'vendor/spine/spine'
+//= require 'vendor/spine/route'
 //= require 'vendor/exo/exo'
 //= require 'vendor/exo/spine'
 

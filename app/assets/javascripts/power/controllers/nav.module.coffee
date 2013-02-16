@@ -1,9 +1,21 @@
+Power = require 'power/models/power'
+
 class Nav extends Exo.Spine.Controller
 
-  prepare: ->
-    @render()
+  events: 
+    'click .nyc': 'navigateToNYC'
+    'click .long-island': 'navigateToLongIsland'
 
-  render: ->
-    @html JST['power/views/nav']()
+  prepare: ->
+    Power.bind 'update', @render
+    
+  render: =>
+    @html JST['power/views/nav'](Power.getInstance())
+
+  navigateToNYC: ->
+    @navigate '/'
+
+  navigateToLongIsland: ->
+    @navigate '/long-island'
 
 module.exports = Nav

@@ -1,12 +1,31 @@
+Power = require 'power/models/power'
 Header = require 'power/controllers/header'
 
 class PowerApp extends Exo.Spine.Controller
 
-  prepare: ->
-    console.log "Power!"
+  constructor: ->
+    @routes
+      '/': =>
+        @activateRegion 'nyc'
+      '/long-island': =>
+        @activateRegion 'long-island'
 
+    super
+
+  prepare: ->
     @header = new Header
     @prepend @header.el
+
+    unless window.location.hash
+      @activateRegion 'nyc'
+    else
+      Spine.Route.setup()
+
+  activateRegion: (name)->
+    console.log 'activateRegion: ', name
+    power = Power.getInstance()
+    power.region = name
+    power.save()
 
 $ ->
   new PowerApp

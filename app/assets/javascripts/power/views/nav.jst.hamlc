@@ -1,5 +1,5 @@
 .nav
-  .nyc{:class => 'active'}
-    %h3 NYC
-  .long-island{:class => ''}
-    %h3 Long Island
+  %button.nyc{:class => ('active' if @region == 'nyc')}
+    NYC
+  %button.long-island{:class => ('active' if @region == 'long-island')}
+    Long Island
