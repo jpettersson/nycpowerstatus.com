@@ -1,20 +1,14 @@
-Power = require 'power/models/power'
 Nav = require 'power/controllers/nav'
+Title = require 'power/controllers/title'
 
 class Header extends Exo.Spine.Controller
   tag: 'header'
 
   prepare: ->
-    @render()
-
     @nav = new Nav
     @append @nav.el
 
-  render: ->
-    @html JST['power/views/header']({
-      tempus: Locale['header.tempus.now']
-      region: 'n/a' #Locale["region.#{Power.getInstance().region}"]
-      have_power: Locale['header.have_power']
-    })
+    @title = new Title
+    @append @title.el
 
 module.exports = Header

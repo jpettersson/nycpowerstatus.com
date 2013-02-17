@@ -12,11 +12,12 @@ class Power extends Spine.Module
     region = Region.select((region)-> region.slug == name)[0]
     if region
       @setCurrentRegion region
+      @nextRegionSlug = null
     else
       @nextRegionSlug = name
       Region.fetch()
 
-  @setCurrentRegion: (region)->
+  @setCurrentRegion: (region)=>
     @region = region
     @trigger 'update'
 

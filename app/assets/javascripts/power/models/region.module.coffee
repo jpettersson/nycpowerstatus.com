@@ -4,4 +4,7 @@ class Region extends Exo.Spine.Model
   @hasMany 'providers', require('power/models/provider')
   @extend Spine.Model.Ajax
 
+  provider: ->
+    @providers().all()[0]
+
 module.exports = Region

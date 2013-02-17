@@ -2,6 +2,8 @@ Power = require 'power/models/power'
 
 class Nav extends Exo.Spine.Controller
 
+  className: 'nav'
+    
   events: 
     'click .nyc': 'navigateToNYC'
     'click .long-island': 'navigateToLongIsland'

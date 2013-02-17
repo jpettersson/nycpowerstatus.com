@@ -1,1 +1,2 @@
-%h1= "#{@tempus} #{@region} #{@have_power}"
+%h1= "#{@tempus} #{@region.name} #{@have_power}"
+%h2= "Right now #{@percentage_online} of #{@provider}'s #{@num_customers} customers have power."
