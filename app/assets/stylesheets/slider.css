@@ -1,0 +1,78 @@
+/***********
+ * Sliders *
+ ***********/
+.slider {
+  margin-top: 20px;
+  position : relative;
+}
+
+.slider .slider-bar, .slider .slider-range {
+  position      : absolute;
+  top           : 0px;
+  left          : 0px;
+  right         : 0px;
+  border-radius : 3px;
+  background    : #EEE;
+  box-shadow    : inset 0px 0px 5px #CCC;
+  height        : 5px;
+}
+
+.slider .slider-range {
+  background : #DDD;
+  box-shadow : inset 0px 0px 5px #777;
+  cursor     : pointer;
+}
+
+.slider .slider-tabs {
+  position : absolute;
+  top      : 5px;
+  left     : 0px;
+}
+
+.slider .slider-tab {
+  display    : inline-block;
+  text-align : center;
+}
+
+.slider .slider-tab span {
+  display : inline-block;
+  padding : 5px 0 0 0;
+  cursor  : pointer;
+}
+
+.slider .slider-handles {
+  position : absolute;
+  top      : -5px;
+  left     : 0px;
+}
+
+.slider .slider-handle {
+  position : absolute;
+  top      : 0px;
+  left     : 0px;
+  cursor   : pointer;
+}
+
+.slider .slider-range {
+  position : absolute;
+  top      : 0px;
+}
+
+.slider .slider-notch {
+  margin     : 0 auto;
+  width      : 4px;
+  height     : 3px;
+  background : #EEE;
+  box-shadow : inset 0px 0px 5px #CCC;
+}
+
+.slider .slider-notch.active {
+  background : #DDD;
+  box-shadow : inset 0px 0px 5px #999;
+}
+
+.slider .slider-handle {
+  width      : 12px;
+  height     : 18px;
+  background : url( slider-tab.png );
+}

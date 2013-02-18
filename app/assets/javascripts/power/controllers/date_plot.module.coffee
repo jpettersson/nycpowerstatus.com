@@ -6,7 +6,41 @@ class DatePlot extends Exo.Spine.Controller
   prepare: ->
     @render()
 
-    @delay @initGraph, .2
+    @delay ->
+      @initGraph()
+      @initSlider()
+    , .2
+
+  initSlider: =>
+    @slider = new Razorfish.Slider
+      width: window.getComputedStyle(document.querySelector('#chart'),null).getPropertyValue("width").split('px').join('')
+      handleWidth: 12
+      useRange: true
+      tabs: @pastYear()
+
+    @slider.appendTo @el
+    @slider.setRange 10, 12
+    @slider.bind 'range', @onRangeChanged
+
+  onRangeChanged: (ev, min, max)->
+    isInt = (num)->
+      num % 1 == 0
+
+    if isInt.call(@, min) and isInt.call(@, max)
+      console.log 'Range', min, max
+
+  pastYear: ->
+    date = moment()
+    arr = [{text: "Today", date: date}]
+    
+    date = date.subtract 'days', date.format('d')
+
+    for i in [0..11]
+      console.log "Adding: ", date.format('MMM YYYY')
+      arr.push {text: date.format('MMM'), date: date}
+      date = date.subtract 'months', 1
+      
+    return arr.reverse()
 
   initGraph: =>
     @graph = new Rickshaw.Graph.Ajax

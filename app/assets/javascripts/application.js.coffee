@@ -13,6 +13,7 @@
 //= require 'vendor/d3.v2'
 //= require 'vendor/rickshaw'
 //= require 'vendor/moment.min'
+//= require 'vendor/razorfish.slider'
 
 //= require 'vendor/spine/spine'
 //= require 'vendor/spine/route'
