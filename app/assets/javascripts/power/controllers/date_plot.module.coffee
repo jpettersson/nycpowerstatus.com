@@ -1,3 +1,4 @@
+Power = require 'power/models/power'
 Server = require 'power/config/server'
 
 class DatePlot extends Exo.Spine.Controller
@@ -10,7 +11,11 @@ class DatePlot extends Exo.Spine.Controller
   initGraph: =>
     @graph = new Rickshaw.Graph.Ajax
       element: document.querySelector('#chart')
-      dataURL: Server.areaSampleURL('nyc')
+      dataURL: Server.areaSampleURL
+        area: 'nyc'
+        startDate: ''
+        endDate: ''
+
       width: $("#chart").width()
       height: $("#chart").height()
       renderer: 'area'
@@ -67,7 +72,6 @@ class DatePlot extends Exo.Spine.Controller
             y: if d[i-1] then d[i-1].y else 0
 
       i++
-
 
   render: ->
     @html JST['power/views/dateplot/index']()
