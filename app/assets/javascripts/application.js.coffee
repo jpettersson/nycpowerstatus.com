@@ -10,6 +10,10 @@
 
 //= require 'shim'
 
+//= require 'vendor/d3.v2'
+//= require 'vendor/rickshaw'
+//= require 'vendor/moment.min'
+
 //= require 'vendor/spine/spine'
 //= require 'vendor/spine/route'
 //= require 'vendor/spine/relation'

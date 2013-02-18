@@ -3,6 +3,8 @@ Locale = require 'power/config/locale_en'
 Power = require 'power/models/power'
 Header = require 'power/controllers/header'
 
+DatePlot = require 'power/controllers/date_plot'
+
 Spine.Model.host = Server.baseURL
 Power.init()
 
@@ -20,6 +22,10 @@ class PowerApp extends Exo.Spine.Controller
     super
 
   prepare: ->
+    @history = new DatePlot
+      className: 'trend'
+    @prepend @history.el
+
     @header = new Header
     @prepend @header.el
 
