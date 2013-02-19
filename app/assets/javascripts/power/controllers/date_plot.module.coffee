@@ -47,8 +47,8 @@ class DatePlot extends Exo.Spine.Controller
       element: document.querySelector('#chart')
       dataURL: Server.areaSampleURL
         area: 'nyc'
-        startDate: ''
-        endDate: ''
+        endDate: moment().format("X")
+        startDate: moment().subtract('months', 1).format("X")
 
       width: $("#chart").width()
       height: $("#chart").height()

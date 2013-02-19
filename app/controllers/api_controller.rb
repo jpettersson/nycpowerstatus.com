@@ -1,12 +1,11 @@
 class ApiController < ApplicationController
 
   def samples
-
     if request[:provider] and provider = Provider.find_by_code(request[:provider])
-      response = time_series_from provider.areas.at_depth(0)
+      response = time_series_from provider.areas.at_depth(0), params[:startDate], params[:endDate]
     else
       if area = Area.find(request[:area])
-        response = time_series_from [area]
+        response = time_series_from [area], params[:startDate], params[:endDate]
       else
         response = {
           :error => {
@@ -28,7 +27,7 @@ class ApiController < ApplicationController
 
   private 
 
-  def time_series_from areas
+  def time_series_from areas, startDate, endDate
     arr = areas.map do|area|
       {
         :name => area.name, 
