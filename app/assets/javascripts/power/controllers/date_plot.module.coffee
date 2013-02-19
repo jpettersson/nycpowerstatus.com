@@ -7,7 +7,7 @@ class DatePlot extends Exo.Spine.Controller
     @render()
 
     @delay ->
-      @initGraph()
+      @initGraph(moment().date(1).subtract('months', 1), moment())
       @initSlider()
     , .2
 
@@ -22,12 +22,21 @@ class DatePlot extends Exo.Spine.Controller
     @slider.setRange 10, 12
     @slider.bind 'range', @onRangeChanged
 
-  onRangeChanged: (ev, min, max)->
+  onRangeChanged: (ev, min, max)=>
     isInt = (num)->
       num % 1 == 0
 
     if isInt.call(@, min) and isInt.call(@, max)
       console.log 'Range', min, max
+
+      startDate = moment().date(1).subtract('months', (11-min))
+      if max == 12
+        endDate = moment()
+      else
+        endDate = moment().date(1).subtract('months', (11-max))
+      
+      ($ '#chart').html ''
+      @initGraph(startDate, endDate)
 
   pastYear: ->
     date = moment()
@@ -42,14 +51,10 @@ class DatePlot extends Exo.Spine.Controller
       
     return arr.reverse()
 
-  initGraph: =>
+  initGraph: (startDate, endDate)=>
     @graph = new Rickshaw.Graph.Ajax
       element: document.querySelector('#chart')
-      dataURL: Server.areaSampleURL
-        area: 'nyc'
-        endDate: moment().format("X")
-        startDate: moment().subtract('months', 1).format("X")
-
+      dataURL: @buildSampleURL(startDate, endDate)
       width: $("#chart").width()
       height: $("#chart").height()
       renderer: 'area'
@@ -59,6 +64,12 @@ class DatePlot extends Exo.Spine.Controller
       strokeWidth: 1.1
       onData: @onData
       onComplete: @onGraphRendered
+
+  buildSampleURL: (startDate, endDate)->
+    Server.areaSampleURL
+        area: 'nyc'
+        endDate: endDate.format("X")
+        startDate: startDate.format("X")
 
   onData: (timeseries)=>
     @copyFill timeseries

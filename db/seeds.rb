@@ -97,6 +97,17 @@ end
   end
 end
 
+# Update the AreaSample area_seq fields
+
+Area.where(:provider_id => 1).first.area_samples.each_with_index do |sample, index|
+  unless sample.area_seq?
+    sample.area_seq = index
+    sample.save
+  else
+    puts index
+  end
+end
+
 # Uncomment this to sample some data right away.
 #
 # Provider.all.each do |provider|

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121109071224) do
+ActiveRecord::Schema.define(:version => 20130219033454) do
 
   create_table "area_samples", :force => true do |t|
     t.integer  "area_id"
@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(:version => 20121109071224) do
     t.integer  "etrmillis"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
+    t.integer  "area_seq"
   end
 
   create_table "areas", :force => true do |t|
