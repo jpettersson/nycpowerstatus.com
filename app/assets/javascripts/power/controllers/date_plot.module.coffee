@@ -96,6 +96,20 @@ class DatePlot extends Exo.Spine.Controller
     catch error
       console.log "error: #{error}"
 
+    time = new Rickshaw.Fixtures.Time
+    time.units.push
+      name: 'day_of_month'
+      seconds: 86400
+      formatter: (d)-> '' #"#{d.getUTCDate()}"
+
+    tUnit = time.unit 'day_of_month'
+    window.xAxis = new Rickshaw.Graph.Axis.Time
+      graph: graph
+      timeUnit: tUnit
+      
+    xAxis.render();
+
+
   copyFill: (series) ->
     x = undefined
     i = 0
